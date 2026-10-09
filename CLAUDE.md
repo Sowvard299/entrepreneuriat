@@ -13,15 +13,21 @@ read this file first, and their advice gets much more specific when it is filled
   for small and medium businesses (TPE / PME).
 - **Industries I know from the inside:** Energy / electricity retail for B2B SMBs.
 - **Interests:** AI, deeptech, agrifood (agroalimentaire). Open to any field.
-- **Problems I have personally seen or suffered at work:** _TODO (e.g. what SMB
-  customers struggle with on energy bills, contracts, consumption...)_
-- **People I can easily reach (network, communities):** _TODO (EDF colleagues,
-  SMB customers, master's classmates and alumni...)_
+- **Problems I have personally seen or suffered at work:** _TODO_
+- **People I can easily reach (network, communities):** _TODO_
 - **Time available:** _TODO (full-time / side project, hours per week)_
 - **Budget / runway:** _TODO_
 - **Geography / language of first market:** _TODO_
 - **Ambition:** _TODO (lifestyle business, bootstrapped SaaS, VC-scale startup...)_
 - **Things I do NOT want to do:** _TODO_
+
+## Idea scope
+
+Do NOT restrict ideas to energy, EDF, SMBs, AI, deeptech or agrifood. The profile
+above is context about the founder, not a filter. When generating ideas, explore
+broadly across industries, business models and customer types (B2B, B2C,
+services, physical products, software...). The founder's experience and interests
+can count as an advantage when scoring an idea, never as a requirement.
 
 ## Workflow
 
