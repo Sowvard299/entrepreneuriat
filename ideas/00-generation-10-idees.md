@@ -1,5 +1,7 @@
 # 10 idées de startup (génération du 09/10/2026)
 
+> ⚠️ Remplacée par [`01-generation-v2-10-idees.md`](01-generation-v2-10-idees.md) (idées construites par remix, notes plus élevées).
+
 Généré avec le skill `ai-startup-opportunity-generator` (mode « découverte large »),
 élargi au-delà de l'IA comme le demande `CLAUDE.md` : B2B, B2C, services, produit physique.
 
