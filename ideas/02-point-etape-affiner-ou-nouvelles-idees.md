@@ -13,10 +13,10 @@ Toutes les idées « fortes » de la v2, ainsi que 3 nouvelles pistes, ont été
 | Récup' (trop-payés des TPE) | SaveWatt, Audits Energies, Evergreen, Runview : audit énergie rémunéré au succès déjà proposé | ❌ Encombré (et conflit EDF) |
 | Fissure (sinistrés de la sécheresse) | Beaucoup d'experts d'assurés « sécheresse » bien visibles en ligne, plus des avocats. La Cour de cassation (février 2026) rend les dossiers plus durs | ❌ Encombré |
 | FicheNet (fiches techniques agro) | **NumAlim** : base coopérative soutenue par Bpifrance, avec Mousquetaires et Cora. Freelances pour l'étiquetage INCO | ❌ Un acteur structurant existe |
-| **Bouclier IDEL** (pré-contrôle CPAM pour infirmiers libéraux) | **Aucun outil trouvé.** Pression qui monte : un rapport IGF-IGAS d'août 2026 vise les infirmières libérales, et les indus peuvent être extrapolés à toute l'activité | ✅ **Piste ouverte** (attention : données de santé) |
+| **Bouclier IDEL** (pré-contrôle CPAM pour infirmiers libéraux) | **Aucun outil trouvé.** Pression qui monte : un rapport IGF-IGAS d'août 2026 vise les infirmières libérales, et les indus peuvent être extrapolés à toute l'activité | ⚠️ **À recentrer** : les logiciels contrôlent déjà la cotation (CareCare, Albus, Agathe YOU). Reste libre la préparation et la défense face au contrôle CPAM. Voir `bouclier-idel/` |
 | *Nouvelle :* contrôle des meublés de tourisme pour les mairies (loi Le Meur) | Trackeet (détection), Déclaloc (Nouveaux Territoires), 3D Ouest, et **l'API Meublés de l'État** qui transmet les données aux communes | ❌ Déjà couvert |
 | *Nouvelle :* transmission des fermes (cédants et repreneurs) | Répertoire Départ-Installation (public), guichet unique France Services Agriculture (2026) | ❌ Couvert par le public |
-| *Nouvelle :* **mise en relation entre marques alimentaires et façonniers** (co-packing) | **Aucune plateforme française dédiée trouvée** (Agripousse est généraliste, et seul le SIAL propose du matchmaking ponctuel). Ce type de plateforme existe aux États-Unis (PartnerSlate, à vérifier) | ✅ **Piste ouverte** (agroalimentaire) |
+| *Nouvelle :* **mise en relation entre marques alimentaires et façonniers** (co-packing) | **Aucune plateforme française dédiée trouvée** (Agripousse est généraliste, et seul le SIAL propose du matchmaking ponctuel). Ce type de plateforme existe aux États-Unis (PartnerSlate, à vérifier) | ✅ **Piste ouverte** : PartnerSlate confirmé aux États-Unis (4 M$ levés, ~6 000 fabricants référencés), aucun équivalent en France. Voir `faconniers/` |
 
 **Leçon :** les idées trouvées « depuis un bureau », avec de la recherche documentaire, sont celles
 que d'autres ont déjà trouvées. Les meilleures idées de startups viennent presque toujours de
@@ -67,3 +67,11 @@ avec les compétences et la disponibilité de chacun. La v3 partira de là.
 - Meublés de tourisme : [Europe 1 (Trackeet)](https://www.europe1.fr/societe/trackeet-le-logiciel-qui-detecte-les-fraudeurs-airbnb-3463403), [Déclaloc](https://decla.nouveauxterritoires.fr/), [Kohen avocats (API Meublés)](https://kohenavocats.fr/2026/08/17/donnees-airbnb-mairie-api-meubles-controle-recours-2026/), [AGN avocats](https://www.agn-avocats.fr/blog/immobilier/loi-le-meur-et-meubles-de-tourisme-enregistrement-mai-2026/)
 - Transmission agricole : [Banque des Territoires](https://www.banquedesterritoires.fr/transmission-des-exploitations-agricoles-un-guichet-unique-pour-mieux-accompagner-cedants-et), [Pleinchamp](https://www.pleinchamp.com/gestion-de-l-exploitation/social-emploi/actualites/transmission-quels-outils-a-ma-disposition)
 - Façonniers : [Agripousse](https://lespepitestech.com/node/17438), [SIAL 2026 (matchmaking)](https://secure.businesswire.com/news/home/20260316036214/fr)
+
+## Suite : veilles et scripts prêts (09/10/2026)
+
+| Idée validée | Veille | Script |
+|---|---|---|
+| Alterno (placement seul) | [`alterno/veille-marche.md`](alterno/veille-marche.md) | [`alterno/script-mom-test.md`](alterno/script-mom-test.md) |
+| Bouclier IDEL (recentré sur le contrôle CPAM) | [`bouclier-idel/veille-marche.md`](bouclier-idel/veille-marche.md) | [`bouclier-idel/script-mom-test.md`](bouclier-idel/script-mom-test.md) |
+| Façonniers alimentaires | [`faconniers/veille-marche.md`](faconniers/veille-marche.md) | [`faconniers/script-mom-test.md`](faconniers/script-mom-test.md) |

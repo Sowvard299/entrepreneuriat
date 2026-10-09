@@ -73,6 +73,23 @@ entretien.)
    doivent signer avant décembre ou janvier.
 4. **Le logement** reste une piste à valider côté alternants, à tester séparément.
 
+## Mise à jour du 09/10/2026 : on se recentre sur le placement
+
+- **Périmètre retenu : uniquement le placement payé au contrat signé.** Le logement est mis de côté
+  (carte professionnelle exigée par la loi Hoguet, et c'est un deuxième métier). On garde seulement
+  la question « logement » dans les entretiens, pour mesurer le problème.
+- **Nouveau fait :** depuis le **1er juillet 2025**, une **participation obligatoire de 750 €** est
+  à la charge de l'employeur pour certains contrats (décret 2025-585, d'après le CFA du Cnam ; le
+  périmètre exact est à vérifier). C'est **un frein de plus à l'embauche**, donc plus d'étudiants
+  sans contrat, donc plus de douleur pour les CFA.
+- **Question juridique ouverte :** un CFA a-t-il le droit de **payer un prestataire au contrat
+  signé** ? Aucune source trouvée qui décrit ce montage. **À vérifier auprès d'un OPCO, de la
+  DREETS ou d'un juriste** avant toute proposition écrite. C'est aussi une question à poser en
+  entretien : « avez-vous déjà payé un prestataire de cette façon ? ».
+- Aucun acteur trouvé qui place des alternants avec une rémunération par l'école au résultat
+  (nouvelle recherche, sans résultat).
+- Sources : [CFA Cnam : contrats d'alternance (750 €)](https://cfa-idf.cnam.fr/les-contrats-d-alternance-760455.kjsp), [Groupe ESPI](https://groupe-espi.fr/ecole-immobilier-aix-provence-alternant/), [Keyce Academy : financement](https://keyce-academy.fr/financement-de-lalternance-qui-paie-lecole/)
+
 ## Sources
 
 - Règle des 3 mois : [Centre Inffo](https://www.centre-inffo.fr/?p=438373), [CCI Vaucluse](https://campus.vaucluse.cci.fr/wp-content/uploads/ENTREE-CFA-SANS-CONTRAT-V1.pdf)
