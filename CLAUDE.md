@@ -8,10 +8,15 @@ Skills live in `.claude/skills/` (see `.claude/skills/SOURCES.md`).
 Fill this in. Several skills (especially `llm-council` and `startup-design`)
 read this file first, and their advice gets much more specific when it is filled.
 
-- **Background / skills:** _TODO (e.g. engineer, marketer, nurse, sales...)_
-- **Industries I know from the inside:** _TODO_
-- **Problems I have personally seen or suffered at work:** _TODO_
-- **People I can easily reach (network, communities):** _TODO_
+- **Background / skills:** Marketing. Finishing a master's degree, currently a
+  work-study (alternance) Product Manager at EDF, in charge of electricity offers
+  for small and medium businesses (TPE / PME).
+- **Industries I know from the inside:** Energy / electricity retail for B2B SMBs.
+- **Interests:** AI, deeptech, agrifood (agroalimentaire). Open to any field.
+- **Problems I have personally seen or suffered at work:** _TODO (e.g. what SMB
+  customers struggle with on energy bills, contracts, consumption...)_
+- **People I can easily reach (network, communities):** _TODO (EDF colleagues,
+  SMB customers, master's classmates and alumni...)_
 - **Time available:** _TODO (full-time / side project, hours per week)_
 - **Budget / runway:** _TODO_
 - **Geography / language of first market:** _TODO_
