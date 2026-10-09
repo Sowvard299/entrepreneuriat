@@ -51,6 +51,8 @@ budget.
 
 ## 1. Mémoire Gagnant : 7,55
 
+> 🔄 **Mise à jour du 09/10 (veille) :** le marché du logiciel est encombré (Tenderbolt, Maître AO, Olra, Remporte, Smart BTP...). Seul angle restant : un service « fait pour vous » dans un secteur précis, face à des consultants à 2 500–4 000 €. Voir [`memoire-gagnant/veille-marche.md`](memoire-gagnant/veille-marche.md).
+
 - **Problème :** dans un appel d'offres public, le mémoire technique pèse souvent le plus
   dans la note. Les PME (BTP, nettoyage, espaces verts, informatique) le rédigent dans
   l'urgence ou paient un consultant ou un freelance. Les juges sanctionnent désormais les
@@ -80,6 +82,8 @@ budget.
 |---|---|---|---|---|---|
 
 ## 2. Alterno : placement d'alternants au succès, logement inclus — 7,50
+
+> 🔄 **Mise à jour du 09/10 (veille) :** les logiciels de placement pour CFA existent (Linkpick, Pyramide, OSCAR). En revanche, aucun placement payé au contrat signé ni aucune colocation alternée n'ont été trouvés. La règle des 3 mois sans contrat rend la douleur maximale de décembre à janvier. Voir [`alterno/veille-marche.md`](alterno/veille-marche.md).
 
 - **Déclencheur 2026 :** depuis mars 2026, l'aide à l'embauche est limitée à 2 000 € en PME
   et 750 € en grande entreprise pour les licences et masters. France compétences a révisé
@@ -112,6 +116,8 @@ budget.
 |---|---|---|---|---|---|
 
 ## 3. Foncier Solaire : la loi APER vue par satellite — 7,45
+
+> ⚠️ **Correction du 09/10 (veille) :** la loi Huwart (26/11/2025) a ramené l'obligation à **17,5 %** de panneaux solaires, et des reports d'échéance existent. Des outils de prospection avec les propriétaires existent déjà (module Prospection de Cadastre solaire). Note réestimée : **environ 6,0**. Voir [`foncier-solaire/veille-marche.md`](foncier-solaire/veille-marche.md).
 
 - **Déclencheur :** la loi APER (10 mars 2023, décret 2024-1023) impose de couvrir **au
   moins 50 %** des parkings extérieurs de plus de 1 500 m² avec des ombrières solaires. Les
