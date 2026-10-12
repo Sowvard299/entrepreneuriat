@@ -1,5 +1,10 @@
 # Façonniers alimentaires : scripts d'entretien Mom Test
 
+> 🔄 **Mise à jour du 12/10 : étape de validation.** Les questions d'argent (prévente, commission)
+> sont retirées : on mesure ce que les gens ont **déjà** dépensé, on ne leur vend rien. Ajouts : les
+> moyens déjà essayés côté marques, et le dernier petit projet côté façonniers. Protocole complet,
+> définitions communes et critères de décision : [`protocole-etude-validation.md`](protocole-etude-validation.md).
+
 C'est une place de marché à deux côtés. Il faut donc **deux scripts** et **comparer la douleur des
 deux côtés** : le côté qui souffre le plus est celui qui paiera.
 
@@ -44,6 +49,8 @@ transformer leurs produits.
    fabrique ? »
 2. « Comment avez-vous trouvé votre façonnier actuel ? Combien en avez-vous contactés ? Combien de
    temps entre le début de la recherche et la première production ? »
+   Relance : « Par quels moyens : réseau, structure, salon, annuaire ou plateforme en ligne ?
+   Qu'est-ce que ça a donné ? »
 3. « Qu'est-ce qui a été le plus difficile ? (minimums de commande, refus, délais, cahier des
    charges, certifications, prix) Un exemple ? »
 4. « Avez-vous payé quelqu'un pour vous aider (consultant, ingénieur agroalimentaire, salon,
@@ -51,11 +58,10 @@ transformer leurs produits.
 5. « Depuis, avez-vous dû en **rechercher un autre** (nouveau produit, volume, problème de
    qualité) ? Que s'est-il passé ? »
 6. « Qu'est-ce que ce temps de recherche vous a coûté (lancement retardé, ventes perdues) ? »
-7. **Engagement :**
+7. **Engagement (sans rien vendre) :**
    - Réputation : « Quels autres fondateurs devrais-je appeler ? »
-   - Argent (test) : « Pour votre prochain produit, on teste un service : on vous présente 3
-     façonniers qualifiés (équipements, minimum de commande, certifications) en 3 semaines,
-     pour [X €], payable si au moins un devis vous convient. Vous avez un projet en cours ? »
+   - Temps : « Accepteriez-vous de répondre à notre questionnaire de 5 minutes, et de le transmettre
+     à deux fondateurs ? »
 
 ---
 
@@ -71,20 +77,20 @@ agroalimentaires.
 > me raconter comment vous avez signé votre dernier client ?
 
 **Questions (20 min) :**
-1. « Quelle part de votre activité est faite pour des tiers ? Quel est votre taux d'utilisation
-   des lignes en ce moment ? Avez-vous des créneaux libres ? »
+1. « Quelle part de votre activité est faite pour des tiers, à peu près ? Sur les 12 derniers mois,
+   avez-vous eu des périodes où vous cherchiez du volume ? Qu'avez-vous fait ? »
+   *(Ne pas demander le taux d'utilisation des lignes : c'est une donnée stratégique.)*
 2. « Racontez-moi comment est arrivé votre **dernier** client à façon. Qui a contacté qui ?
    Combien de temps avant la première production ? »
-3. « Combien de demandes recevez-vous par mois ? Combien refusez-vous, et pourquoi (volume trop
-   petit, produit hors de votre spécialité, projet pas mûr) ? »
+3. **La question qui peut tuer l'idée :** « Le dernier petit projet, la première production d'une
+   jeune marque, que vous avez accepté ou refusé : que s'est-il passé ? Qu'est-ce qui vous fait dire
+   non à un projet ? Combien de demandes de ce type recevez-vous par mois ? »
 4. « Combien de temps vous coûte une demande qui n'aboutit pas ? »
 5. « Qu'avez-vous déjà payé pour trouver des clients (salons, commercial, annuaire, agence) ?
    Combien ? Qu'est-ce qui a marché ? »
-6. **Engagement :**
-   - Temps : « Accepteriez-vous que je liste vos équipements, minimums et certifications, pour
-     vous envoyer des projets qualifiés ? »
-   - Argent (test) : « Si on vous apporte un projet qualifié qui aboutit, seriez-vous d'accord
-     pour une commission de [X %] sur la première commande ? On peut l'écrire ? »
+6. **Engagement (sans rien vendre) :**
+   - Réputation : « Connaissez-vous un autre fabricant, ou une jeune marque, qui vit la même chose ? »
+   - Temps : « Puis-je vous rappeler dans quelques semaines pour vous dire ce que l'étude a trouvé ? »
 
 ---
 
@@ -96,14 +102,14 @@ agroalimentaires.
 | Façonnier : lignes sous-utilisées, budget salons et commerciaux élevé | « On est pleins, on refuse du monde » |
 | Façonnier : beaucoup de demandes non qualifiées qui font perdre du temps | Peu de demandes, mais aucun intérêt pour en avoir plus |
 
-**Critères de décision :**
-- **On arrête** si moins de la moitié des marques ont souffert de leur recherche (temps ou
-  argent), **et** si les façonniers ne cherchent pas de clients.
-- **On continue** si au moins 2 marques acceptent le service payant, ou si au moins 3
-  façonniers acceptent d'être listés avec une commission écrite.
-- **Si un seul côté souffre**, faire payer ce côté-là.
+**Critères de décision :** ceux de la section 2 du
+[protocole d'étude](protocole-etude-validation.md), fixés avant la collecte. Les anciens critères,
+qui demandaient une prévente ou une commission écrite, sont retirés.
 
 ## Fiche de notes
+> Remplacée par [`suivi-entretiens.csv`](suivi-entretiens.csv) (une ligne par contact), à remplir
+> dans les 2 heures qui suivent l'entretien.
+
 | Date | Côté (marque ou façonnier) | Profil (catégorie, taille, région) | Dernière recherche (durée, contacts) | Difficulté principale | Déjà payé (quoi, combien) | Capacités libres ? | Citation clé | Engagement |
 |---|---|---|---|---|---|---|---|---|
 

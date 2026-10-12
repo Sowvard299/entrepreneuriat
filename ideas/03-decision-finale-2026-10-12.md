@@ -9,6 +9,17 @@
 > 3 councils et les 4 tours de challenge. Il est donc fiable sur ce qui *n'existe pas encore*
 > (concurrents, obstacles juridiques), mais pas encore sur le fait que des clients paieront.
 
+> 🔄 **Mise à jour du 12/10 (reprise) : on est en validation de l'idée.** Pas de prévente, pas
+> d'acompte, pas de statut juridique avant la décision du 31/10. Le plan de la section 4 est remplacé
+> par une étude documentaire, qualitative et quantitative, avec des critères fixés avant la collecte :
+> [`faconniers/protocole-etude-validation.md`](faconniers/protocole-etude-validation.md).
+> Deux faits nouveaux affaiblissent deux arguments du tableau de la section 1, sans changer le choix :
+> - Torg (Berlin, 2,7 M€ levés en 2024) couvre déjà la France, gratuitement pour les acheteurs ;
+> - PartnerSlate fait payer 199 $ par projet aux marques, et 2 % de la première année de production
+>   aux fabricants.
+>
+> Détail et sources : [`faconniers/veille-marche.md`](faconniers/veille-marche.md).
+
 ## 0. Niveau de confiance (règles de conseil du 12/10)
 
 **L'essentiel de ce qui fait gagner cette idée est encore [Guessing].** Ce qui est solide, c'est
