@@ -9,6 +9,25 @@
 > 3 councils et les 4 tours de challenge. Il est donc fiable sur ce qui *n'existe pas encore*
 > (concurrents, obstacles juridiques), mais pas encore sur le fait que des clients paieront.
 
+## 0. Niveau de confiance (règles de conseil du 12/10)
+
+**L'essentiel de ce qui fait gagner cette idée est encore [Guessing].** Ce qui est solide, c'est
+surtout ce qui élimine les autres idées.
+
+| Affirmation | Confiance | Sur quoi elle repose |
+|---|---|---|
+| Aucun client n'a été interrogé, pour aucune des idées | [Certain] | Historique du projet |
+| Aucune plateforme française de mise en relation entre marques et façonniers | [Likely] | 3 séries de recherches web sans résultat. Une absence de preuve n'est pas une preuve d'absence |
+| PartnerSlate a levé 4 M$ en amorçage (2023) avec environ 6 000 fabricants | [Certain] | Presse spécialisée (FoodNavigator-USA, BevNET) |
+| Le marché est modeste, même aux États-Unis (seulement 4 M$ levés) | [Likely] | Déduction à partir de la levée |
+| Les jeunes marques souffrent assez pour payer environ 1 000 € | [Guessing] | Aucune donnée. C'est l'hypothèse n°1 à tester |
+| Le prix de 900 à 1 500 € | [Guessing] | Aucun prix de référence trouvé |
+| Un paiement d'avance par la marque évite le contournement | [Likely] | Logique du modèle, pas encore observée |
+| Une partie des façonniers accepte les petits projets bien préparés | [Guessing] | Non testé : c'est la question qui peut tuer l'idée |
+| La protection juridique de l'assurance professionnelle couvre souvent la défense des infirmiers face à un contrôle CPAM | [Likely] | Plusieurs sources disent « souvent ». Cela dépend des contrats |
+| On ne sait pas si un CFA peut payer un prestataire au contrat signé | [Certain] | Aucune source trouvée. Question envoyée par écrit |
+| Les compétences des 5 autres membres sont inconnues | [Certain] | Toujours « TODO » dans `CLAUDE.md` |
+
 ## 1. La grille de décision
 
 Elle applique les « portes » du système décrit dans
