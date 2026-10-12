@@ -21,4 +21,9 @@ this repo is opened, locally or in a Claude Code cloud session.
 | Customers | `mom-test` | Interview scripts that don't produce false positives | "Write me a Mom Test interview script for <segment>" |
 
 See `CLAUDE.md` for the recommended workflow and the founder profile to fill in.
+
+## Idea search runs
+
+- First run (October 2026): research in `ideas/_recherche/`, winning idea in `ideas/recrutement-garages/`.
+- To rerun the whole process in a new conversation, follow `relancer-la-recherche.md` (step-by-step guide and ready-to-paste prompt, in French).
 Sources, commits and licenses are listed in `.claude/skills/SOURCES.md`.
