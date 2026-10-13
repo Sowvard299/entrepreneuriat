@@ -92,13 +92,16 @@ nomme une idée de réserve par piste.
 
 ## Grille de score (sur 10, pondérée)
 
-- Taille et croissance du marché : 25 %
-- Argent déjà dépensé sur ce modèle : 20 %
-- Segment accessible (liste de clients + canal d'acquisition prouvé) : 15 %
-- Faiblesse prouvée des acteurs en place (avis, prix, délais) : 15 %
+Modifiée le 2026-10-13 pour la v4 : la preuve client pèse plus que la taille de marché, qui reste un plafond
+vérifié à la porte 3. Avant la porte 2, la ligne « Engagement client » vaut 0 et le score est provisoire.
+
+- Engagement client mesuré à la porte 2 (argent > temps > réputation) : 25 %
+- Argent déjà dépensé sur ce modèle (prix publics payés, clients identifiés) : 20 %
+- Segment accessible (clients nommés + canal d'acquisition testé) : 15 %
+- Taille et croissance du marché (bottom-up avec les prix entendus) : 15 %
+- Faiblesse prouvée des acteurs en place (avis, prix, délais) : 10 %
 - Avantage de l'équipe (vente, contenu, acquisition, contacts, secteur connu) : 10 %
-- Vitesse jusqu'au premier client payant : 10 %
-- Testable en moins de 4 semaines, pour moins de 500 € : 5 %
+- Vitesse jusqu'au premier client payant : 5 %
 
 ## Workflow (v4, par portes : viable dès le début, puis confirmé)
 
@@ -164,7 +167,8 @@ Règles (leçons de la v2, où la limite de session a coupé 4 auditeurs d'un co
 
 ## Dossiers
 
-- Recherche : `ideas/_recherche-v3/` (marches.md, segments.md, signaux/, idees-classees.md, etat.md).
+- Recherche en cours (v4, par portes) : `ideas/_recherche-v4/` (etat.md, portes.md, porte1/, entretiens/).
+  Entrée réutilisée : `ideas/_recherche-v3/` (marches.md, segments.md, signaux/), plus l'audit et la veille.
 - Une idée retenue : `ideas/<nom-de-l-idee>/`.
 - Les recherches précédentes (`_recherche/`, `_recherche-v2/`, `recrutement-garages/`) ne sont lues
   qu'en option B.

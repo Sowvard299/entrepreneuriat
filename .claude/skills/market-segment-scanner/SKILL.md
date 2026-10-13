@@ -5,6 +5,11 @@ description: Trouve et classe des marchés français en croissance, les découpe
 
 # Market Segment Scanner
 
+> **Rôle en v4 (2026-10-13)** : ce skill fournit la **liste d'entrée** de la porte 1 (marchés et segments
+> candidats). Il ne décide plus : aucune piste n'est retenue sur sa taille ou sa croissance avant d'avoir passé
+> les portes 1 (3 prix payés) et 2 (engagement client). Voir `CLAUDE.md`, section « Workflow ». Pour économiser,
+> lancer seulement les étapes 1 à 4 avec 2 chercheurs au plus, et noter les segments sans recherche de signaux.
+
 Inverse l'entonnoir habituel (plainte → idée → marché) en
 **marché en croissance → segment précis → angle « pareil mais mieux »**.
 
