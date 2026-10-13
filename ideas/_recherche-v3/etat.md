@@ -45,7 +45,14 @@ Note 2026-10-13 : marches.md écrit (38 marchés, 8 gardés, 30 éliminés avec 
   signaux a) à f) du prompt maître, dans `signaux/`, puis un vérificateur par vague, puis index `signaux.md`,
   puis mise à jour des notes de `segments.md` avec les vrais chiffres. Ensuite phase 2 (point d'arrêt 2).
 
-### PRIORITÉ AVANT LA PHASE 1, ÉTAPE 2 : passer au système v4 (demande de l'utilisateur, 2026-10-13)
+### SYSTÈME V4 MIS EN PLACE (2026-10-13, fin du compte 1)
+Fait : 6 skills MIT vendorisés (before-you-build, interview-script, summarize-interview, competitor-analysis,
+sentiment-analysis, brainstorm-experiments-new ; voir SOURCES.md) ; règles de preuve du scout reprises dans
+chercheur.md ; workflow de CLAUDE.md réécrit en portes 0 → 4 et seuils ajustés (raisons notées) ;
+guide `relancer-la-recherche-v4.md` avec son prompt. **Pour continuer : suivre le prompt de relancer-la-recherche-v4.md.**
+Les paires P1-P6 ci-dessous sont remplacées par la porte 1 de la v4 (P1 fini, réutilisable).
+
+### (Historique) PRIORITÉ AVANT LA PHASE 1, ÉTAPE 2 : passer au système v4
 L'utilisateur veut un système « viable dès le début, puis confirmé », construit avec de l'existant.
 Lire `audit-systeme-v3.md` (audit critique + section « Système v4 ») et `veille-systeme.md`, puis :
 1. Vendoriser, après lecture complète de chaque fichier et ajout dans `.claude/skills/SOURCES.md` (commit + licence) :

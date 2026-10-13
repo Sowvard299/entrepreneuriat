@@ -58,6 +58,15 @@ malt.fr (403, lisible seulement en extrait de recherche), economie.gouv.fr/dgccr
 presse qui cite la DGCCRF), cessionpme.com, statista.com (payant), sifted.eu (403), avis Google Maps et
 stores d'applications (non lisibles). Les PDF compressés sont souvent illisibles : cherche la page HTML.
 
+## Douleurs et arrêt (repris de `startup-painpoint-scout`, vasilyu1983/AI-Agents-public, MIT)
+- Un thème de douleur compte s'il a au moins 3 sources distinctes (fils, avis, pages) avec URL et citation ;
+  les 3 premiers thèmes doivent apparaître dans au moins 2 types de sources indépendants.
+- Classe les douleurs par fréquence (sources uniques, pas mentions) × gravité (1 à 5) × possibilité d'agir.
+  Une douleur qui ne change ni l'achat, ni le prix, ni la rétention est déclassée.
+- Biais connu : les plaintes bruyantes d'un seul canal sur-pèsent. Signale toute douleur à canal unique.
+- Arrêt : si le budget est atteint ou une donnée manque, écris `Statut : complet | partiel | bloqué` et la liste
+  exacte de ce qui manque. Ne comble jamais un trou par une supposition.
+
 ## Écriture (pour survivre à une coupure de session)
 - Fichier de travail : en-tête (mission, date, recherches utilisées, nombre de preuves, domaines
   distincts), puis les preuves par lots de 5 (Write une fois, puis Edit pour ajouter).

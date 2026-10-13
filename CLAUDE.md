@@ -64,18 +64,19 @@ marqué [HYPOTHÈSE].
 
 | Critère | Seuil par défaut | Effet |
 |---------|------------------|-------|
-| Taille du marché (SAM France) | ≥ 50 M€ / an | éliminatoire |
-| Croissance | ≥ 8 % / an sur 3 ans, ou moteur structurel daté (obligation, transition) | éliminatoire |
+| Taille du marché (SAM France) | ≥ 50 M€ / an | éliminatoire à la porte 3 seulement (modifié 2026-10-13 : la taille se mesure après un signal client, voir `ideas/_recherche-v3/audit-systeme-v3.md`) |
+| Croissance | ≥ 8 % / an sur 3 ans, ou moteur structurel daté dont la dépense continue après l'échéance | souhaité ; éliminatoire pour la piste ambitieuse (modifié 2026-10-13 : 0 marché sur 38 la prouvait, aucune méthode de praticien ne l'exige) |
 | Concentration | 3 premiers acteurs < 40 % du marché | éliminatoire, sauf angle crédible |
 | Clients identifiables | ≥ 3 000 (B2B) ou ≥ 100 000 (B2C) | éliminatoire |
 | SOM à 3 ans (calcul bottom-up) | ≥ 500 k€ de CA / an | éliminatoire, sauf chemin d'expansion démontré |
-| Argent déjà dépensé | prix et clients payants identifiés, ≥ 3 sources | éliminatoire |
+| Argent déjà dépensé | ≥ 3 prix publics réellement payés par le segment, clients payants identifiés | éliminatoire dès la porte 1 |
 | Premier client payant | ≤ 3 mois (pilote ou précommande acceptés) | éliminatoire |
 | Contrat récurrent | ≤ 6 mois | souhaité |
 | Budget avant le premier euro | piste rapide ≤ 5 000 € ; piste ambitieuse ≤ 20 000 € | éliminatoire |
 | Piste ambitieuse | seulement si SAM ≥ 200 M€ et croissance ≥ 10 % / an | condition d'accès |
 | Droit | pas de diplôme, agrément ou licence qu'on n'a pas | éliminatoire |
-| Accès | 10 clients potentiels joignables en une semaine | éliminatoire |
+| Accès | 20 clients potentiels nommés, joignables par l'équipe | éliminatoire dès la porte 0 (modifié 2026-10-13) |
+| Engagement client | sur 10 contacts en 1 semaine : ≥ 3 engagements d'argent (acompte, précommande, lettre d'intention) ou ≥ 5 de temps (démo datée, présentation au décideur) [HYPOTHÈSE de seuil, à écrire avant d'appeler] | éliminatoire à la porte 2 (ajouté 2026-10-13) |
 | Dépendance technique | développement lourd nécessaire | marquer « besoin d'un associé tech », pas éliminatoire |
 
 Quand aucune taille de marché publiée n'est fiable (fréquent : les études Xerfi ou Statista sont
@@ -99,20 +100,27 @@ nomme une idée de réserve par piste.
 - Vitesse jusqu'au premier client payant : 10 %
 - Testable en moins de 4 semaines, pour moins de 500 € : 5 %
 
-## Workflow
+## Workflow (v4, par portes : viable dès le début, puis confirmé)
 
-1. **Cartographier** : `market-segment-scanner` (marchés en croissance, puis segments, puis angles).
-2. **Creuser les besoins** : `jobs-to-be-done`, et `ai-startup-opportunity-generator` pour
-   la méthode (sans son étape de stack technique, l'équipe ne code pas).
-3. **Shortlister** : `llm-council` sur les 3 à 5 meilleures idées, avec deux questions :
-   (a) laquelle donne des clients payants en 3 mois ? (b) laquelle peut faire vivre l'équipe à 3 ans ?
-4. **Creuser le favori** : `startup-design` (Fast Track), `market-sizing`, `beachhead-segment`.
-5. **Chercher les risques** : `identify-assumptions-new`, `lean-canvas`.
-6. **Parler aux clients** : `mom-test`.
-7. **Décider** : `llm-council` à nouveau, avec les preuves des entretiens.
+Une piste n'avance que si elle passe la porte. Guide pas à pas : `relancer-la-recherche-v4.md`.
+Pourquoi : audit `ideas/_recherche-v3/audit-systeme-v3.md` et veille `ideas/_recherche-v3/veille-systeme.md`.
 
-`brainstorm-ideas-new` génère des fonctionnalités pour un produit déjà choisi : à utiliser
-après l'étape 4 pour définir le MVP, pas pour trouver l'entreprise.
+0. **Accès** : profil de l'équipe rempli ; pour chaque piste, 20 clients nommés joignables. Sinon, pas de recherche.
+1. **Modèle prouvé et argent visible** (1 `chercheur` par paire de pistes, budget court) : le modèle encaisse
+   déjà en France ou ailleurs (TrustMRR, annonces de cession, Starter Story) ; ≥ 3 prix publics payés ; douleurs
+   et faiblesses des concurrents avec `competitor-analysis` et `sentiment-analysis` ; puis `before-you-build`
+   pour nommer la croyance la plus fragile et le test qui la lève. Les idées en entrée peuvent venir de
+   `market-segment-scanner` (liste de marchés et segments), de `ai-startup-opportunity-generator` ou de l'équipe.
+2. **Engagement** (terrain, 1 semaine, < 100 €) : `interview-script` et `mom-test` pour 10 conversations,
+   `summarize-interview` après chacune ; seuil d'engagement écrit avant d'appeler.
+3. **Taille et choix** : pour les pistes qui passent la porte 2 seulement : `market-sizing` (bottom-up avec les
+   prix entendus), `beachhead-segment`, `identify-assumptions-new`, `lean-canvas`, puis `llm-council` avec deux
+   questions : (a) clients payants en 3 mois ? (b) faire vivre l'équipe à 3 ans ?
+4. **Confirmation** : `brainstorm-experiments-new` (précommande, MVP concierge, fausse porte, seuils écrits
+   avant), pilote payant, puis GO / PIVOT / STOP. `brainstorm-ideas-new` sert ensuite à définir le MVP.
+
+La recherche documentaire lourde (`market-segment-scanner` complet, vagues de chercheurs) est une option des
+portes 1 et 3, jamais le point de départ.
 
 ## Sous-agents et coordination
 
