@@ -45,10 +45,23 @@ Note 2026-10-13 : marches.md écrit (38 marchés, 8 gardés, 30 éliminés avec 
   signaux a) à f) du prompt maître, dans `signaux/`, puis un vérificateur par vague, puis index `signaux.md`,
   puis mise à jour des notes de `segments.md` avec les vrais chiffres. Ensuite phase 2 (point d'arrêt 2).
 
+### PRIORITÉ AVANT LA PHASE 1, ÉTAPE 2 : passer au système v4 (demande de l'utilisateur, 2026-10-13)
+L'utilisateur veut un système « viable dès le début, puis confirmé », construit avec de l'existant.
+Lire `audit-systeme-v3.md` (audit critique + section « Système v4 ») et `veille-systeme.md`, puis :
+1. Vendoriser, après lecture complète de chaque fichier et ajout dans `.claude/skills/SOURCES.md` (commit + licence) :
+   `startup-painpoint-scout` (vasilyu1983/AI-Agents-public, MIT) dans `.claude/agents/` ;
+   `before-you-build` (wshobson/agents, MIT) ; `interview-script`, `summarize-interview`, `competitor-analysis`,
+   `sentiment-analysis`, `brainstorm-experiments-new` (phuryn/pm-skills, MIT) dans `.claude/skills/`.
+2. Proposer à l'utilisateur (ne pas appliquer seul) les changements de seuils de `CLAUDE.md` listés dans l'audit
+   (croissance → souhaité sauf piste ambitieuse ; « 3 prix publics » et « 20 clients nommés » éliminatoires).
+3. Réécrire le workflow de `CLAUDE.md` et un `relancer-la-recherche-v4.md` court en portes 0 → 4.
+4. Appliquer les portes 1 et 2 aux 12 segments de `segments.md` (au lieu des paires P1-P6 ci-dessous, qui
+   deviennent la porte 1b). L'équipe doit remplir son profil (porte 0) : le demander à l'utilisateur.
+
 ### Missions de la phase 1, étape 2 (une paire de segments par chercheur)
 | Paire | Segments (voir segments.md) | Fichier de travail | Statut |
 |-------|-----------------------------|--------------------|--------|
-| P1 | A1-S2 experts-comptables + A1-S1 TPE du bâtiment (facture électronique) | signaux/p1-factur-ec-btp.md | à faire |
+| P1 | A1-S2 experts-comptables + A1-S1 TPE du bâtiment (facture électronique) | signaux/p1-factur-ec-btp.md | lancé 2026-10-13 (compte 1) ; si pas de synthèse, relancer en reprise |
 | P2 | A1-S5 PME sur logiciel ancien + A1-S7 négoces B2B (facture électronique) | signaux/p2-factur-pme-negoce.md | à faire |
 | P3 | A6-S2 SCI familiales + A6-S10 petites foncières (logements F 2028) | signaux/p3-f2028-sci-foncieres.md | à faire |
 | P4 | A6-S8 LMNP via CGP + A6-S9 non-résidents (logements F 2028) | signaux/p4-f2028-lmnp-expat.md | à faire |
