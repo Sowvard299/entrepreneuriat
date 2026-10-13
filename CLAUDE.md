@@ -108,12 +108,18 @@ vérifié à la porte 3. Avant la porte 2, la ligne « Engagement client » vaut
 Une piste n'avance que si elle passe la porte. Guide pas à pas : `relancer-la-recherche-v4.md`.
 Pourquoi : audit `ideas/_recherche-v3/audit-systeme-v3.md` et veille `ideas/_recherche-v3/veille-systeme.md`.
 
-0. **Accès** : profil de l'équipe rempli ; pour chaque piste, 20 clients nommés joignables. Sinon, pas de recherche.
+0. **Accès et engagement de l'équipe** : profil rempli ; 2 ou 3 porteurs nommés qui passeront à plein temps (date) ;
+   **30 conversations dans le réseau (5 par personne)** sur les dépenses et tâches pénibles, résumées avec
+   `summarize-interview` puis regroupées avec `sentiment-analysis` : elles sont la première source d'idées.
+   Pour chaque piste : 20 clients nommés joignables. Sinon, pas de recherche.
 1. **Modèle prouvé et argent visible** (1 `chercheur` par paire de pistes, budget court) : le modèle encaisse
    déjà en France ou ailleurs (TrustMRR, annonces de cession, Starter Story) ; ≥ 3 prix publics payés ; douleurs
    et faiblesses des concurrents avec `competitor-analysis` et `sentiment-analysis` ; puis `before-you-build`
-   pour nommer la croyance la plus fragile et le test qui la lève. Les idées en entrée peuvent venir de
-   `market-segment-scanner` (liste de marchés et segments), de `ai-startup-opportunity-generator` ou de l'équipe.
+   pour nommer la croyance la plus fragile et le test qui la lève. Sources d'idées, par ordre de préférence : les 30 conversations de la porte 0 ;
+   la **voie distribution** (vendre en France le produit déjà prouvé d'un autre : agent commercial, distributeur,
+   apporteur d'affaires, représentant d'un acteur étranger) ; la reprise d'une petite entreprise ;
+   `market-segment-scanner` (segments de la v3) ; `ai-startup-opportunity-generator`. À preuve égale, préférer
+   un cycle de vente court (particuliers, indépendants, TPE).
 2. **Engagement** (terrain, 1 semaine, < 100 €) : `interview-script` et `mom-test` pour 10 conversations,
    `summarize-interview` après chacune ; seuil d'engagement écrit avant d'appeler.
 3. **Taille et choix** : pour les pistes qui passent la porte 2 seulement : `market-sizing` (bottom-up avec les
@@ -124,6 +130,9 @@ Pourquoi : audit `ideas/_recherche-v3/audit-systeme-v3.md` et veille `ideas/_rec
 
 La recherche documentaire lourde (`market-segment-scanner` complet, vagues de chercheurs) est une option des
 portes 1 et 3, jamais le point de départ.
+
+**Règle anti-boucle** (contre-audit du 2026-10-13) : pas de nouvelle version du système (v5) avant 30 entretiens
+terrain comptés dans `ideas/_recherche-v4/entretiens/`. Les humains collectent, l'IA structure, vérifie et dimensionne.
 
 ## Sous-agents et coordination
 

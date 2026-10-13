@@ -47,6 +47,7 @@ installation. L'API `recherche-entreprises.api.gouv.fr` est sans clé et appelé
   viables. Leçons dans `ideas/_recherche-v2/BILAN.md`.
 - Version 3 (marché → segment → angle) : suivre `relancer-la-recherche-v3.md` (guide pas à pas et prompt à
   coller, en français). Elle écrit dans `ideas/_recherche-v3/`.
+- **Seul guide actif : `relancer-la-recherche-v4.md`.** Les autres guides et audits sont de l'historique.
 - **Version 4, en cours (portes : accès → argent visible → engagement client → taille → pilote)** : suivre
   `relancer-la-recherche-v4.md`. Elle reprend les segments de la v3 et écrit dans `ideas/_recherche-v4/`.
   Pourquoi ce changement : `ideas/_recherche-v3/audit-systeme-v3.md`.

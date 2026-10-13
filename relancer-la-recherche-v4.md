@@ -18,13 +18,26 @@ et `.claude/skills/SOURCES.md`. Seuils : `CLAUDE.md`, section « Critères de vi
 
 Décision à chaque porte : **passe / à revoir / élimine**, écrite dans `ideas/_recherche-v4/portes.md` avec la preuve.
 
+## Calendrier de 4 semaines (le système tient en un mois, sinon il boucle)
+
+| Semaine | Les 6 (terrain) | Claude (synthèse, vérification) |
+|---------|-----------------|----------------------------------|
+| 1 | Porte 0 : profil rempli, 2-3 porteurs nommés, 30 conversations réseau (5 chacun) avec `interview-script` | résume chaque compte rendu, regroupe les douleurs et dépenses citées |
+| 2 | relit la short-list, nomme 20 clients joignables par piste | porte 1 sur 6 pistes au plus (conversations + voie distribution + segments v3), vérification |
+| 3 | porte 2 : 10 contacts par piste sur 3 pistes, engagement demandé à chaque fois | prépare scripts et seuils, résume les entretiens, tient `portes.md` |
+| 4 | — | porte 3 sur les pistes qui passent, `llm-council`, décision GO / PIVOT / STOP |
+
+Aucune nouvelle version du système avant 30 entretiens terrain (règle de `CLAUDE.md`).
+
 ## Prompt à coller (reprend la v3)
 
 ```text
 Lis CLAUDE.md (workflow v4 par portes, critères de viabilité) et relancer-la-recherche-v4.md.
 Entrée : les 12 segments du Top 12 de ideas/_recherche-v3/segments.md et les signaux déjà collectés dans
 ideas/_recherche-v3/signaux/ (P1 fini : facture électronique faible, panier 230-600 €/an).
-Porte 0 : si le profil d'équipe de CLAUDE.md est vide, demande-le-moi d'abord (équipe, contacts nommés).
+Porte 0 : si le profil d'équipe de CLAUDE.md est vide, demande-le-moi d'abord (équipe, porteurs à plein temps,
+contacts nommés), puis prépare le kit des 30 conversations réseau et attends les comptes rendus avant la porte 1.
+Ajoute en porte 1 la « voie distribution » décrite dans CLAUDE.md.
 Porte 1 : en vagues de 4 « chercheur » au plus (une paire de segments chacun, 12 recherches web au plus,
 fichiers dans ideas/_recherche-v4/porte1/ avec synthèse de 40 lignes), puis un « verificateur ». Pour chaque
 segment : 3 prix publics payés, concurrents et faiblesses, croyance la plus fragile (skill before-you-build),

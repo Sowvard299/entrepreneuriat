@@ -85,3 +85,26 @@ IdeaBrowser (payant, aucune preuve de paiement), outils Reddit open source (clé
 - Les phases 0-1 de la v3 ne sont pas jetées : `marches.md` et `segments.md` deviennent la **liste d'entrée**
   de la porte 1. Les 12 segments du Top 12 passent les portes 1 et 2 avant toute autre recherche documentaire.
 - Les phases 2-4 du prompt maître v3 (idées, tournoi, conseil) ne s'appliquent qu'aux segments qui passent la porte 2.
+
+## Contre-audit macro (y compris de la v4)
+
+1. **Le vrai défaut n'est pas la méthode, c'est la boucle.** Quatre versions du système, zéro conversation
+   client. Chaque échec documentaire produit une nouvelle méthode documentaire. Le système parfait est celui qui
+   met l'équipe au téléphone cette semaine. Règle : **pas de v5 avant 30 entretiens terrain** comptés dans
+   `ideas/_recherche-v4/entretiens/`.
+2. **L'IA est utilisée à l'envers.** Elle collecte (ce qu'elle fait mal : sources bloquées, paraphrases, 43 %
+   d'écarts) et les humains synthétisent. Il faut l'inverse : les 6 collectent sur le terrain (accès, confiance,
+   vrais prix), l'IA structure, synthétise, vérifie et dimensionne.
+3. **Le point de départ ignore le seul actif réel : 6 réseaux.** Les meilleures entreprises autofinancées
+   naissent d'un accès privilégié à un problème payé. Semaine 1 = 30 conversations dans le réseau (5 par
+   personne) sur leurs dépenses et leurs tâches pénibles, avant toute recherche.
+4. **L'avantage de l'équipe est la distribution, et le système ne cherche jamais de « voie distribution ».**
+   Vendre le produit déjà prouvé d'un autre (agent commercial, distributeur, apporteur d'affaires, représentant
+   en France d'un acteur étranger) supprime le risque produit et exploite le marketing. À ajouter comme source
+   d'idées de la porte 1, avec la reprise d'entreprise (370 000 TPE à transmettre d'ici 2030, Bpifrance).
+5. **« 6 fondateurs à parts égales » est un risque non traité.** 500 k€ de CA à 3 ans ≈ 80 k€ par personne,
+   charges comprises : à peine un salaire. La porte 0 doit nommer 2 ou 3 porteurs qui iront à plein temps, et quand.
+6. **Le cycle de vente doit tenir dans une année d'études.** Des acheteurs à cycle court (TPE, particuliers,
+   indépendants) passent avant la conformité B2B à 6 mois de cycle.
+7. **Trop de documents.** README, CLAUDE.md, 3 guides, 2 audits : un seul guide actif
+   (`relancer-la-recherche-v4.md`), le reste est historique.
