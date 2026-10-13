@@ -2,7 +2,8 @@
 
 - Mission : signaux par segment (argent dépensé, faiblesse, recherche active, étranger, comptages, accès, droit)
 - Date : 2026-10-13
-- Recherches web utilisées : voir ligne « Compteur » en bas de fichier
+- Recherches web utilisées : 12 / 15 (compteur final en bas) ; API recherche-entreprises : ~300 appels espacés, aucun 429 bloquant
+- Preuves : 27 (P1-1 à P1-27) ; domaines distincts : 27 ; domaine le plus fréquent : recherche-entreprises.api.gouv.fr (5/27 = 19 %)
 - Convention : « ouverte » = page lue en WebFetch ; « extrait » = vue seulement dans un résultat de recherche.
 
 ## Lot 1
@@ -20,8 +21,8 @@
 - Type : tendance (comptage)
 - Source : https://recherche-entreprises.api.gouv.fr/search?activite_principale=69.20Z&etat_administratif=A (date : 2026-10-13, API ouverte)
 - Citation : « total_results »:10000 (plafond de l'API)
-- Chiffres : plafond atteint, le 23 827 de segments.md n'est pas revérifiable sans découpage par département (voir lot suivant si fait). 69.20Z contient aussi des comptables non experts et des commissaires aux comptes.
-- Ce que ça dit pour nous : ne pas citer 23 827 comme confirmé sans découpage.
+- Chiffres (après découpage par les 101 départements, même jour) : 42 465 unités actives en 69.20Z, tous effectifs confondus ; 20 264 avec au moins 1 salarié (tranches 01 à 53). Le 23 827 de segments.md n'est donc retrouvé ni comme total (42 465) ni comme employeurs (20 264) : il vient d'un autre filtre non noté. Pour la cible, retenir environ 20 000 cabinets employeurs, cohérent avec « plus de 19 000 sociétés » d'expertise comptable cité par Le Francilien (https://lefrancilien.oec-paris.fr/attractivite/chiffres-cles-et-grandes-tendances-radiographie-de-la-profession/, date inconnue, extrait de recherche) et « plus de 22 000 experts-comptables » (P1-27). 69.20Z contient aussi des comptables non experts et des commissaires aux comptes.
+- Ce que ça dit pour nous : la cible « cabinets » est de 20 000 à 24 000 sociétés ; les plus petites (non employeuses) ne sont pas des acheteurs réalistes d'une migration en marque blanche.
 
 ### P1-4 : Obat, prix publics (devis-facture BTP, plateforme agréée via Iopole)
 - Acteur / marché : Obat vend un logiciel devis-facture à des artisans du bâtiment
@@ -227,3 +228,25 @@
 - Chiffres : plus de 22 000 experts-comptables ; partenaires de plus de 7 entreprises sur 10, soit environ 3,5 millions de structures, surtout petites (paraphrase de la page).
 - Ce que ça dit pour nous : environ 3,5 M de clients de cabinets, surtout petits ; le besoin d'accompagnement est large, mais les cabinets sont déjà équipés par les gros éditeurs (P1-22).
 
+## Réponse juridique (résumé, détails dans P1-12 et P1-13)
+- Plateforme agréée : non nécessaire pour accompagner (P1-13 : l'entreprise choisit sa plateforme, « directement ou au travers d'une solution compatible »). Un prestataire qui transmettrait lui-même des factures pour un client doit passer par une plateforme agréée : [HYPOTHÈSE], à confirmer avec la DGFiP (impots.gouv.fr inaccessible).
+- Monopole de 1945 : l'art. 2 réserve à l'expert-comptable « tenir, centraliser, ouvrir, arrêter, surveiller » les comptabilités de tiers (P1-12) ; l'art. 20 sanctionne l'exercice illégal ; arrêt du 21 janvier 2026 (P1-12). Formation, choix d'outil, paramétrage : aucun verbe de l'art. 2 ; mais je n'ai pas trouvé de texte ou de doctrine qui tranche pour la facture électronique : [HYPOTHÈSE] à faire valider (Ordre ou avocat) avant de vendre.
+
+## Calcul du panier (hypothèses explicites)
+- S1 : si 1 TPE sur 10 de 177 400 payait 580 €/an : 10,3 M€ ; pour 500 k€ de CA il faut environ 860 clients à 580 €/an (calcul simple). Prix réellement payés relevés : 228 € (Tolteck), 468 à 588 € (Obat Pro annuel/mensuel), 0 € (Indy, Tiime Free).
+- S2 : 3 000 € × 10 % de 20 264 cabinets = 6,1 M€ ; prix de 3 000 € NON prouvé (seule trace : 800 à 2 000 € HT facturés par un cabinet à un client, source sponsorisée, P1-21).
+
+## Sources non lues
+- https://www.capeb.fr/www/capeb/media/national/cp-capeb-costructor-partenariat-facturation-electronique.pdf : PDF compressé, illisible.
+- https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14419.pdf : PDF compressé, illisible.
+- https://www.impots.gouv.fr/presentation-des-logos-plateforme-agreee-et-solution-compatible : renvoie un PDF illisible.
+- https://www.oec-paris.fr/wp-content/uploads/2025/11/Actu-de-la-Factu-nwsl-01.pdf : PDF d'images, sans texte (mais le programme « Webinaire 1/4 E-reporting » est visible dans les métadonnées).
+- https://www.malt.fr/profile/maxenceprouteau : 403.
+- https://www.investireoggi.it/emettere-fatture-elettroniche-quanto-costa-affidarsi-al-commercialista/ : 403.
+- https://www.codeur.com/projects?q=facturation+électronique : ouverte, aucun projet « facturation électronique » ; https://comeup.com/search?q=... : 404. Aucun signal de mission freelance trouvé.
+- https://www.fiducial.fr/facturation-electronique/faq/quel-prix-plateforme-agree : ouverte (Facilia Achats 4,90 € HT/mois, Facilia Ventes 14,90 € HT/mois, page mise à jour 2026-08-31), non reprise en preuve numérotée.
+- https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006896431/ : adresse devinée par erreur, renvoyait un autre article (CCH) ; ignorée.
+- Trustpilot Tiime/Pennylane/Indy, forums de comptables, Ordre « grille de dix missions » : non consultés (budget).
+
+## Compteur final
+- Recherches web (WebSearch) : 12 sur 15. Pages ouvertes (WebFetch) : environ 35.

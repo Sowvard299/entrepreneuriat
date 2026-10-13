@@ -61,7 +61,7 @@ Lire `audit-systeme-v3.md` (audit critique + section « Système v4 ») et `veil
 ### Missions de la phase 1, étape 2 (une paire de segments par chercheur)
 | Paire | Segments (voir segments.md) | Fichier de travail | Statut |
 |-------|-----------------------------|--------------------|--------|
-| P1 | A1-S2 experts-comptables + A1-S1 TPE du bâtiment (facture électronique) | signaux/p1-factur-ec-btp.md | lancé 2026-10-13 (compte 1) ; si pas de synthèse, relancer en reprise |
+| P1 | A1-S2 experts-comptables + A1-S1 TPE du bâtiment (facture électronique) | signaux/p1-factur-ec-btp.md | fini 2026-10-13 (27 preuves). Verdict : A1-S2 et A1-S1 faibles. 177 400 TPE BTP 1-9 sal. confirmées ; 69.20Z = 42 465 (dont 20 264 employeurs, le 23 827 de segments.md n'est pas retrouvé) ; aucune migration ponctuelle payée prouvée (France, Italie, Belgique) ; panier réaliste 230-600 €/an ; leaders notés 4,5-4,9/5, CAPEB/FFB déjà partenaires d'éditeurs. Non vérifié par le vérificateur. |
 | P2 | A1-S5 PME sur logiciel ancien + A1-S7 négoces B2B (facture électronique) | signaux/p2-factur-pme-negoce.md | à faire |
 | P3 | A6-S2 SCI familiales + A6-S10 petites foncières (logements F 2028) | signaux/p3-f2028-sci-foncieres.md | à faire |
 | P4 | A6-S8 LMNP via CGP + A6-S9 non-résidents (logements F 2028) | signaux/p4-f2028-lmnp-expat.md | à faire |
