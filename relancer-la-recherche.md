@@ -27,7 +27,6 @@ Plus ce fichier est précis, plus le segment de départ et les entretiens seront
 ### 0.2 Choisir entre deux options
 
 - **Option A, vraiment de zéro** : la nouvelle conversation ignore la première itération. Plus long, mais sans biais.
-- **Option B, de zéro sur l'idée, pas sur les données** : la nouvelle conversation réutilise les 180 signaux déjà collectés et ne cherche que ce qui manque pour la nouvelle approche. Deux fois plus rapide. **Recommandé.**
 
 ### 0.3 Récupérer le bon état du dépôt
 

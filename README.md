@@ -1,29 +1,52 @@
 # entrepreneuriat
 
-A Claude Code workspace for finding and validating a company idea.
+Un espace de travail Claude Code pour trouver et valider une idée d'entreprise.
 
-## Installed skills
+## Skills installés
 
-They live in `.claude/skills/`. Claude Code loads them automatically whenever
-this repo is opened, locally or in a Claude Code cloud session.
+Ils vivent dans `.claude/skills/`. Claude Code les charge automatiquement à l'ouverture du dépôt,
+en local ou dans une session cloud.
 
-| Stage | Skill | Use it for | Example prompt |
-|-------|-------|-----------|----------------|
-| Generate | `ai-startup-opportunity-generator` | Workflow-grounded ideas, scored on 6 dimensions, checked against 10 failure patterns | "Give me 10 startup ideas for a solo founder in logistics" |
-| Generate | `jobs-to-be-done` | Find unmet "jobs" customers are struggling with | "What jobs are freelancers badly served on for invoicing?" |
-| Generate | `brainstorm-ideas-new` | Multi-perspective ideation (PM / designer / engineer) | `/brainstorm-ideas-new AI tool for small clinics` |
-| Decide | `llm-council` | 5 advisors + anonymous peer review + chairman verdict | "Council this: which of these 3 ideas should I pursue?" |
-| Validate | `startup-design` | Full research → strategy → validation, or Fast Track go/no-go | "Quick validation, fast track: <idea>" |
-| Validate | `market-sizing` | TAM / SAM / SOM, top-down and bottom-up | `/market-sizing <idea> in France` |
-| Validate | `beachhead-segment` | Pick the first, smallest winnable market | `/beachhead-segment <idea>` |
-| Validate | `identify-assumptions-new` | Risky assumptions across 8 categories | `/identify-assumptions-new <idea>` |
-| Validate | `lean-canvas` | One-page business model | `/lean-canvas <idea>` |
-| Customers | `mom-test` | Interview scripts that don't produce false positives | "Write me a Mom Test interview script for <segment>" |
+| Étape | Skill | Usage | Exemple de prompt |
+|-------|-------|-------|-------------------|
+| Cartographier | `market-segment-scanner` | Marchés en croissance → segments précis → angles « pareil mais mieux » | « Cartographie les marchés français en croissance et découpe-les en segments » |
+| Creuser | `jobs-to-be-done` | Trouver les « jobs » mal servis d'un segment | « Quels jobs sont mal servis chez les restaurateurs pour leurs achats ? » |
+| Creuser | `ai-startup-opportunity-generator` | Méthode d'idées ancrées dans le travail réel, scorées, vérifiées contre 10 échecs types (orientée logiciel : on saute son étape de stack) | « Donne 10 idées pour un segment de départ » |
+| Décider | `llm-council` | 5 conseillers + relecture anonyme + verdict | « Council : laquelle de ces 3 idées donne des clients en 3 mois, laquelle fait vivre l'équipe à 3 ans ? » |
+| Valider | `startup-design` | Recherche → stratégie → validation, ou Fast Track go/no-go | « Fast track : <idée> » |
+| Valider | `market-sizing` | TAM / SAM / SOM, bottom-up puis top-down | `/market-sizing <idée> en France` |
+| Valider | `beachhead-segment` | Choisir le premier marché gagnable | `/beachhead-segment <idée>` |
+| Valider | `identify-assumptions-new` | Hypothèses risquées sur 8 catégories | `/identify-assumptions-new <idée>` |
+| Valider | `lean-canvas` | Modèle économique en une page | `/lean-canvas <idée>` |
+| Clients | `mom-test` | Scripts d'entretien qui évitent les faux positifs | « Script Mom Test pour <segment> » |
+| MVP | `brainstorm-ideas-new` | Fonctionnalités d'un produit **déjà choisi** (PM / designer / ingénieur). Ne sert pas à trouver une entreprise | `/brainstorm-ideas-new <idée retenue>` |
 
-See `CLAUDE.md` for the recommended workflow and the founder profile to fill in.
+`market-segment-scanner` est fait maison : pas de source externe, pas de licence à suivre.
+Les seuils et la grille de score sont dans `CLAUDE.md`, section « Critères de viabilité ».
 
-## Idea search runs
+## Sous-agents
 
-- First run (October 2026): research in `ideas/_recherche/`, winning idea in `ideas/recrutement-garages/`.
-- To rerun the whole process in a new conversation, follow `relancer-la-recherche.md` (step-by-step guide and ready-to-paste prompt, in French).
-Sources, commits and licenses are listed in `.claude/skills/SOURCES.md`.
+Ils vivent dans `.claude/agents/`. La session principale les appelle pour la collecte et ne lit que
+leurs fichiers de synthèse (règles dans `CLAUDE.md`, section « Sous-agents et coordination »).
+
+| Agent | Modèle | Rôle |
+|-------|--------|------|
+| `chercheur` | sonnet | Collecte de preuves sourcées : règles de preuve, quota de diversité des sites, sources bloquées connues, API qui marchent |
+| `auditeur` | sonnet | Concurrents réels, échecs passés, droit avec articles, économie unitaire, score recalculé |
+| `verificateur` | haiku | Rouvre un échantillon d'URL et vérifie citations et chiffres |
+
+## Outils externes (optionnels)
+
+Voir l'étape 0.3 de `relancer-la-recherche-v3.md`. Lire le `SKILL.md` ou le README de chacun avant
+installation. L'API `recherche-entreprises.api.gouv.fr` est sans clé et appelée directement.
+
+## Recherches d'idées
+
+- Première itération (octobre 2026) : recherche dans `ideas/_recherche/`, idée retenue dans `ideas/recrutement-garages/`.
+- Deuxième itération (v2, octobre 2026) : `ideas/_recherche-v2/`, arrêtée en phase 4, idées jugées non
+  viables. Leçons dans `ideas/_recherche-v2/BILAN.md`.
+- Version 3 (marché → segment → angle) : suivre `relancer-la-recherche-v3.md` (guide pas à pas et prompt à
+  coller, en français). Elle écrit dans `ideas/_recherche-v3/`.
+- Ancienne méthode : `relancer-la-recherche.md` (v2), à garder pour comparer.
+
+Les sources, commits et licences des skills tiers sont dans `.claude/skills/SOURCES.md`.

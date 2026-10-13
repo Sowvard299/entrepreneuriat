@@ -13,5 +13,8 @@ To update one, re-copy its folder from the source repo at a newer commit.
 
 Each MIT-licensed skill folder carries its original `LICENSE` file.
 
+Homemade (no external source): the `market-segment-scanner` skill, and the subagents in
+`.claude/agents/` (`chercheur`, `auditeur`, `verificateur`).
+
 Note: the `mom-test` and `jobs-to-be-done` "Further Reading" book links include
 the author's Amazon affiliate tag.
