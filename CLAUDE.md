@@ -151,6 +151,13 @@ Règles (leçons de la v2, où la limite de session a coupé 4 auditeurs d'un co
 - **`llm-council`** : les 5 conseillers et les 5 relecteurs tournent en `model: sonnet`, seul le
   président garde le modèle principal.
 - Le droit n'est jamais laissé en [HYPOTHÈSE] pour une finaliste : l'auditeur cite l'article.
+- **Budget d'usage** (leçon du 2026-10-13 : la phase 0 de la v3 a pris l'essentiel d'un forfait Pro hebdomadaire).
+  Avant chaque vague, lire l'usage du forfait (outil `get_usage` de l'application, sinon demander à l'utilisateur).
+  Au-delà de 85 % de la limite hebdomadaire : un seul agent à la fois, 12 recherches web au plus. À 95 % : plus
+  d'agent, mettre à jour `etat.md` (section reprise + prompt à coller), commiter et pousser.
+- **Copier de l'existant avant d'écrire** : avant de créer un skill ou un agent, chercher un équivalent sous
+  licence libre (voir `ideas/_recherche-v3/veille-systeme.md`), le lire en entier, le noter dans
+  `.claude/skills/SOURCES.md`. Jamais de contenu sous licence non commerciale.
 
 ## Règles de preuve
 
