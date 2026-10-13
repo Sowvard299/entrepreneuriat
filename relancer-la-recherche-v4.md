@@ -10,7 +10,7 @@ et `.claude/skills/SOURCES.md`. Seuils : `CLAUDE.md`, section « Critères de vi
 
 | Porte | Question | Preuve exigée | Outils (déjà dans le dépôt) | Durée, coût |
 |-------|----------|---------------|------------------------------|-------------|
-| 0. Accès | Peut-on parler à ces clients lundi ? | profil d'équipe rempli dans `CLAUDE.md` ; 20 clients nommés par piste | — | 1 h |
+| 0. Accès | Qui porte le projet, et à qui parle-t-on lundi ? | profil rempli ; 2-3 porteurs à plein temps datés ; 30 conversations réseau ; 20 clients nommés par piste | `interview-script`, `summarize-interview`, `sentiment-analysis` | 1 semaine, 0 € |
 | 1. Argent visible | Le modèle encaisse-t-il déjà ? | ≥ 3 prix publics payés ; concurrents et leurs faiblesses citées ; croyance la plus fragile nommée | `chercheur`, `competitor-analysis`, `sentiment-analysis`, `before-you-build`, `verificateur` | 1 session, 1 agent par paire de pistes |
 | 2. Engagement | Ces clients s'engagent-ils ? | 10 contacts en 1 semaine ; seuil d'engagement écrit avant (voir `CLAUDE.md`) | `interview-script`, `mom-test`, `summarize-interview` | 1 semaine, < 100 € |
 | 3. Taille et choix | Peut-on en vivre à 3 ans ? | bottom-up avec les prix entendus ; SOM ≥ 500 k€ ou chemin d'expansion | `market-sizing`, `beachhead-segment`, `identify-assumptions-new`, `lean-canvas`, `llm-council` | 1 session |
