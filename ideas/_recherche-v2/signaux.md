@@ -9,9 +9,9 @@ Recherche repartie de zéro, sans lire la première itération. Hypothèses dans
 | 3. Modèles qui marchent ailleurs | [signaux/03-modeles-etrangers.md](signaux/03-modeles-etrangers.md) | 16 |
 | 4. Franchises en croissance, cessions | [signaux/04-franchises-cessions.md](signaux/04-franchises-cessions.md) | 11 |
 | 5. Argent qui circule et cimetière | [signaux/05-argent-cimetiere.md](signaux/05-argent-cimetiere.md) | 28 |
-| 6. Données publiques et timing | [signaux/06-donnees-publiques-timing.md](signaux/06-donnees-publiques-timing.md) | 32 |
+| 6. Données publiques et timing | [signaux/06-donnees-publiques-timing.md](signaux/06-donnees-publiques-timing.md) | 33 |
 
-**Total : 153 lignes, environ 145 URL distinctes sur plus de 110 sites différents.**
+**Total : 154 lignes de signaux, 151 URL distinctes sur 119 sites différents** (hors audits de la phase 4, qui ajoutent leurs propres sources).
 
 ## Secteurs couverts (21)
 Déménagement · cuisine équipée · formalités juridiques en ligne · auto-école en ligne · expertise comptable en ligne · syndic · conciergerie de location courte durée · visibilité locale des TPE · courtage en énergie · dépannage urgent · débarras · assistance numérique à domicile · promenade de chiens · rangement à domicile · nettoyage de vitres · nettoyage de bureaux · revente de vêtements d'occasion · soutien scolaire · anniversaires d'enfants · accessibilité numérique · location de logements (DPE).
