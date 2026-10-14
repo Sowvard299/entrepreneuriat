@@ -14,3 +14,8 @@ Créé le 2026-10-13. Guide : `relancer-la-recherche-v4.md`. Entrée : Top 12 de
 
 | Vague | Agent | Mission | Fichier | Statut |
 |-------|-------|---------|---------|--------|
+
+## Journal
+
+- 2026-10-14 : pièces du système v4 revérifiées (6 skills identiques à la source, scout non copiable : voir
+  `.claude/skills/SOURCES.md`).

@@ -22,6 +22,13 @@ rules (≥ 3 threads per theme, top themes on ≥ 2 sources, frequency × severi
 are reused in `.claude/agents/chercheur.md`, credited there. `voice-of-customer-miner` (deanpeters) is
 CC BY-NC-SA: not copied.
 
+Re-checked on 2026-10-14: the six skills added on 2026-10-13 (`before-you-build`, `interview-script`,
+`summarize-interview`, `competitor-analysis`, `sentiment-analysis`, `brainstorm-experiments-new`) were re-read in
+full and diffed against their upstream commits above: byte-identical, plus the upstream `LICENSE` file.
+`startup-painpoint-scout` was re-read in full at `3ee3637` (also the repo's latest commit on that date): its
+"Required Skill" section makes it abort unless `research-painpoint-scanner` is installed, and that skill does not
+exist anywhere in the public repo. Copied as is, the agent would not run, so it stays not vendored.
+
 Homemade (no external source): the `market-segment-scanner` skill, and the subagents in
 `.claude/agents/` (`chercheur`, `auditeur`, `verificateur`).
 
