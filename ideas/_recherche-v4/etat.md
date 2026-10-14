@@ -19,3 +19,4 @@ Créé le 2026-10-13. Guide : `relancer-la-recherche-v4.md`. Entrée : Top 12 de
 
 - 2026-10-14 : pièces du système v4 revérifiées (6 skills identiques à la source, scout non copiable : voir
   `.claude/skills/SOURCES.md`).
+- 2026-10-14 : `proposition-seuils.md` écrit (changements de seuils proposés, non appliqués ; 5 lignes déjà modifiées le 13/10 à confirmer).
