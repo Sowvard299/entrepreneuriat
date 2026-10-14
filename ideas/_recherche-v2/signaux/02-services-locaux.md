@@ -33,3 +33,28 @@ Types : **€** argent déjà dépensé · **R** recherche active · **P** plain
 - **Débarras** : argent dépensé, aucune marque nationale en France, prix peu transparents. À croiser avec les modèles étrangers (famille 3).
 - **Aide numérique à domicile** : besoin massif et durable chez les plus de 75 ans, prix divisé par deux par le crédit d'impôt.
 - **Rangement à domicile** et **promenade de chiens** : prix réels mais marchés petits ou à très faible panier.
+
+## Lot 2 (14/10/2026)
+
+| # | Secteur | Source | Date | Citation / fait | Type |
+|---|---------|--------|------|-----------------|------|
+| 2.22 | Débarras de logement (Paris) | [Location Carrefour, guide encombrants Paris](https://location.carrefour.fr/bien-louer/guide-encombrants-paris-demarche-dechetterie) | 2025-2026 | Collecte municipale gratuite limitée aux particuliers et à 3 m³ ; gravats exclus | contre-signal partiel |
+| 2.23 | Débarras de logement (Paris) | [Mappy, Débarras et Nettoyages Paris 11e](https://fr.mappy.com/poi/613d5f04abefa220181e0b17) | 2026 | Un débarrasseur local affiche 535 avis : demande réelle à Paris | € |
+| 2.24 | Débarras pour entreprises | [AC Franchise, Trokeur Débarras](https://ac-franchise.com/article/le-reseau-trokeur-debarras-offre-ses-services-aux-entreprises) | non datée | Réseau de débarras qui vise aussi les entreprises (tri, recyclage, éco-organismes) | € (concurrent) |
+| 2.25 | Petit déménagement (Paris) | [Accio, déménager pas cher à Paris](https://fr.accio.com/biz-cheap/demenager-pas-cher-paris) | 2025 | Formule étudiante 40 à 65 €/h ; petit déménagement 150 à 1 000 € (source peu fiable) | € |
+| 2.26 | Petit déménagement (Paris) | [Aladom, déménagement à moindre coût](https://www.aladom.fr/demenagement/paris_19eme-75/votre-demenagement-a-moindre-cout-1hq4) | 2025-2026 | Étudiants avec utilitaire proposant des petits déménagements à Paris | € |
+| 2.27 | Déménagement, marché | [Selectra, baromètre déménagement](https://selectra.info/demenagement/barometre) | 2025 | 1 219 établissements ; « deux professionnels contrôlés sur trois » en anomalie (DGCCRF) | € P |
+| 2.28 | Déménagement, mobilité | [Insee Première 2073](https://www.insee.fr/fr/statistiques/fichier/version-html/8648157/ip2073.pdf) | 2025 | 8,8 % de la population a déménagé en 2023, contre 10,8 % dix ans plus tôt | T (baisse) |
+| 2.29 | Assistance informatique à domicile | [AC Franchise, Docteur Ordinateur](https://ac-franchise.com/article/docteur-ordinateur-pense-aux-grands-meres) | 2020 | 79 à 89 € de l'heure, 50 % remboursés ; plus de 60 agences en France | € |
+| 2.30 | Assistance informatique à domicile | [AC Franchise, PC At Home](https://ac-franchise.com/annuaire/pc-at-home) | non datée | Franchise créée en 2008, agrément permettant le crédit d'impôt de 50 % | € |
+| 2.31 | Assistance informatique à domicile | [Aladom, AidePC63](https://www.aladom.fr/annuaire/pro/319762/) | 2023 | Un indépendant : « plus de 3 500 prestations », près de 1 200 clients en 2023 | € |
+| 2.32 | Assistance informatique à domicile | [PagesJaunes, Méliss'Assistance](https://www.pagesjaunes.fr/pros/64297763) | 09/2026 | Offre « spéciale seniors », 30 minutes offertes, crédit d'impôt de 50 % | € |
+| 2.33 | Matériel et services numériques pour seniors (Ordissimo) | [AMF, communiqué Ordissimo](https://echanges.dila.gouv.fr/OPENDATA/AMF/EQS/2025/10/FCEQS007718_20251031.pdf) | 10/2025 | Activité seniors 467 k€ au S1 2025 contre 705 k€ : la vente de matériel recule, les contrats de service montent | € contre-signal |
+| 2.34 | Aidants de parents âgés | [Pourquoi Docteur, DREES](https://www.pourquoidocteur.fr/Articles/Question-d-actu/37452-Comment-vivent-725-000-aidants-pivots-soutiennent-parents-ages-enfants-charge) | ancien (données 2015) | 2,1 M d'adultes aident un parent de 60 ans ou plus vivant à domicile | T |
+
+### Lecture du lot 2
+- **Débarras** : la gratuité municipale (3 m³, particuliers) couvre les petits volumes ; le marché payant est celui des gros volumes (successions, déménagements, caves, locaux pros).
+- **Petit déménagement** : marché en baisse de mobilité et très encombré d'indépendants ; licence de transport léger nécessaire (voir famille 6).
+- **Aide numérique à domicile** : modèle prouvé depuis 2006 (franchises, indépendants avec 1 200 clients), prix 35 à 89 €/h avant crédit d'impôt ; aucun acteur de marque fort ; Ordissimo montre que c'est le service, pas le matériel, qui se vend.
+| 2.35 | Sécurité numérique des seniors | [Cybermalveillance.gouv.fr, faux support technique](https://www.cybermalveillance.gouv.fr/medias/2025/07/CP-Fraude-au-faux-support-technique.pdf) | 07/2025 | Faux support : 3e menace pour les particuliers ; préjudices de « plusieurs milliers » d'euros | P |
+| 2.36 | Sécurité numérique des seniors | [Siècle Digital](https://siecledigital.fr/2025/08/21/arnaques-numeriques-la-france-en-premiere-ligne-face-a-une-vague-dattaques-dopees-a-lia/) | 08/2025 | Arnaques au faux support technique +119 % au T2 2025 en France (données Gen Digital) | P T |

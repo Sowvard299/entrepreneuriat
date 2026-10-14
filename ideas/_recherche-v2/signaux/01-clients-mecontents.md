@@ -33,3 +33,28 @@ Note de lecture : Trustpilot bloque la lecture automatique (403) ; les avis Trus
 - Les plaintes les plus nettes et les plus récentes touchent le **déménagement** (retards, casse, acomptes non rendus) et la **pose de cuisine** (SAV).
 - Les **formalités en ligne**, l'**auto-école en ligne** et l'**expertise comptable en ligne** ont des clients globalement satisfaits : peu d'angle d'attaque, et plusieurs sont réglementés (agrément auto-école, ordre des experts-comptables).
 - Le **syndic** a un mécontentement documenté, mais l'activité exige une carte professionnelle (loi Hoguet) : éliminatoire pour nous.
+
+## Lot 2 (14/10/2026) : visibilité locale des TPE
+
+| # | Secteur | Source | Date | Citation / fait | Type |
+|---|---------|--------|------|-----------------|------|
+| 1.21 | Visibilité locale des TPE (Solocal / PagesJaunes) | [Boursier via Bourse Direct](https://www.boursedirect.fr/fr/actualites/categorie/divers/solocal-taux-de-marge-d-ebitda-a-18-5-en-2025-boursier-62282987696f84e2c1ca17af31d14369665b5db6) | 02/2026 | CA 2025 de 324,5 M€, −10,6 % à périmètre constant ; 334,5 M€ en 2024 | € P |
+| 1.22 | Visibilité locale des TPE | [Solocal, présentation AG 2025](https://agence.pagesjaunes.fr/sites/default/storage/files/2025-06/Presentation%20Solocal%20AG%202025%20vdef.pdf) | 06/2025 | « Base clients à renouveler en décroissance » et baisse de l'acquisition | € P |
+| 1.23 | Visibilité locale des TPE | [Solocal, résultats 2024](https://agence.pagesjaunes.fr/sites/default/storage/files/2025-02/Solocal%20-%20CP%20R%C3%A9sultats%20FY%202024%2018022025_0.pdf) | 02/2025 | CA 2024 −11 % à périmètre constant ; restructuration avec Ycor actionnaire de contrôle | € P |
+| 1.24 | Visibilité locale des TPE | [Plateya, avis Solocal 2026](https://www.plateya.fr/blog/detail/solocal-avis-2026-bon-partenaire-seo-pub-pour-les-tpe) | 2026 | « Plus de 11 500 avis Trustpilot » ; reproches : résiliation, résultats faibles, pas d'interlocuteur (source concurrente) | € P |
+| 1.25 | Visibilité locale des TPE | [Resilier.fr, Solocal](https://www.resilier.fr/solocal.php) | 2025 | Engagement 12 ou 24 mois, reconduction tacite ; 33 à 78 € HT/mois | € P |
+| 1.26 | Visibilité locale des TPE | [Solocal, CGAS MyConnect mai 2025](https://inscription.pagesjaunes.fr/sites/default/storage/files/2025-06/CGAS_SOLOCAL_GAMME_MYCONNECT_MAI_2025.pdf) | 05/2025 | Préavis de résiliation de 2 mois (4 mois sur les anciennes conditions de juin 2024) | € P |
+| 1.27 | Visibilité locale des TPE | [Kolonell, pièges des devis fiches Google](https://kolonell.com/fr/blog/pieges-devis-gestion-fiches-google-maps-marseille-2026) | 2026 | Mise en garde contre des engagements « de 48 mois avec frais de résiliation » | P |
+
+### Lecture du lot 2
+- **Solocal** est l'exemple le plus net de « clients qui paient mais partent » : plus de 300 M€ payés chaque année par des TPE pour leur visibilité locale, et un chiffre d'affaires qui recule de 10 % par an à périmètre constant. Les reproches visent le contrat (engagement, résiliation) et l'absence d'interlocuteur, pas le besoin lui-même.
+
+## Lot 3 (14/10/2026) : courtage en énergie pour TPE
+
+| # | Secteur | Source | Date | Citation / fait | Type |
+|---|---------|--------|------|-----------------|------|
+| 1.28 | Courtage en énergie | [Assemblée nationale, proposition de loi n° 1845](https://www.assemblee-nationale.fr/dyn/17/textes/l17b1845_proposition-loi.pdf) | 2025 | Courtage sans registre, « aucun plafonnement des commissions », ni déontologie ; TPE « les plus fortement touchées » | P O |
+| 1.29 | Courtage en énergie | [Forum Que Choisir, démarchage Exsell](https://forum.quechoisir.org/exsell-demarchage-a-domicile-frauduleux-t344626.html) | 2024-2025 | Démarcheurs se présentant comme courtiers, mandat envoyé « quelques heures après » la signature | P |
+| 1.30 | Débarras | [Signal Arnaques, rachat à domicile](https://www.signal-arnaques.com/scam/view/855788) | 03/2025 | Rachat d'objets ciblant les personnes âgées, puis disparition : méfiance envers les inconnus qui « récupèrent » | P (voisin) |
+
+- **Débarras** : aucune plainte précise contre des entreprises de débarras n'a été trouvée. La faiblesse des acteurs en place n'est donc **pas prouvée** par le web, seulement l'absence de marque.
