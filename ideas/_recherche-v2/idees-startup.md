@@ -10,7 +10,7 @@ Niveau de preuve : [Certain] = source vérifiée, [Likely] = déduction solide, 
 
 | Rang | Idée | Client qui paie | Pourquoi maintenant | Score |
 |------|------|-----------------|---------------------|-------|
-| 1 | Copilote électricité pour PME | PME de 10 à 250 salariés, multi-sites | Fin de l'ARENH (1er janvier 2026), nouveau mécanisme de capacité sur les factures (1er novembre 2026), décret BACS (1er janvier 2027) | 7,6 |
+| 1 | Copilote électricité pour PME | PME de 10 à 250 salariés, multi-sites | Fin de l'ARENH (1er janvier 2026), nouveau mécanisme de capacité sur les factures (1er novembre 2026), décret BACS (70 kW reporté à 2030) | 7,6 → 5,5 après contre-analyse |
 | 2 | Logiciel de gestion de l'autoconsommation collective | Personnes morales organisatrices (PMO) : installateurs solaires, zones d'activités, collectivités | +129 % d'opérations en 2024, +133 % en 2025, 2 276 opérations fin juin 2026 | 7,2 |
 | 3 | Taux EGalim automatique à partir des factures électroniques | Restauration collective privée et publique, sociétés de restauration | Réception des factures électroniques obligatoire depuis septembre 2026 ; seulement environ 30 % des cantines atteignent l'objectif | 7,0 |
 | 4 | Conformité EUDR en libre-service pour petits importateurs | Torréfacteurs, chocolatiers, négociants bois et meubles, importateurs de cuir et caoutchouc | Application le 30 décembre 2026 (grandes et moyennes), le 30 juin 2027 (petites et micro) | 6,6 |
@@ -18,9 +18,11 @@ Niveau de preuve : [Certain] = source vérifiée, [Likely] = déduction solide, 
 
 Écartées après recherche : agent vocal de présélection des candidats (36 solutions en Europe, Maki a levé 26 M€) ; analyse PFAS (métier de laboratoire, pas de logiciel).
 
-## 1. Copilote électricité pour PME (7,6)
+## 1. Copilote électricité pour PME (7,6, revu à 5,5)
 
-- **Problème** [Certain] : depuis la fin de l'ARENH au 1er janvier 2026, les PME sont plus exposées aux prix de marché ; le coût du mécanisme de capacité dépend de la consommation en heures de pointe et apparaît sur les factures à partir du 1er novembre 2026 ; les bâtiments tertiaires de plus de 70 kW doivent avoir une GTB au 1er janvier 2027.
+> **Correction du 2026-10-14** : l'échéance BACS de 2027 était fausse. Le seuil de 70 kW est reporté au 1er janvier 2030 (décret n° 2025-1343 du 26 décembre 2025). Contre-analyse complète : [copilote-electricite-contre-analyse.md](copilote-electricite-contre-analyse.md).
+
+- **Problème** [Certain] : depuis la fin de l'ARENH au 1er janvier 2026, les PME sont plus exposées aux prix de marché ; le coût du mécanisme de capacité dépend de la consommation en heures de pointe et apparaît sur les factures à partir du 1er novembre 2026 ; ~~les bâtiments tertiaires de plus de 70 kW doivent avoir une GTB au 1er janvier 2027~~ (faux : reporté à 2030).
 - **Produit** : un logiciel branché sur les données du compteur (API Enedis) qui dit à la PME quoi changer : puissance souscrite, usages à décaler hors pointe, date et forme du prochain contrat, alerte facture anormale. Plus tard : vendre sa flexibilité via un agrégateur (Flexcity, Voltalis) et toucher une part du revenu.
 - **Modèle** : abonnement de 30 à 150 € par site et par mois [Guessing], plus une part des économies ou du revenu de flexibilité.
 - **Concurrence** [Likely] : courtiers gratuits payés par les fournisseurs (Opera Énergie, Selectra), qui vendent un contrat et pas un pilotage ; Advizeo et Deepki, faits pour les grands parcs immobiliers. Le créneau « PME de 10 à 250 salariés, sans gestionnaire énergie » paraît peu servi.
