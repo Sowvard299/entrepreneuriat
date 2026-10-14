@@ -19,9 +19,12 @@ read this file first, and their advice gets much more specific when it is filled
   background and skills._
 - **Time available:** Part-time during the current school year (alongside the
   master's degree and work-study), then continuing on the project after graduating.
-- **Budget / runway:** _TODO_
-- **Geography / language of first market:** _TODO_
-- **Ambition:** _TODO (lifestyle business, bootstrapped SaaS, VC-scale startup...)_
+- **Budget / runway:** No fixed cap set by the team (answer: "we don't care").
+  Bootstrapped, so capital-light ideas still score higher.
+- **Geography / language of first market:** French-speaking. No preference between
+  online and local; if the idea is local, Île-de-France.
+- **Ambition:** Profitable fast, bootstrapped (no fundraising at first). Preferred
+  angle: copy a model customers already pay for and do it better, rather than invent.
 - **Things I do NOT want to do:** _TODO_
 
 ## Idea scope
