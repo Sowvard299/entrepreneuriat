@@ -25,5 +25,6 @@ See `CLAUDE.md` for the recommended workflow and the founder profile to fill in.
 ## Idea search runs
 
 - First run (October 2026): research in `ideas/_recherche/`, winning idea in `ideas/recrutement-garages/`.
+- Second run, restarted from scratch without reading the first one (October 2026): research in `ideas/_recherche-v2/`, winning idea in `ideas/fiche-google-artisans/` (managed Google Business Profile for building tradespeople, no lock-in).
 - To rerun the whole process in a new conversation, follow `relancer-la-recherche.md` (step-by-step guide and ready-to-paste prompt, in French).
 Sources, commits and licenses are listed in `.claude/skills/SOURCES.md`.

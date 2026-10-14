@@ -1,7 +1,7 @@
 # Taille du marché (méthode market-sizing)
 
 Prix de référence : 79 € HT/mois, soit **948 € HT/an** par client (hors frais de mise en route).
-Comptages d'entreprises : API Recherche d'entreprises (données Sirene), interrogée le 14/10/2026, unités légales actives, siège dans la zone. Limite : la tranche d'effectif de Sirene peut dater de plusieurs années.
+Comptages d'entreprises : API Recherche d'entreprises (données Sirene), interrogée le 14/10/2026, unités légales actives ayant au moins un établissement dans la zone (le filtre porte sur les établissements : une entreprise présente dans deux départements compte dans les deux, et la somme régionale est donc un plafond). Limite : la tranche d'effectif de Sirene peut dater de plusieurs années.
 
 Codes d'activité retenus (« second œuvre ») : 43.21A électricité, 43.22A plomberie-chauffage, 43.29A isolation, 43.31Z plâtrerie, 43.32A menuiserie bois et PVC, 43.32B menuiserie métallique et serrurerie, 43.33Z revêtements de sols et murs, 43.34Z peinture et vitrerie, 43.91B couverture, 43.99C maçonnerie générale.
 
