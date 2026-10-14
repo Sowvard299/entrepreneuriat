@@ -63,7 +63,7 @@ Format : « Quand [circonstance], je veux [progrès], pour [résultat] ». Puis 
 - **Fonctionnel** : intervention rapide. **Émotionnel** : sécurité, ne pas être la victime. **Social** : ne pas passer pour naïf.
 - **Embauché aujourd'hui** : le premier numéro trouvé sur Google ou dans la boîte aux lettres ; plateformes « sans arnaque » (Mesdepanneurs) [2.6] ; assurance habitation.
 - **Reproche principal** : prix abusifs (60 % des entreprises contrôlées en anomalie) [2.2], entreprises qui changent de nom [2.3].
-- **Limite pour nous** : le service repose sur des artisans qualifiés qu'on ne contrôle pas ; dix ans de plateformes n'ont pas réglé le problème [5.18].
+- **Condition** : le service repose sur des artisans qualifiés ; une plateforme qui ne les contrôle pas n'a pas réglé le problème en dix ans [5.18]. Il faut des techniciens recrutés ou liés par contrat à une marque, comme Pimlico Plumbers à Londres [3.6].
 
 ### 4. Courtage en énergie pour TPE
 - **Job** : quand mon contrat d'électricité arrive à échéance ou que ma facture grimpe, je veux un prix sûr sans y passer des heures, pour protéger ma marge.

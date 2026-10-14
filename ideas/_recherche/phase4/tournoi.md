@@ -44,6 +44,6 @@ Justification des corrections hors concurrence et argent :
 
 ## Les 3 idées soumises au conseil
 
-C (7,30), B (7,08) et A (6,58), dans leur forme resserrée. Question posée au conseil (skill `llm-council`) : « Laquelle de ces idées une équipe de 6 étudiants en marketing a-t-elle le plus de chances de transformer en premiers clients payants en 3 mois ? »
+C (7,30), B (7,08) et A (6,58), dans leur forme resserrée. Question posée au conseil (skill `llm-council`) : « Laquelle de ces idées a le plus de chances d'obtenir des premiers clients payants en 3 mois ? »
 
 Verdict du conseil : voir [conseil.md](conseil.md).

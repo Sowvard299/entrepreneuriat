@@ -18,7 +18,7 @@ Durée : 15 à 20 minutes, à l'atelier, aux heures calmes (7 h 30 - 9 h ou 12 h
 
 ## Ouverture (30 secondes)
 
-> « Bonjour, je suis [prénom], étudiant en master marketing. Avec cinq camarades, on étudie comment les garages et les carrosseries du coin recrutent, parce qu'on lit partout que c'est devenu très dur. On ne vend rien aujourd'hui : on veut comprendre comment ça se passe vraiment chez vous. Vous auriez un quart d'heure ? »
+> « Bonjour, je suis [prénom], étudiant. Avec cinq camarades, on étudie comment les garages et les carrosseries du coin recrutent, parce qu'on lit partout que c'est devenu très dur. On ne vend rien aujourd'hui : on veut comprendre comment ça se passe vraiment chez vous. Vous auriez un quart d'heure ? »
 
 ## Les 10 questions
 

@@ -56,11 +56,11 @@ Règle : on se présente comme ce qu'on est (des étudiants qui étudient le suj
 
 ### A. Au téléphone, à un patron (20 secondes)
 
-> « Bonjour, je suis [prénom], étudiant en master marketing. Avec cinq camarades, on étudie comment les garages et carrosseries de Seine-et-Marne recrutent : on lit partout que trouver un carrossier ou un mécanicien est devenu très dur, et on veut comprendre comment ça se passe vraiment. Est-ce que je peux passer un quart d'heure à l'atelier mardi ou jeudi, vers 8 h ou à midi ? Je ne viens rien vendre, je viens écouter. »
+> « Bonjour, je suis [prénom], étudiant. Avec cinq camarades, on étudie comment les garages et carrosseries de Seine-et-Marne recrutent : on lit partout que trouver un carrossier ou un mécanicien est devenu très dur, et on veut comprendre comment ça se passe vraiment. Est-ce que je peux passer un quart d'heure à l'atelier mardi ou jeudi, vers 8 h ou à midi ? Je ne viens rien vendre, je viens écouter. »
 
 ### B. Par SMS ou message (après un appel manqué ou avant une visite)
 
-> « Bonjour, [prénom], étudiant en marketing. Nous étudions comment les carrosseries du 77 recrutent (on a vu votre annonce de [poste]). Pourriez-vous m'accorder 15 min à l'atelier cette semaine, quand ça vous arrange ? Merci, [prénom], [téléphone] »
+> « Bonjour, [prénom], étudiant. Nous étudions comment les carrosseries du 77 recrutent (on a vu votre annonce de [poste]). Pourriez-vous m'accorder 15 min à l'atelier cette semaine, quand ça vous arrange ? Merci, [prénom], [téléphone] »
 
 ### C. Par e-mail ou LinkedIn, à un prescripteur
 
@@ -68,7 +68,7 @@ Règle : on se présente comme ce qu'on est (des étudiants qui étudient le suj
 >
 > Bonjour [Madame / Monsieur],
 >
-> Nous sommes six étudiants en master marketing et nous préparons un service pour aider les carrosseries et garages indépendants de Seine-et-Marne à recruter (l'enquête BMO 2026 classe 78 % des recrutements de carrossiers comme difficiles). Avant d'aller plus loin, nous voulons comprendre le terrain auprès de ceux qui le connaissent le mieux, et votre rôle à [organisation] en fait partie.
+> Nous sommes six associés et nous préparons un service pour aider les carrosseries et garages indépendants de Seine-et-Marne à recruter (l'enquête BMO 2026 classe 78 % des recrutements de carrossiers comme difficiles). Avant d'aller plus loin, nous voulons comprendre le terrain auprès de ceux qui le connaissent le mieux, et votre rôle à [organisation] en fait partie.
 >
 > Accepteriez-vous un échange de 20 minutes, au téléphone ou dans vos locaux, dans les deux prochaines semaines ? Nous ne vous demandons aucun engagement, seulement votre regard sur la façon dont les garages recrutent aujourd'hui.
 >
@@ -77,4 +77,4 @@ Règle : on se présente comme ce qu'on est (des étudiants qui étudient le suj
 
 ### D. À un candidat (mécanicien, carrossier, apprenti)
 
-> « Salut, je suis étudiant en marketing et je fais une étude sur la façon dont les mécaniciens et carrossiers trouvent leur boulot. Tu aurais 10 minutes pour me raconter comment tu as trouvé ton poste actuel ? Je t'offre le café. »
+> « Salut, je suis étudiant et je fais une étude sur la façon dont les mécaniciens et carrossiers trouvent leur boulot. Tu aurais 10 minutes pour me raconter comment tu as trouvé ton poste actuel ? Je t'offre le café. »

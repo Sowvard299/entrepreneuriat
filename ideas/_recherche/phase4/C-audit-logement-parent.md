@@ -78,7 +78,7 @@ Ce qui suit résume des sources publiques ; ce n'est pas un avis juridique. Les 
 
 **6. Crédit d'impôt.** Maven bénéficiait d'un agrément services à la personne qui donnait 50 % de crédit d'impôt (https://www.paris.fr/pages/maven-le-vide-maison-honnete-humain-et-ecolo-7219, 2019) et une organisatrice d'intérieur affiche 35 €/h, soit 17,50 € après crédit (https://www.aladom.fr/annuaire/pro/411696/). Piste de prix forte pour le tri à domicile **du vivant du parent** ; non applicable après un décès, puisque le service n'est plus rendu au domicile d'une personne vivante [HYPOTHÈSE à vérifier auprès de la DGE / des impôts].
 
-**7. Faisabilité pour l'équipe (6 profils marketing, moins de 5 000 €).** Faisable sans camion ni entrepôt si l'équipe reste coordinatrice : visite, inventaire photo, page partagée avec la fratrie, appels d'offres à 2 ou 3 débarrasseurs et à un commissaire-priseur, suivi jusqu'aux clés. Les points durs sont juridiques (accord écrit de tous les héritiers, registre si l'on revend soi-même) et la présence physique répétée dans une seule ville.
+**7. Faisabilité (moins de 5 000 €).** Faisable sans camion ni entrepôt si l'équipe reste coordinatrice : visite, inventaire photo, page partagée avec la fratrie, appels d'offres à 2 ou 3 débarrasseurs et à un commissaire-priseur, suivi jusqu'aux clés. Les points durs sont juridiques (accord écrit de tous les héritiers, registre si l'on revend soi-même) et la présence physique répétée dans une seule ville.
 
 ## Contradictions
 

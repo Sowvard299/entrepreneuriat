@@ -35,10 +35,10 @@
 | Revenu par heure, vente comprise, client gardé 12 mois | ~27 à 35 €/h | (12 × 79 + 149) ÷ (3 + 12 × 2 + 10) et ÷ (3 + 12 × 1,5 + 10) |
 | Seuil d'arrêt | moins de 20 €/h ou client moyen gardé moins de 6 mois | — |
 
-## Scores après audit
+## Scores après audit (grille sans critère d'équipe)
 
 | Idée | Avant | Après | Corrections |
 |------|-------|-------|-------------|
-| I1. Artisans du bâtiment | 8,05 | **7,75** | F 7→6 : les plaintes sur Solocal viennent surtout d'une source concurrente, et Simplébo n'a aucune plainte trouvée. V 8→7 : les artisans se méfient des « vendeurs de visibilité » (anxiété forte) |
-| I2. Restaurants | 7,60 | **7,15** | F 6→4 et M 9→8 : Malou, 10 M€ levés, plus de 2 000 restaurants, avec expert dédié |
-| I3. Sortir de PagesJaunes | 7,45 | **7,30** | F 8→7 (même raison qu'I1). Reste un **canal d'acquisition** pour I1 plutôt qu'une entreprise à part entière |
+| I1. Artisans du bâtiment | 7,8 | **7,5** | F 7→6 : les plaintes sur Solocal viennent surtout d'une source concurrente, et Simplébo n'a aucune plainte trouvée. V 8→7 : les artisans se méfient des « vendeurs de visibilité » |
+| I3. Sortir de PagesJaunes | 7,5 | **7,3** | F 8→7 (même raison) ; reste un canal d'acquisition pour I1 plutôt qu'une entreprise à part entière |
+| I2. Restaurants | 7,2 | **6,8** | F 6→4 : Malou, 10 M€ levés, plus de 2 000 restaurants, avec expert dédié |

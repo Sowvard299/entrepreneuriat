@@ -22,8 +22,8 @@
 ## Économie unitaire
 - Commission fournisseur par MWh : **non trouvée** dans les sources publiques. Impossible de calculer un revenu par heure fiable. [HYPOTHÈSE] : une boulangerie à 60 MWh/an rapporterait quelques centaines d'euros par contrat signé.
 
-## Score après audit
+## Score après audit (grille sans critère d'équipe)
 
 | Avant | Après | Corrections |
 |-------|-------|-------------|
-| 6,90 | **6,30** | F 7→5 : concurrents bien notés et installés ; M 7→6 ; V 7→5 : les contrats des TPE ne se renégocient qu'à l'échéance. Risque juridique (conflit EDF) et réglementaire (angle repris par la loi) non chiffrés dans la grille |
+| 7,0 | **6,5** | F 7→5 : concurrents bien notés et installés ; V 6→5 : les contrats des TPE ne se renégocient qu'à l'échéance. Risque juridique (conflit EDF) et réglementaire (angle repris par la loi) non chiffrés dans la grille |

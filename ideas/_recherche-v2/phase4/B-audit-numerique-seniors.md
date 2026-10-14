@@ -30,8 +30,8 @@
 | Seuil d'arrêt | moins de 25 €/h travaillée | — |
 - **Point faible** : le trajet. L'économie ne tient que si les clients sont regroupés dans quelques communes.
 
-## Score après audit
+## Score après audit (grille sans critère d'équipe)
 
 | Avant | Après | Corrections |
 |-------|-------|-------------|
-| 7,15 | **7,00** | V 7→6 : deux personnes doivent dire oui (l'enfant qui paie, le parent qui ouvre sa porte). Le recul des conseillers numériques gratuits est un bon signal de timing, mais il n'entre pas dans la grille |
+| 7,0 | **6,9** | V 7→6 : deux personnes doivent dire oui (l'enfant qui paie, le parent qui ouvre sa porte). Le recul des conseillers numériques gratuits est un bon signal de timing, mais il n'entre pas dans la grille. Les trajets écrasent le revenu horaire tant que les clients ne sont pas regroupés |

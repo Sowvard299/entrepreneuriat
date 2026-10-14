@@ -12,7 +12,7 @@
 | Gravité du problème | 8 | 72 % (mécaniciens) et 78 % (carrossiers) de recrutements difficiles en 2026 ; 21 000 recrutements non aboutis en 2022 ; garages qui paient déjà cabinets et renfort [Data] |
 | Taille du marché | 4 | SAM national de 8 à 14 M€ par an ; SOM à 3 ans d'environ 266 k€ ; volume en baisse de 10 à 15 % sur un an. Assez pour une entreprise de services rentable, trop peu pour une start-up à fort potentiel [Estimate] |
 | Concurrence | 6 | Aucun concurrent direct visible, mais alternatives gratuites fortes et modèle facile à copier |
-| Adéquation de l'équipe | 7 | Le livrable est du marketing (vidéo, publicité, appels) ; pas de connaissance du secteur ni de réseau automobile |
+| Adéquation de l'équipe | non notée | Critère retiré : les compétences sont recrutées |
 | Viabilité du modèle | 5 | 52 € de l'heure dans l'hypothèse de base ; casse sous 30 € de l'heure si le taux d'embauche tombe à 20 % et qu'une campagne dépasse 25 h [Estimate] |
 | Timing | 5 | Tension durable mais pas d'échéance ; projets de recrutement en baisse en 2026 |
 | Faisabilité d'exécution | 7 | Décideur unique, joignable vite, MVP sans code pour moins de 500 € ; limites : disponibilité de l'équipe en semaine, présélection technique à apprendre |

@@ -27,7 +27,7 @@ Forme retenue après l'audit et le conseil (voir [../../_recherche/phase4/consei
 
 ## L'équipe et ses contraintes
 
-- 6 étudiants en master marketing (vente, contenu, acquisition, études de marché), aucun développeur, no-code possible.
+- 6 associés ; les compétences manquantes seront recrutées.
 - Temps partiel jusqu'à l'été 2027 (environ 8 h par personne et par semaine [HYPOTHÈSE H7]), temps plein possible ensuite.
 - Budget inférieur à 5 000 € au total ; objectif : rentable vite, autofinancé.
 - Un membre est product manager en alternance chez EDF (offres d'électricité aux TPE/PME) : connaît la vente aux TPE, pas le secteur automobile.

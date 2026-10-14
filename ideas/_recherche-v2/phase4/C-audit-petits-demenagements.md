@@ -29,9 +29,9 @@
 | Porteurs seuls (I5) | 35 €/h/porteur, minimum 2 h | 0 € | 3 h par porteur (dont 1 h de trajet) | **~23 €/h** |
 - Seuil d'arrêt : moins de 22 €/h, ou moins de 15 missions par mois hors été.
 
-## Scores après audit
+## Scores après audit (grille sans critère d'équipe)
 
 | Idée | Avant | Après | Corrections |
 |------|-------|-------|-------------|
-| I4 | 7,05 | **6,80** | V 7→6 et T 6→5 : il faut la capacité de transport et un véhicule avant le premier client ; achat ponctuel et saisonnier |
-| I5 | 6,80 | **6,80** | Inchangé : test très rapide, mais panier faible |
+| I4 | 7,3 | **7,1** | V 7→6 et T 6→5 : il faut la capacité de transport et un véhicule avant le premier client ; achat ponctuel et saisonnier |
+| I5 | 6,7 | **6,7** | Inchangé : test très rapide, mais panier faible |

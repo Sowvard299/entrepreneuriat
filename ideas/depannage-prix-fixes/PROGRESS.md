@@ -1,17 +1,17 @@
-# Suivi : fiche-google-artisans
+# Suivi : depannage-prix-fixes
 
-Mode : **startup-design, Fast Track** (validation rapide). Peut être étendu en mode complet si l'idée passe le test terrain.
+Mode : **startup-design, Fast Track**. À étendre en mode complet si l'idée passe le test terrain.
 
 | Phase | Statut | Fichier |
 |-------|--------|---------|
 | 0.5 Pré-vol | fait | [01-fast-track.md](01-fast-track.md) |
-| 1 Intake | sauté (repris du prompt de recherche et de CLAUDE.md) | [../_recherche-v2/hypotheses.md](../_recherche-v2/hypotheses.md) |
+| 1 Intake | sauté (repris de CLAUDE.md et des hypothèses) | [../_recherche-v2/hypotheses.md](../_recherche-v2/hypotheses.md) |
 | 2 Variations (3) | fait | [01-fast-track.md](01-fast-track.md) |
-| 3 Recherche marché + concurrents | fait | [../_recherche-v2/phase4/A-audit-visibilite-tpe.md](../_recherche-v2/phase4/A-audit-visibilite-tpe.md), [02-market-sizing.md](02-market-sizing.md) |
+| 3 Recherche marché + concurrents | fait | [../_recherche-v2/phase4/F-audit-depannage.md](../_recherche-v2/phase4/F-audit-depannage.md), [02-market-sizing.md](02-market-sizing.md) |
 | 3.5 Porte de recherche | GO conditionnel | [01-fast-track.md](01-fast-track.md) |
 | 3.7 Découverte client | **à faire sur le terrain** (0 entretien à ce jour) | [terrain/](terrain/) |
 | 4 Stratégie (Lean Canvas) | fait | [05-lean-canvas.md](05-lean-canvas.md) |
-| 5 Marque, 6 Produit | sautés (Fast Track, hors périmètre) | — |
+| 5 Marque, 6 Produit | sautés (Fast Track) | — |
 | 7 Modèle de revenus (hypothèses) | fait | [06-economie-unitaire.md](06-economie-unitaire.md) |
 | 8 Validation (scorecard + 3 expériences) | fait | [01-fast-track.md](01-fast-track.md), [terrain/experiences-validation.md](terrain/experiences-validation.md) |
 

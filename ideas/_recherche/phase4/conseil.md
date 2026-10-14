@@ -2,7 +2,7 @@
 
 Date : 2026-10-12. Méthode : 5 conseillers indépendants (le Contradicteur, le Penseur des premiers principes, l'Expansionniste, le Regard extérieur, l'Exécutant), relecture croisée anonyme par 5 relecteurs, puis synthèse par un président.
 
-**Question posée** : « Laquelle de ces idées une équipe de 6 étudiants en marketing a-t-elle le plus de chances de transformer en premiers clients payants en 3 mois ? »
+**Question posée** : « Laquelle de ces idées a le plus de chances d'obtenir des premiers clients payants en 3 mois ? »
 
 Idées soumises (formes resserrées après audit, voir [tournoi.md](tournoi.md)) :
 1. Chef de projet pour une fratrie qui doit vider le logement d'un parent (score après audit 7,30).
@@ -16,7 +16,7 @@ Idées soumises (formes resserrées après audit, voir [tournoi.md](tournoi.md))
 | Contradicteur | 2, 1, 3 | Le 7,30 de l'idée 1 est un piège : canal fermé (démarchage interdit, notaires méfiants), urgences physiques en semaine incompatibles avec 8 h par semaine, marge de coordination de 50 à 120 % sur un débarras à 800 €. L'idée 3 meurt sur le calendrier des assemblées. L'idée 2 a un défaut grave (pas de candidats = pas de paiement) mais c'est le seul qu'on teste vite et presque sans frais. |
 | Premiers principes | 2, 1, 3 | « Quelle est la meilleure idée ? » est la mauvaise question. Un premier paiement dépend du nombre de personnes qui doivent dire oui et de la fréquence de l'occasion. Idée 2 : un seul décideur, une douleur permanente, 4 cycles de test possibles d'ici mi-janvier. Critère d'arrêt : 3 garages payants et 1 embauche à mi-janvier. |
 | Expansionniste | 2, 1, 3 | Le potentiel de l'idée 2 s'accumule (autres métiers, abonnement, publicité pour les clients du garage). L'idée 1 a le plafond le plus haut (moment-clé de la vente d'une maison) mais démarre lentement. L'idée 3 est bloquée par les assemblées. |
-| Regard extérieur | 2, 1, 3 | Le patron de garage comprend l'offre en dix secondes, et le profil « étudiants en marketing qui font des vidéos » rassure au lieu d'inquiéter. Pour l'idée 1, la confiance est le produit, et l'équipe ne l'a pas. « Plan pluriannuel de travaux » est du jargon pour le client de l'idée 3. Points flous de l'idée 2 : moment exact de la prime, compétence de présélection, et « TikTok » à ne pas mettre en avant. |
+| Regard extérieur | 2, 1, 3 | Le patron de garage comprend l'offre en dix secondes. Pour l'idée 1, la confiance est le produit. « Plan pluriannuel de travaux » est du jargon pour le client de l'idée 3. Points flous de l'idée 2 : moment exact de la prime, compétence de présélection, et « TikTok » à ne pas mettre en avant. |
 | Exécutant | 2, 1, 3 | Lundi matin : fichier SIRENE des garages d'un département, appels entre 7 h 30 et 9 h et entre 12 h et 14 h, 3 pilotes signables avant Noël. L'idée 1 est faisable après le diplôme, pas d'ici janvier. L'idée 3 : premier euro probable en mai 2027. |
 
 ## Relecture croisée (5 relecteurs)

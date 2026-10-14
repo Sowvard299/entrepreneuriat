@@ -7,7 +7,7 @@ Chaque hypothèse peut être corrigée ; les livrables qui en dépendent sont si
 
 | # | Hypothèse | Source |
 |---|-----------|--------|
-| H1 | Équipe : 6 profils marketing (vente, contenu, acquisition, études de marché), aucun développeur, no-code possible | brief |
+| H1 | Équipe : 6 associés ; les compétences manquantes seront recrutées (mise à jour du 14/10/2026) | brief |
 | H2 | Temps : temps partiel en 2026-2027, temps plein possible après le diplôme (été 2027) | brief |
 | H3 | Budget de départ : moins de 5 000 € au total | brief |
 | H4 | Premier marché : France | brief |

@@ -84,7 +84,7 @@ Lecture : les artisans paient bien quelqu'un pour l'administratif, mais surtout 
 
 **Angle d'attaque : peu crédible tel quel.** L'offre « 8 h/mois à 290 € » se place entre des logiciels quasi gratuits et des freelances abondantes, sans compétence métier dans l'équipe ni marge suffisante. Deux angles seraient plus défendables, à tester avant de garder l'idée :
 - un service spécialisé, payé plus cher à l'heure, sur des dossiers complexes du BTP : dossiers RGE, MaPrimeRénov' et CEE, situations de travaux, attestations décennales pour les marchés ;
-- ou une marque qui apporte des clients à des assistantes indépendantes existantes (rôle marketing de l'équipe), sachant que Plateya, Administralib et l'annuaire Obat occupent déjà ce terrain.
+- ou une marque qui apporte des clients à des assistantes indépendantes existantes sachant que Plateya, Administralib et l'annuaire Obat occupent déjà ce terrain.
 
 **3 risques principaux**
 1. Banalisation et prix : des logiciels font les relances et la facture électronique pour 0 à 25 €/mois, et des freelances proposent la même prestation demain, sans barrière.

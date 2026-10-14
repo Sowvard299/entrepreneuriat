@@ -26,8 +26,8 @@
 | Heures-personne | 2 à 3 personnes × 1 à 2 jours | [HYPOTHÈSE] |
 | Revenu par heure | 25 à 45 €/h selon le volume revendable | [HYPOTHÈSE] |
 
-## Score après audit
+## Score après audit (grille sans critère d'équipe)
 
 | Avant | Après | Corrections |
 |-------|-------|-------------|
-| 6,70 | **6,30** | F 4→3 : une marque de débarras se construit déjà en Île-de-France (Les Débarrasseurs de l'Extrême, Paris-Nord). M 8→7. T 6→5 : il faut utilitaire, déclaration de transport de déchets et capacité avant le premier client |
+| 6,4 | **6,1** | F 4→3 : une marque de débarras se construit déjà en Île-de-France (Les Débarrasseurs de l'Extrême, Paris-Nord). T 6→5 : il faut utilitaire, déclaration de transport de déchets et capacité avant le premier client |

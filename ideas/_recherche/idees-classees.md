@@ -2,7 +2,7 @@
 
 Date : 2026-10-12. Entrée : les 10 problèmes les mieux prouvés de [problemes.md](problemes.md).
 Méthode : skill `ai-startup-opportunity-generator` (travail réel → douleur → qui paie → solution → concurrents → échecs passés → MVP), sans se limiter à l'IA ni au logiciel, étape 9 (stack Laravel) ignorée.
-Contraintes de l'équipe (voir [hypotheses.md](hypotheses.md)) : 6 profils marketing, pas de développeur, moins de 5 000 €, temps partiel, France.
+Contraintes de l'époque (voir [hypotheses.md](hypotheses.md)) : moins de 5 000 €, temps partiel, France. (Le critère lié au profil de l'équipe a été retiré des notes le 14/10/2026 : l'équipe recrutera les compétences nécessaires.)
 
 24 idées générées : 17 passent les filtres, 7 sont éliminées (dont une, R, éliminée après vérification juridique alors qu'elle était notée 7,35).
 
@@ -12,7 +12,7 @@ Contraintes de l'équipe (voir [hypotheses.md](hypotheses.md)) : 6 profils marke
 |---------|-------|-----------------------|
 | Douleur prouvée par le web | 25 % | reprend le score de preuve du problème (17/18 → 9 ; 16 → 8,5 ; 15 → 8 ; 14 → 7,5), moins 0,5 à 1 si l'idée ne traite qu'une partie moins prouvée |
 | Argent déjà dépensé sur le problème | 20 % | 9-10 : ce service précis est déjà payé en France à prix public ; 7-8 : un service voisin est payé en France ; 5-6 : payé à l'étranger ou indirect ; 4 ou moins : pas de preuve |
-| Avantage d'une équipe marketing | 15 % | 9-10 : le cœur du métier est l'acquisition, le contenu ou la vente ; 5-6 : le marketing sert à vendre, mais la production demande une autre compétence ; 4 ou moins : métier d'expert |
+| Critère retiré (adéquation avec l'équipe) | 15 % | Utilisé pour les scores de cette première itération ; ne plus en tenir compte |
 | Testable en moins de 4 semaines, moins de 500 €, sans coder | 15 % | 9-10 : vendable cette semaine avec un formulaire et un téléphone ; 7-8 : MVP « concierge » (service rendu à la main) faisable en 4 semaines ; 5-6 : demande des partenaires ou un montage juridique ; 4 ou moins : saisonnier ou lourd |
 | Concurrence battable ou angle différenciant | 10 % | 9-10 : aucun acteur structuré ; 7-8 : acteurs locaux éparpillés ; 5-6 : acteurs installés mais angle net ; 4 ou moins : leaders financés ou offre gratuite |
 | Timing (pourquoi maintenant) | 10 % | 9-10 : obligation datée à moins de 12 mois ou tendance démographique forte ; 5-6 : pas de déclencheur net |
@@ -139,7 +139,7 @@ Format court (skill `ai-startup-opportunity-generator`, mode « idéation ») : 
 
 ### J. Recrutement d'apprentis pour artisans par TikTok et Instagram (6,85)
 
-- 290 € par contrat d'apprentissage signé, payé par l'artisan ou par le centre de formation. Avantage marketing fort (l'équipe parle la langue des 16-25 ans), mais concurrence gratuite (La Bonne Alternance, 1jeune1solution) et pas de preuve que les centres paient pour ça.
+- 290 € par contrat d'apprentissage signé, payé par l'artisan ou par le centre de formation. Concurrence gratuite (La Bonne Alternance, 1jeune1solution) et pas de preuve que les centres paient pour ça.
 
 ### K. Ateliers « facture électronique » financés, avec un organisme de formation partenaire (6,58)
 
@@ -147,7 +147,7 @@ Format court (skill `ai-startup-opportunity-generator`, mode « idéation ») : 
 
 ### L. Réseau de facturières pour infirmiers libéraux (6,38)
 
-- Argent déjà dépensé (200 à 300 €/mois, PS-12), mais métier d'expert (nomenclature des actes, rejets) et peu d'avantage marketing.
+- Argent déjà dépensé (200 à 300 €/mois, PS-12), mais métier d'expert (nomenclature des actes, rejets).
 
 ### M. Démarches après décès en marque blanche pour mutuelles et employeurs (6,30)
 
@@ -174,5 +174,4 @@ Format court (skill `ai-startup-opportunity-generator`, mode « idéation ») : 
 - **Meilleure idée au score** : A, guichet du plan de travaux des petites copropriétés (8,10).
 - **La plus rapide à tester** : D, mise en conformité facture électronique (vendable dès cette semaine).
 - **Plus gros potentiel de revenu** : B, recrutement (argent déjà dépensé en cabinets et en intérim, besoin récurrent).
-- **La plus adaptée à une équipe marketing** : B (l'acquisition est le produit), puis F.
 - **À tester en premier si l'on devait choisir sans phase 4** : A ou C, qui combinent une douleur prouvée, une concurrence éparpillée et un MVP « concierge » sans code.

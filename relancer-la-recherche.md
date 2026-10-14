@@ -15,7 +15,7 @@ C'est le plus gros manque de la première itération : Claude a dû deviner votr
 | Ligne | Exemple de ce qu'il faut écrire |
 |-------|---------------------------------|
 | Geography / language of first market | « Lyon et le Rhône (69) ; on peut se déplacer dans un rayon de 50 km » |
-| Team | une ligne par personne : « Léa : vente B2B, alternance chez X » ; « Tom : vidéo et réseaux sociaux » ; etc. |
+| Team | inutile pour noter les idées : les compétences manquantes seront recrutées |
 | People I can easily reach | « parents artisans (2), oncle garagiste, 3 contacts en restauration, réseau de l'école » |
 | Budget / runway | « 3 000 € au total, pas de salaire avant juin 2027 » |
 | Ambition | « entreprise de services rentable vite, pas de levée de fonds au départ » |
@@ -79,7 +79,7 @@ Le prompt demande à Claude de créer une branche, de commiter et de pousser à 
 
 ```text
 # Mission
-Trouve-nous UNE entreprise à lancer en reprenant un modèle qui existe déjà et qui se vend, et en le faisant mieux (meilleur service, meilleur marketing, cible négligée, meilleur prix ou zone mal servie). L'innovation n'est pas requise : la preuve que des clients paient déjà passe avant l'originalité. Nous sommes 6 étudiants en master marketing. Tous secteurs confondus.
+Trouve-nous UNE entreprise à lancer en reprenant un modèle qui existe déjà et qui se vend, et en le faisant mieux (meilleur service, meilleur marketing, cible négligée, meilleur prix ou zone mal servie). L'innovation n'est pas requise : la preuve que des clients paient déjà passe avant l'originalité. Nous sommes 6 associés et nous embaucherons les compétences nécessaires : les compétences de l'équipe ne sont pas un critère. Tous secteurs confondus.
 
 Tu travailles en autonomie complète : ne nous pose AUCUNE question avant le livrable final. Si une info manque, prends une hypothèse raisonnable, note-la dans ideas/_recherche-v2/hypotheses.md et continue.
 
@@ -88,7 +88,7 @@ Contexte : lis d'abord CLAUDE.md (profil de l'équipe, localisation, réseau, bu
 [OPTION B] Lis d'abord ideas/_recherche/ (première itération). Réutilise ses signaux et ses données publiques, ne refais pas ce qui y est déjà prouvé, et concentre la collecte sur la nouvelle approche « existant à améliorer ». L'idée finale peut être différente de la première itération.
 
 Hypothèses par défaut :
-- équipe : 6 profils marketing (vente, contenu, acquisition, études de marché), aucun développeur, no-code possible ;
+- équipe : 6 associés ; toute compétence manquante sera recrutée, donc aucune idée n'est filtrée ni notée selon le profil de l'équipe ;
 - temps : temps partiel cette année, temps plein possible après le diplôme ;
 - budget de départ : moins de 5 000 € au total ;
 - premier marché : la ville ou le département de l'équipe indiqué dans CLAUDE.md, sinon la France ;
@@ -133,25 +133,24 @@ Pour les 10 modèles les mieux prouvés, suis la méthode du skill ai-startup-op
 
 Filtres éliminatoires (une ligne d'explication par idée éliminée, élimination définitive) :
 - plus de 20 000 € nécessaires avant le premier euro de chiffre d'affaires (droit d'entrée de franchise compris) ;
-- diplôme, agrément ou licence obligatoire qu'on n'a pas ;
+- diplôme, agrément ou licence obligatoire qu'on ne peut pas obtenir, même en recrutant (ex. capital réservé à une profession réglementée) ;
 - impossible à tester sans développement lourd ;
 - leader déjà bien financé, sans angle d'attaque crédible ;
 - impossible de joindre 10 clients potentiels en une semaine ;
 - premier euro impossible en moins de 3 mois (décision collective, assemblée générale, saisonnalité, démarchage interdit).
 
 Grille de score sur 10, pondérée :
-- argent déjà dépensé sur ce modèle : 25 % ;
-- faiblesse prouvée des acteurs en place (avis clients, prix, délais) : 15 % ;
-- douleur prouvée par le web : 15 % ;
-- avantage d'une équipe marketing (acquisition, contenu, vente) : 15 % ;
-- vitesse jusqu'au premier client payant (nombre de personnes qui doivent dire oui × fréquence de l'occasion d'acheter) : 15 % ;
-- testable en moins de 4 semaines, pour moins de 500 €, sans coder : 10 % ;
-- taille du marché : 5 %.
+- argent déjà dépensé sur ce modèle : 30 % ;
+- faiblesse prouvée des acteurs en place (avis clients, prix, délais) : 20 % ;
+- douleur prouvée par le web : 20 % ;
+- vitesse jusqu'au premier client payant (nombre de personnes qui doivent dire oui × fréquence de l'occasion d'acheter) : 10 % ;
+- testable en moins de 4 semaines, pour moins de 500 € : 10 % ;
+- taille du marché : 10 %.
 Livrable : ideas/_recherche-v2/idees-classees.md (tableau trié, plus la liste des idées éliminées avec leur motif).
 
 ## Phase 4 : tournoi
 - Pour les 8 meilleures idées : audit concurrentiel réel (noms, prix publics, levées de fonds, avis clients, faiblesses citées par leurs propres clients), prédécesseurs qui ont échoué, cadre juridique. Recalcule les scores après audit et explique chaque correction.
-- Pour les 3 meilleures après audit : lance llm-council avec cette question : « Laquelle de ces idées une équipe de 6 étudiants en marketing a-t-elle le plus de chances de transformer en premiers clients payants en 3 mois ? » Demande aux relecteurs de vérifier l'économie unitaire de chaque idée (revenu par heure de travail).
+- Pour les 3 meilleures après audit : lance llm-council avec cette question : « Laquelle de ces idées a le plus de chances de devenir une entreprise rentable, sachant que toutes les compétences nécessaires peuvent être recrutées ? » Demande aux relecteurs de vérifier l'économie unitaire de chaque idée (revenu par heure de travail).
 - Choisis UNE gagnante et explique pourquoi les deux autres perdent.
 
 ## Phase 5 : valider la gagnante sur le papier
