@@ -42,15 +42,17 @@ installation. L'API `recherche-entreprises.api.gouv.fr` est sans clé et appelé
 
 ## Recherches d'idées
 
-- Première itération (octobre 2026) : recherche dans `ideas/_recherche/`, idée retenue dans `ideas/recrutement-garages/`.
-- Deuxième itération (v2, octobre 2026) : `ideas/_recherche-v2/`, arrêtée en phase 4, idées jugées non
-  viables. Leçons dans `ideas/_recherche-v2/BILAN.md`.
+- Première itération (octobre 2026) : recherche dans `ideas/_archives/_recherche/`, idée retenue dans `ideas/_archives/recrutement-garages/`.
+- Deuxième itération (v2, octobre 2026) : `ideas/_archives/_recherche-v2/`, arrêtée en phase 4, idées jugées non
+  viables. Leçons dans `ideas/_archives/_recherche-v2/BILAN.md`.
 - Version 3 (marché → segment → angle) : suivre `relancer-la-recherche-v3.md` (guide pas à pas et prompt à
-  coller, en français). Elle écrit dans `ideas/_recherche-v3/`.
+  coller, en français). Elle écrit dans `ideas/_archives/_recherche-v3/`.
 - **Seul guide actif : `relancer-la-recherche-v4.md`.** Les autres guides et audits sont de l'historique.
 - **Version 4, en cours (portes : accès → argent visible → engagement client → taille → pilote)** : suivre
   `relancer-la-recherche-v4.md`. Elle reprend les segments de la v3 et écrit dans `ideas/_recherche-v4/`.
-  Pourquoi ce changement : `ideas/_recherche-v3/audit-systeme-v3.md`.
+  Pourquoi ce changement : `methode/audit-systeme-v3.md`.
+- Remise à zéro des idées (2026-10-14) : méthode v4 gardée, recherches précédentes rangées dans
+  `ideas/_archives/`, méthode dans `methode/`. État et prompt de reprise : `ideas/_recherche-v4/etat.md`.
 - Ancienne méthode : `relancer-la-recherche.md` (v2), à garder pour comparer.
 
 Les sources, commits et licences des skills tiers sont dans `.claude/skills/SOURCES.md`.

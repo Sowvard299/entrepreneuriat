@@ -50,7 +50,7 @@ On ne cherche pas à innover. On cherche un modèle qui existe déjà et se vend
 un marché qui grossit, sur un segment précis, et un moyen de le faire mieux
 (service, délai, prix, cible négligée, marketing, zone mal servie).
 
-Leçon de la v2 (octobre 2026, `ideas/_recherche-v2/BILAN.md`) : partir des avis négatifs a produit
+Leçon de la v2 (octobre 2026, `ideas/_archives/_recherche-v2/BILAN.md`) : partir des avis négatifs a produit
 des « agences locales de plus » (ménage, dépannage, garde d'enfants, marketing pour artisans), jugées
 non viables : marges fines, métier d'employeur, aucun avantage défendable, plafond bas. Une idée de ce
 type doit démontrer pourquoi elle dépasse le seuil de SOM et ce qui la rend difficile à copier ; sinon
@@ -64,7 +64,7 @@ marqué [HYPOTHÈSE].
 
 | Critère | Seuil par défaut | Effet |
 |---------|------------------|-------|
-| Taille du marché (SAM France) | ≥ 50 M€ / an | éliminatoire à la porte 3 seulement (modifié 2026-10-13 : la taille se mesure après un signal client, voir `ideas/_recherche-v3/audit-systeme-v3.md`) |
+| Taille du marché (SAM France) | ≥ 50 M€ / an | éliminatoire à la porte 3 seulement (modifié 2026-10-13 : la taille se mesure après un signal client, voir `methode/audit-systeme-v3.md`) |
 | Croissance | ≥ 8 % / an sur 3 ans, ou moteur structurel daté dont la dépense continue après l'échéance | souhaité ; éliminatoire pour la piste ambitieuse (modifié 2026-10-13 : 0 marché sur 38 la prouvait, aucune méthode de praticien ne l'exige) |
 | Concentration | 3 premiers acteurs < 40 % du marché | éliminatoire, sauf angle crédible |
 | Clients identifiables | ≥ 3 000 (B2B) ou ≥ 100 000 (B2C) | éliminatoire |
@@ -106,7 +106,7 @@ vérifié à la porte 3. Avant la porte 2, la ligne « Engagement client » vaut
 ## Workflow (v4, par portes : viable dès le début, puis confirmé)
 
 Une piste n'avance que si elle passe la porte. Guide pas à pas : `relancer-la-recherche-v4.md`.
-Pourquoi : audit `ideas/_recherche-v3/audit-systeme-v3.md` et veille `ideas/_recherche-v3/veille-systeme.md`.
+Pourquoi : audit `methode/audit-systeme-v3.md` et veille `methode/veille-systeme.md`.
 
 0. **Accès et engagement de l'équipe** : profil rempli ; 2 ou 3 porteurs nommés qui passeront à plein temps (date) ;
    **30 conversations dans le réseau (5 par personne)** sur les dépenses et tâches pénibles, résumées avec
@@ -118,7 +118,7 @@ Pourquoi : audit `ideas/_recherche-v3/audit-systeme-v3.md` et veille `ideas/_rec
    pour nommer la croyance la plus fragile et le test qui la lève. Sources d'idées, par ordre de préférence : les 30 conversations de la porte 0 ;
    la **voie distribution** (vendre en France le produit déjà prouvé d'un autre : agent commercial, distributeur,
    apporteur d'affaires, représentant d'un acteur étranger) ; la reprise d'une petite entreprise ;
-   `market-segment-scanner` (segments de la v3) ; `ai-startup-opportunity-generator`. À preuve égale, préférer
+   `market-segment-scanner` (nouveau passage, jamais les segments archivés) ; `ai-startup-opportunity-generator`. À preuve égale, préférer
    un cycle de vente court (particuliers, indépendants, TPE).
 2. **Engagement** (terrain, 1 semaine, < 100 €) : `interview-script` et `mom-test` pour 10 conversations,
    `summarize-interview` après chacune ; seuil d'engagement écrit avant d'appeler.
@@ -165,7 +165,7 @@ Règles (leçons de la v2, où la limite de session a coupé 4 auditeurs d'un co
   Au-delà de 85 % de la limite hebdomadaire : un seul agent à la fois, 12 recherches web au plus. À 95 % : plus
   d'agent, mettre à jour `etat.md` (section reprise + prompt à coller), commiter et pousser.
 - **Copier de l'existant avant d'écrire** : avant de créer un skill ou un agent, chercher un équivalent sous
-  licence libre (voir `ideas/_recherche-v3/veille-systeme.md`), le lire en entier, le noter dans
+  licence libre (voir `methode/veille-systeme.md`), le lire en entier, le noter dans
   `.claude/skills/SOURCES.md`. Jamais de contenu sous licence non commerciale.
 
 ## Règles de preuve
@@ -184,7 +184,8 @@ Règles (leçons de la v2, où la limite de session a coupé 4 auditeurs d'un co
 ## Dossiers
 
 - Recherche en cours (v4, par portes) : `ideas/_recherche-v4/` (etat.md, portes.md, porte1/, entretiens/).
-  Entrée réutilisée : `ideas/_recherche-v3/` (marches.md, segments.md, signaux/), plus l'audit et la veille.
+  **Remise à zéro le 2026-10-14** : aucune idée, aucun segment ni signal des recherches précédentes n'est
+  une entrée. Méthode (audit, veille) : `methode/`.
 - Une idée retenue : `ideas/<nom-de-l-idee>/`.
-- Les recherches précédentes (`_recherche/`, `_recherche-v2/`, `recrutement-garages/`) ne sont lues
-  qu'en option B.
+- Recherches précédentes (v1, v2, v3, recrutement-garages) : `ideas/_archives/`. On ne les lit que pour
+  vérifier qu'une piste nouvelle n'y a pas déjà été éliminée (Grep sur un mot-clé, jamais en lecture complète).

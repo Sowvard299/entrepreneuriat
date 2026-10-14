@@ -3,7 +3,7 @@
 La v3 cherchait sur le web une taille de marché que le web ne prouve presque jamais, et parlait aux clients à
 la fin. La v4 inverse l'ordre : **une piste n'avance que si elle passe une porte**, et la preuve la plus forte
 (un client qui s'engage) arrive en deuxième semaine, pas en quatrième session.
-Pourquoi : `ideas/_recherche-v3/audit-systeme-v3.md`. D'où viennent les pièces : `ideas/_recherche-v3/veille-systeme.md`
+Pourquoi : `methode/audit-systeme-v3.md`. D'où viennent les pièces : `methode/veille-systeme.md`
 et `.claude/skills/SOURCES.md`. Seuils : `CLAUDE.md`, section « Critères de viabilité ».
 
 ## Les portes
@@ -23,29 +23,16 @@ Décision à chaque porte : **passe / à revoir / élimine**, écrite dans `idea
 | Semaine | Les 6 (terrain) | Claude (synthèse, vérification) |
 |---------|-----------------|----------------------------------|
 | 1 | Porte 0 : profil rempli, 2-3 porteurs nommés, 30 conversations réseau (5 chacun) avec `interview-script` | résume chaque compte rendu, regroupe les douleurs et dépenses citées |
-| 2 | relit la short-list, nomme 20 clients joignables par piste | porte 1 sur 6 pistes au plus (conversations + voie distribution + segments v3), vérification |
+| 2 | relit la short-list, nomme 20 clients joignables par piste | porte 1 sur 6 pistes au plus (conversations + voie distribution + reprise), vérification |
 | 3 | porte 2 : 10 contacts par piste sur 3 pistes, engagement demandé à chaque fois | prépare scripts et seuils, résume les entretiens, tient `portes.md` |
 | 4 | — | porte 3 sur les pistes qui passent, `llm-council`, décision GO / PIVOT / STOP |
 
 Aucune nouvelle version du système avant 30 entretiens terrain (règle de `CLAUDE.md`).
 
-## Prompt à coller (reprend la v3)
+## Prompt à coller (remise à zéro du 2026-10-14)
 
-```text
-Lis CLAUDE.md (workflow v4 par portes, critères de viabilité) et relancer-la-recherche-v4.md.
-Entrée : les 12 segments du Top 12 de ideas/_recherche-v3/segments.md et les signaux déjà collectés dans
-ideas/_recherche-v3/signaux/ (P1 fini : facture électronique faible, panier 230-600 €/an).
-Porte 0 : si le profil d'équipe de CLAUDE.md est vide, demande-le-moi d'abord (équipe, porteurs à plein temps,
-contacts nommés), puis prépare le kit des 30 conversations réseau et attends les comptes rendus avant la porte 1.
-Ajoute en porte 1 la « voie distribution » décrite dans CLAUDE.md.
-Porte 1 : en vagues de 4 « chercheur » au plus (une paire de segments chacun, 12 recherches web au plus,
-fichiers dans ideas/_recherche-v4/porte1/ avec synthèse de 40 lignes), puis un « verificateur ». Pour chaque
-segment : 3 prix publics payés, concurrents et faiblesses, croyance la plus fragile (skill before-you-build),
-et 20 clients nommés joignables (où, comment). Élimine ce qui n'a pas 3 prix payés.
-Puis arrête-toi : pour les 3 meilleurs segments, prépare le kit de la porte 2 (script interview-script + mom-test,
-message d'approche, seuil d'engagement écrit, répartition des 10 contacts entre nous) et attends les comptes rendus.
-Tiens ideas/_recherche-v4/etat.md à jour. Commite et pousse sur la branche claude/recherche-idee-v1 après chaque vague.
-```
+Le prompt à jour est dans `ideas/_recherche-v4/etat.md`, section « Reprise ».
+Aucune idée, aucun segment ni signal des recherches précédentes (`ideas/_archives/`) n'est une entrée.
 
 ## Ce que l'équipe fait elle-même
 

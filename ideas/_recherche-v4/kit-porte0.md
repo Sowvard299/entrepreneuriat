@@ -42,7 +42,7 @@ Remplir `entretiens/_modele.md` (copie nommée `AAAA-MM-JJ-<métier>-<prénom-in
 Prompt : « Lis les comptes rendus de ideas/_recherche-v4/entretiens/, résume-les avec summarize-interview,
 regroupe douleurs et dépenses avec sentiment-analysis, puis classe les 6 pistes où (a) de l'argent est déjà
 payé, (b) au moins 3 personnes citent la même douleur, (c) l'équipe peut joindre 20 clients. Ajoute la voie
-distribution et les segments de la v3 comme pistes de comparaison. Écris ideas/_recherche-v4/pistes-porte0.md. »
+distribution, la reprise et `pistes-web.md` comme comparaison (jamais `ideas/_archives/`). Écris ideas/_recherche-v4/pistes-porte0.md. »
 
 ## Seuil de la porte 0 (écrit avant les appels)
 

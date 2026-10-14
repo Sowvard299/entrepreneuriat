@@ -15,7 +15,7 @@ Inverse l'entonnoir habituel (plainte → idée → marché) en
 
 Pourquoi : partir des plaintes clients visibles (avis Trustpilot, forums) conduit tout le monde
 aux mêmes idées génériques, et à des niches trop petites pour faire vivre une équipe. La v2 de ce
-dépôt l'a montré (`ideas/_recherche-v2/BILAN.md`). Un marché qui grossit fixe un plafond haut ; la
+dépôt l'a montré (`ideas/_archives/_recherche-v2/BILAN.md`). Un marché qui grossit fixe un plafond haut ; la
 segmentation apporte ensuite la précision et l'avantage.
 
 ## Avant de commencer
