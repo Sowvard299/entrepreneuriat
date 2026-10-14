@@ -22,3 +22,13 @@ Types : **€** argent déjà dépensé · **R** recherche active · **P** plain
 - **Débarras de marque** : le modèle étranger le mieux prouvé du lot (280 M$ de ventes, réseau fondé par deux étudiants), et la France n'a pas d'équivalent de marque. Point à vérifier : pourquoi personne ne l'a fait (coût de déchetterie, main-d'œuvre, revente des objets via Emmaüs et brocanteurs).
 - **Plombier de marque** : modèle prouvé à Londres, mais il repose sur des artisans salariés qualifiés, ce qui sort de nos compétences.
 - **Revente « on s'occupe de tout »** : le volume est là (Sellpy +35 %) mais le leader perd de l'argent : contre-signal sur l'économie unitaire.
+
+## Lot 2 (14/10/2026)
+
+| # | Modèle | Pays | Source | Date | Preuve de clients payants | Équivalent en France ? |
+|---|--------|------|--------|------|---------------------------|------------------------|
+| 3.12 | Main-d'œuvre de déménagement à l'heure, sans camion (HireAHelper) | États-Unis | [Dealroom, HireAHelper](https://app.dealroom.co/companies/hireahelper) | 2019 | Racheté par Porch Group en 2019 ; commission prélevée sur chaque mission | Annonces d'étudiants sur Aladom, aucune marque |
+| 3.13 | Idem | États-Unis | [HireAHelper, Boston](https://www.hireahelper.com/movers/waltham_ma/porchmovinggroup/) | 2026 | Main-d'œuvre seule : 495,80 $ en moyenne à Boston, contre 1 222,75 $ en service complet ; ~77 à 88 $/h | — |
+| 3.14 | Accompagnement au déménagement des seniors (senior move management) | États-Unis | [NASMM, press kit](https://NASMM.org/about-nasmm/pressroom/press-kit/) | 2026 | Plus de 1 000 entreprises membres de l'association professionnelle | Offres « déménagement senior » chez quelques déménageurs [HYPOTHÈSE non vérifiée] |
+| 3.15 | Idem | États-Unis | [Hartford Funds, downsizing](https://www.hartfordfunds.com/insights/investor-insight/navigating-longevity/8000-days-of-retirement/the-downsizing-dilemma-how-to-deal-with-a-lifetimes-worth-of-stuff.html) | non datée | 40 à 80 $/h, 1 500 à 5 000 $ par déménagement | — |
+| 3.16 | Idem | États-Unis | [BizQuest, entreprise à vendre](https://www.bizquest.com/business-for-sale/purchase-a-successful-senior-move-management-business/BW2533955/) | 2024 | Une entreprise locale : 428 148 $ de CA et 150 888 $ de trésorerie en 2024 | — |
