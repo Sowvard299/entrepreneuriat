@@ -189,3 +189,5 @@ Règles (leçons de la v2, où la limite de session a coupé 4 auditeurs d'un co
 - Une idée retenue : `ideas/<nom-de-l-idee>/`.
 - Recherches précédentes (v1, v2, v3, recrutement-garages) : `ideas/_archives/`. On ne les lit que pour
   vérifier qu'une piste nouvelle n'y a pas déjà été éliminée (Grep sur un mot-clé, jamais en lecture complète).
+- `memory/` : sorties des skills de MaxKmet (`idea-scoring`, `trend-analysis`...), pensés pour les applis B2C
+  américaines. Leurs barèmes ne remplacent ni les seuils ni la grille ci-dessus. Détails : `.claude/skills/SOURCES.md`.

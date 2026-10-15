@@ -21,6 +21,27 @@ en local ou dans une session cloud.
 | Clients | `mom-test` | Scripts d'entretien qui évitent les faux positifs | « Script Mom Test pour <segment> » |
 | MVP | `brainstorm-ideas-new` | Fonctionnalités d'un produit **déjà choisi** (PM / designer / ingénieur). Ne sert pas à trouver une entreprise | `/brainstorm-ideas-new <idée retenue>` |
 
+Le tableau ne liste que les skills du parcours principal. Le dossier contient aussi les skills d'entretien
+et d'analyse d'avis (`interview-script`, `summarize-interview`, `sentiment-analysis`, `competitor-analysis`,
+`brainstorm-experiments-new`, `before-you-build`).
+
+### Ajoutés le 2026-10-15 (50 skills, à appeler par leur nom, ex. `/pre-mortem <plan>`)
+
+| Usage | Skills |
+|-------|--------|
+| Concurrents | `startup-competitors` (fiches de combat, carte des prix), `competitor-mapper`, `competitive-battlecard` |
+| Positionnement et message | `startup-positioning` (méthode April Dunford), `positioning-ideas`, `value-proposition`, `value-prop-statements`, `product-name` |
+| Prix et modèle économique | `pricing-strategy`, `pricing-and-wtp`, `monetization-strategy`, `business-model`, `startup-canvas`, `cac-modeler` |
+| Marché et clients | `market-segments`, `ideal-customer-profile`, `user-personas`, `user-segmentation`, `customer-journey-map`, `tam-sam-som-builder`, `trend-analysis`, `trend-to-product-mapper` |
+| Stratégie | `product-strategy`, `product-vision`, `swot-analysis`, `porters-five-forces`, `pestle-analysis`, `ansoff-matrix`, `north-star-metric` |
+| Mise sur le marché | `gtm-strategy`, `gtm-motions`, `growth-loops`, `marketing-ideas`, `distribution-analysis` |
+| Risques et décision | `pre-mortem`, `strategy-red-team`, `prioritize-assumptions`, `opportunity-solution-tree`, `idea-scoring`, `weakness-detection`, `pivot-engine`, `decision-memo`, `desire-evaluator`, `retention-predictor` |
+| Profil fondateur | `user-background-interviewer`, `user-segmentation-profiler` |
+| Lancement | `create-prd` (MVP), `startup-pitch` (investisseurs), `draft-nda`, `privacy-policy` (brouillons à faire relire par un juriste) |
+
+Les skills de MaxKmet (`idea-scoring`, `pricing-and-wtp`, `cac-modeler`, `trend-analysis`...) visent les applis
+mobiles B2C américaines et écrivent dans `memory/`. Leurs barèmes ne remplacent pas la grille de `CLAUDE.md`.
+
 `market-segment-scanner` est fait maison : pas de source externe, pas de licence à suivre.
 Les seuils et la grille de score sont dans `CLAUDE.md`, section « Critères de viabilité ».
 
