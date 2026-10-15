@@ -28,6 +28,18 @@ Une piste neuve qui recoupe l'une de ces idées est signalée et mise de côté,
 | Vague | Agent | Mission | Fichier | Statut |
 |-------|-------|---------|---------|--------|
 
+## Journal
+
+- 2026-10-14 (matin) : pièces du système v4 revérifiées (6 skills identiques à la source, scout non copiable : voir
+  `.claude/skills/SOURCES.md`).
+- 2026-10-14 (matin) : `methode/proposition-seuils.md` écrit (changements de seuils proposés, non appliqués ;
+  5 lignes déjà modifiées le 13/10 à confirmer).
+- 2026-10-14 (matin) : portes 1 et 2 appliquées aux 12 segments v3 avec les preuves existantes (aucun agent, aucune
+  recherche web) : 1 éliminé, 11 à revoir, 0 passe. Fichier archivé après la remise à zéro :
+  `ideas/_archives/_recherche-v3/tri-sans-recherche.md`.
+- 2026-10-14 (après-midi) : remise à zéro des idées (voir en-tête et « À éviter »).
+- 2026-10-15 : 50 skills ajoutés (`.claude/skills/SOURCES.md`) ; branche réconciliée avec les commits du matin du 14.
+
 ## Reprise
 
 Le 2026-10-14, le forfait hebdomadaire était à 99 % (remise à zéro le 2026-10-15 à 11 h 59, heure de Paris).
