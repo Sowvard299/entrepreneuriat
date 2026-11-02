@@ -21,6 +21,8 @@ signal des recherches précédentes n'est une entrée. Elles sont rangées dans 
 | 2 | chercheur | modèles Acquire.com à copier | porte1/modeles-acquire-*.md | partiel (1/10 ≈) |
 | 2 | chercheur | modèles TrustMRR/Starter Story | porte1/modeles-mrr-*.md | partiel (7/10 ≈/✘, déclassé) |
 | 2 | verificateur | 20 preuves | porte1/verification-modeles.md | fini |
+| 3 | chercheur ×4 | recherche neutre (B2C, B2B, marchés, dépenses) | porte1/neutre-*.md | partiel (12/12 recherches chacun) |
+| 3 | verificateur | 22 preuves | porte1/verification-neutre.md | fini (✔10 ≈5 ✘1 ?6) |
 
 ## Journal
 
@@ -48,6 +50,11 @@ signal des recherches précédentes n'est une entrée. Elles sont rangées dans 
 | E1 | verificateur | 10 preuves x 4 fichiers | porte1/energie-verification.md | fini : alerte achat 22 %, efficacité 50 %, production 57 %, distribution 67 % |
 - 2026-11-02 : l'équipe refuse la reprise ; nouvelle voie = copier en France un modèle étranger rentable. Classement dans `pistes-web.md`.
 - 2026-11-02 : point de départ neutre : profil des fondateurs, budget, temps, zone et liste « À éviter » retirés du système (CLAUDE.md, agents, scanner, guide).
+
+- 2026-11-02 (soir) : profil, budget et énergie retirés de CLAUDE.md. Objectif : UNE seule idée, tous secteurs,
+  sans contrainte d'équipe. Vague U1 : 2 chercheurs (modèles étrangers absents en France ; modèles français qui
+  encaissent sur un segment mal servi), fichiers `porte1/une-idee-*`, puis vérification et choix unique.
+- 2026-11-02 : recherche neutre, classement dans `pistes-neutres.md` (1er : bornes de recharge en copropriété).
 
 ## Reprise
 
@@ -98,4 +105,11 @@ Tiens etat.md à jour. Commite et pousse sur la branche claude/recherche-idee-v1
 
 | Vague | Agent | Mission | Fichier | Statut |
 |-------|-------|---------|---------|--------|
-| A2 | chercheur | agro × énergie (électricité et froid des artisans de bouche, ateliers, restaurants) | porte1/agro-energie-* | lancé |
+| A2 | chercheur | agro × énergie (électricité et froid des artisans de bouche, ateliers, restaurants) | porte1/agro-energie-* | partiel (12/12) ; vérifié 9 ✔ 1 ≈ (agro-energie-verification.md) |
+
+- 2026-11-02 (soir) : vague A2 agro × énergie. Meilleure piste agro : courtier à honoraires affichés pour
+  boulangeries et restaurants (3,9/10 provisoire, `pistes-agro.md` n° 5), qui recoupe la piste 1 de
+  `energie-achat-synthese.md`. Porte 1 non passée (prix d'honoraires du segment manquants). Suite : 10 appels
+  facture en main (porte 2) ; vérifier la non-concurrence EDF.
+- 2026-11-02 (soir) : l'équipe rejette le courtage en énergie (« aucun intérêt »), pour les artisans comme pour les PME.
+  Agro : aucune piste vivante après A1 et A2.
