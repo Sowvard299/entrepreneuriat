@@ -6,22 +6,10 @@ signal des recherches précédentes n'est une entrée. Elles sont rangées dans 
 
 | Porte | Statut | Date |
 |-------|--------|------|
-| 0. Accès (profil, 2-3 porteurs datés, 30 conversations réseau, 20 clients nommés par piste) | kit prêt : `kit-porte0.md` ; ☐ profil de CLAUDE.md et 30 conversations à faire par l'équipe | 2026-10-13 |
 | 1. Argent visible | fait (web seul) : `pistes-web.md` ; 1 piste avec argent vérifié (reprise micro-SaaS), budget non résolu | 2026-11-02 |
 | 2. Engagement | à faire | |
 | 3. Taille et choix | à faire | |
 | 4. Confirmation | à faire | |
-
-## À éviter (idées déjà étudiées, archivées)
-
-Une piste neuve qui recoupe l'une de ces idées est signalée et mise de côté, pas creusée.
-
-- v1 : recrutement pour les garages automobiles.
-- v2 : agences locales de services (ménage, dépannage, garde d'enfants, déménagement, marketing pour artisans)
-  et les 22 idées de `ideas/_archives/_recherche-v2/idees-classees.md`.
-- v3 : facture électronique (experts-comptables, TPE du bâtiment, PME, négoces) ; bailleurs, SCI, LMNP et
-  petites foncières face au DPE ; installateurs RGE, batteries, panneaux en toiture, autoconsommation
-  collective ; supermarchés indépendants (OPERAT).
 
 ## Sous-agents
 
@@ -59,6 +47,7 @@ Une piste neuve qui recoupe l'une de ces idées est signalée et mise de côté,
 | E1 | chercheur | voie distribution et reprise dans l'énergie | porte1/energie-distribution-* | partiel (11/15 recherches, Fusacq bloqué) |
 | E1 | verificateur | 10 preuves x 4 fichiers | porte1/energie-verification.md | fini : alerte achat 22 %, efficacité 50 %, production 57 %, distribution 67 % |
 - 2026-11-02 : l'équipe refuse la reprise ; nouvelle voie = copier en France un modèle étranger rentable. Classement dans `pistes-web.md`.
+- 2026-11-02 : point de départ neutre : profil des fondateurs, budget, temps, zone et liste « À éviter » retirés du système (CLAUDE.md, agents, scanner, guide).
 
 ## Reprise
 
@@ -102,3 +91,11 @@ Tiens etat.md à jour. Commite et pousse sur la branche claude/recherche-idee-v1
 | A1 | chercheur | restauration commerciale et collective (EGalim, biodéchets, gaspillage, achats locaux) | porte1/agro-restauration-* | partiel (11/12 recherches ; Capterra bloqué, prix gaspillage non publiés) |
 | A1 | chercheur | voie distribution agro (produits prouvés à l'étranger, absents en France) | porte1/agro-distribution-* | partiel (12/12 ; Brewbound 403) |
 | A1 | chercheur | reprise et modèles B2C/e-commerce agro qui encaissent | porte1/agro-reprise-* | partiel (11/12 ; Fusacq 403, Starter Story non suivi) |
+| A1 | verificateur | 20 preuves agro | porte1/agro-verification.md | fini (10 ✔, 5 ≈, 2 ✘, 3 ? ; agro-pme déclassé à 50 %) |
+
+- 2026-11-02 (soir) : classement agro dans `pistes-agro.md` : aucune piste ne passe la porte 1. Réserve rapide :
+  fiches techniques et coût matière pour restaurants (3,0/10 provisoire). Suite proposée : mission agro × énergie.
+
+| Vague | Agent | Mission | Fichier | Statut |
+|-------|-------|---------|---------|--------|
+| A2 | chercheur | agro × énergie (électricité et froid des artisans de bouche, ateliers, restaurants) | porte1/agro-energie-* | lancé |

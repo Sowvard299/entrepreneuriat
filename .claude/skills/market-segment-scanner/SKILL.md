@@ -20,7 +20,7 @@ segmentation apporte ensuite la précision et l'avantage.
 
 ## Avant de commencer
 
-1. Lis `CLAUDE.md` : profil, équipe, zone, budget, la section « Critères de viabilité », la grille
+1. Lis `CLAUDE.md` : la section « Point de départ neutre », la section « Critères de viabilité », la grille
    de score et la section « Sous-agents et coordination ». Ses valeurs priment sur celles de ce skill.
    Si une information manque, prends une hypothèse raisonnable et note-la dans `hypotheses.md`.
 2. Crée ou reprends `ideas/_recherche-v3/etat.md` : une ligne par étape (1 à 6) avec ✔ et la date
@@ -66,8 +66,7 @@ moins 5 de ces 7 lentilles, au moins 3 marchés par lentille utilisée :
    une grosse commission.
 
 Couvre au moins 10 secteurs, en B2B et B2C, avec des services, des produits physiques et du logiciel.
-Ne laisse pas le profil du fondateur réduire la liste : le secteur qu'il connaît compte plus tard
-dans le score, pas ici.
+Aucune information sur les fondateurs ne réduit ni n'oriente la liste.
 
 ## Étape 2 : fiche marché
 
@@ -132,11 +131,10 @@ Note chaque segment de 0 à 10 sur cinq critères, avec ces repères :
 
 | Critère (poids) | 0 | 5 | 10 |
 |-----------------|---|---|----|
-| Valeur (30 %) | potentiel annuel du segment < 100 k€ | 300 k€ à 1 M€ | > 3 M€ |
-| Accessibilité (25 %) | ni liste ni canal | liste constructible, canal à tester | liste gratuite (Sirene) + canal prouvé + contact dans l'équipe |
-| Sous-servi (20 %) | leaders spécialisés bien notés | offre générique, avis moyens | personne ne s'adresse à lui, ou plaintes répétées et datées |
+| Valeur (35 %) | potentiel annuel du segment < 100 k€ | 300 k€ à 1 M€ | > 3 M€ |
+| Accessibilité (25 %) | ni liste ni canal | liste constructible, canal à tester | liste gratuite (Sirene) + canal prouvé |
+| Sous-servi (25 %) | leaders spécialisés bien notés | offre générique, avis moyens | personne ne s'adresse à lui, ou plaintes répétées et datées |
 | Disposition à payer (15 %) | gratuit ou pas de dépense | dépense existante sur un autre budget | budget dédié, paiement récurrent prouvé |
-| Avantage de l'équipe (10 %) | aucun | compétence marketing utile | compétence + secteur connu + contacts |
 
 Le potentiel annuel du segment se calcule : nombre de clients × panier annuel × 10 % de
 pénétration réaliste. Montre le calcul. Les bornes sont des repères à ajuster.
@@ -173,11 +171,11 @@ automatiquement.
 ## Étape 6 : transmission
 
 Termine `segments.md` par une short-list de 8 couples segment × angle, avec pour chacun le score
-détaillé et la ligne « seuils CLAUDE.md » (taille, croissance, SOM, accès, budget). Propose ensuite :
+détaillé et la ligne « seuils CLAUDE.md » (taille, croissance, SOM, ressources nécessaires). Propose ensuite :
 
 1. `jobs-to-be-done` sur les 3 premiers segments pour formuler le besoin ;
 2. `llm-council` avec deux questions : lequel donne des clients payants en 3 mois, et lequel peut
-   faire vivre l'équipe à 3 ans ;
+   atteindre le SOM à 3 ans ;
 3. `market-sizing` (calcul bottom-up d'abord), puis `beachhead-segment` sur le favori.
 
 ## Pièges à éviter
@@ -186,12 +184,11 @@ détaillé et la ligne « seuils CLAUDE.md » (taille, croissance, SOM, accès, 
 - Taille du marché mondial présentée comme taille française.
 - Plateforme de mise en relation sans plan pour attirer l'offre et la demande en même temps
   (cimetière v2 : Cyclofix, Homejoy, Helpling Pays-Bas, BnbSitter).
-- « Une agence locale de plus » (ménage, dépannage, garde, marketing pour artisans) : métier
-  d'employeur à marge fine, sans avantage défendable. Elle doit prouver qu'elle passe le seuil de SOM
-  et pourquoi elle est difficile à copier, sinon elle reste en réserve de la piste rapide.
+- Métier à marge fine sans avantage défendable : il doit prouver qu'il passe le seuil de SOM et
+  pourquoi il est difficile à copier.
 - Actifs lourds ou économie unitaire négative (cimetière v2 : quick commerce, Frichti, Cityscoot,
   Lavoir Moderne).
-- Idée copiée d'un SaaS américain alors que l'équipe ne code pas : marque-la, ne la cache pas.
+- Compétences rares nécessaires (développement, licence) : chiffre-les, ne les cache pas.
 - Croissance annoncée sans moteur identifiable. Pas de moteur, pas de confiance forte.
 - Obligation réglementaire non vérifiée sur source officielle (beaucoup sont reportées).
 - Contre-preuve oubliée. Une fiche sans contre-preuve est incomplète.
