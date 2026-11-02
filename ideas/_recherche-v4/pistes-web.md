@@ -1,25 +1,30 @@
 # Pistes web, porte 1 (2026-11-02)
 
-Sources : `porte1/distribution-synthese.md`, `porte1/reprise-synthese.md`, contrôle `porte1/verification.md`.
-Vérification : distribution 6/10 en ≈ ou ✘ (> 20 %) : preuves **déclassées** ; reprise 2/10 en ≈ : acceptées.
-Choix de l'équipe (2026-11-02) : pas d'entretiens réseau, recherche seule. Engagement client = 0 partout,
-scores **provisoires sur 75** (les 25 % d'engagement ne peuvent pas être gagnés sans contact client).
+Choix de l'équipe (2026-11-02) : recherche seule, sans entretiens réseau ; **pas de reprise d'entreprise**.
+Méthode retenue : copier en France un modèle qui encaisse déjà à l'étranger (Acquire.com, TrustMRR).
+Sources : `porte1/modeles-acquire-synthese.md`, `porte1/modeles-mrr-synthese.md`, contrôle `porte1/verification-modeles.md`.
+Vérification : Acquire 1/10 en ≈ (accepté) ; MRR 7/10 en ≈ ou ✘ (> 20 %) : preuves MRR **déclassées**.
+Engagement client = 0 partout : scores **provisoires** (maximum atteignable 7,5/10).
 
-| Rang | Piste | Score provisoire /10 | Passe la porte 1 ? | Croyance la plus fragile | Test qui la lève | 20 clients nommés |
-|------|-------|----------------------|--------------------|--------------------------|------------------|-------------------|
-| 1 | Reprise d'un micro-SaaS B2B récurrent (modèle R2 : 127 k$, CA 477 k$, résultat 176 k$, vendeur sans marketing) | 4,6 | oui pour l'argent visible (CA vérifié R2 ✔) ; non pour le budget | On peut financer ~110 k€ avec 5 k€ d'apport | Rendez-vous Initiative France + banque avec la fiche R2 ; demander au vendeur un crédit-vendeur ou un earn-out | Pas besoin : les clients existent ; il faut 20 **cibles de rachat** (Acquire, Flippa, Fusacq, Dotmarket) |
-| 2 | Reprise infogérance / maintenance IT de TPE (tickets ~125 k€, contrats) | 3,4 | à confirmer (fiches R12-R13 non lues) | La marge et la récurrence sont réelles | Ouvrir 5 fiches Fusacq (compte gratuit) et appeler 2 cédants | Les cédants des annonces |
-| 3 | E-commerce de niche négligé (R9 : CA 990 k€, prix 270-290 k€) | 2,8 | argent oui, budget non (piste ambitieuse) | Le marketing inverse la baisse de 28 % | Audit SEO/Ads de l'actif avant offre | — |
-| 4 | Revente de logiciels étrangers pour artisans (ServiceM8, Tradify) | 1,9 | non (preuves déclassées, commissions faibles) | Un partenaire français est accepté | Un e-mail aux programmes partenaires | Réserve uniquement |
+| Rang | Modèle à copier | Preuve étrangère | Marché FR | Score /10 | Croyance la plus fragile | Test qui la lève | Où trouver 20 clients nommés |
+|------|-----------------|------------------|-----------|-----------|--------------------------|------------------|------------------------------|
+| 1 | Reconnaissance entre collègues dans Slack/Teams (A4) | CA 278 k$ qui double, profit 142 k$ (annonce vendeur, ✔) | aucun éditeur FR trouvé (2 recherches) ; Kudos 5-7 €/utilisateur | 3,9 | Il n'existe pas déjà d'outil FR/international bien installé, et les DRH de PME achètent vite | 10 recherches ciblées + page « fausse porte » avec prise de démo | DRH de PME 50-250 salariés via LinkedIn Sales Navigator (essai gratuit) |
+| 2 | Site-portfolio pour photographes et créatifs (A1) | 4 300 clients, churn < 2 %, CA 600 k$ | mal servi en prix et en fonctions FR ; Photographes.com, Format, Pixpa | 3,6 | Un photographe quitte son outil pour un équivalent FR (factures, vente de tirages) | Fausse porte + annonces ciblées photographes, seuil d'inscription écrit avant | Annuaires de photographes, groupes Facebook pro, UNPI |
+| 3 | Conversion de relevés bancaires PDF vers Excel (M7) | ~40 k$/mois déclaré (confiance faible, déclassée) | occupé (Parseur 49 €/100 pages, KontoCSV) | 2,4 | Les TPE paient alors que leur comptable / banque le fait | Page SEO + paiement à l'unité, mesurer achats sur 2 semaines | TPE sans expert-comptable [HYPOTHÈSE] ; réserve |
 
-Écartés : médias d'affiliation (trafic en baisse), formation (non récurrente), dropshipping (marge nulle),
-JobRad/Checkatrade (hors budget), GoHighLevel (recoupe « marketing pour artisans »).
+Écartés (saturés ou occupés en France) : réservation Shopify, e-mailing à froid, CRM WhatsApp, logiciel
+de wedding planners, avis pour assureurs, CV par IA, planificateur de réseaux ; RDV thérapeutes (Doctolib,
+données de santé) ; base d'investisseurs (cible FR < 3 000).
 
 ## Réserves
-- Piste rapide : aucune piste ne tient sous 5 000 € ; réserve = infogérance TPE (rang 2).
-- Piste ambitieuse : reprise micro-SaaS (rang 1) ; réserve = e-commerce de niche (rang 3).
+- Piste rapide : rang 2 (site pour créatifs, vente en libre-service, cycle court) ; réserve = rang 3.
+- Piste ambitieuse : rang 1 (reconnaissance au travail, B2B récurrent) ; réserve = rang 2.
 
-## Contre-preuve principale
-Rang 1 : R3 (micro-SaaS à 20 k$ pour 5,8 k$ de CA) montre que beaucoup d'annonces sont des actifs sans
-traction ; R2 a 10-50 clients seulement, donc la perte d'un gros client est un risque majeur. Besoin d'un
-associé tech pour reprendre le code.
+## Contre-preuves
+- Rang 1 : la catégorie « engagement salarié » compte de nombreux acteurs internationaux ; l'absence
+  d'éditeur FR repose sur 2 recherches seulement. Le cycle de vente RH peut dépasser 3 mois.
+- Rang 2 : 94 % des SaaS indépendants restent sous 10 k$ de MRR (C1, confiance faible) ; marché concurrentiel.
+- Aucune piste ne passe encore la porte 1 au sens strict : il manque 3 prix publics **payés en France**.
+
+## Ancienne voie (abandonnée par choix de l'équipe)
+Reprise d'entreprise et revente de logiciels étrangers : `porte1/reprise-*.md`, `porte1/distribution-*.md`.
