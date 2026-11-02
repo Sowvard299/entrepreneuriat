@@ -7,7 +7,7 @@ signal des recherches précédentes n'est une entrée. Elles sont rangées dans 
 | Porte | Statut | Date |
 |-------|--------|------|
 | 0. Accès (profil, 2-3 porteurs datés, 30 conversations réseau, 20 clients nommés par piste) | kit prêt : `kit-porte0.md` ; ☐ profil de CLAUDE.md et 30 conversations à faire par l'équipe | 2026-10-13 |
-| 1. Argent visible | à faire : pistes web neuves (voie distribution, reprise) préparées, non lancées (forfait à 99 %) | 2026-10-14 |
+| 1. Argent visible | fait (web seul) : `pistes-web.md` ; 1 piste avec argent vérifié (reprise micro-SaaS), budget non résolu | 2026-11-02 |
 | 2. Engagement | à faire | |
 | 3. Taille et choix | à faire | |
 | 4. Confirmation | à faire | |
@@ -27,6 +27,9 @@ Une piste neuve qui recoupe l'une de ces idées est signalée et mise de côté,
 
 | Vague | Agent | Mission | Fichier | Statut |
 |-------|-------|---------|---------|--------|
+| 1 | chercheur | voie distribution | porte1/distribution-*.md | partiel (preuves déclassées, 6/10 ≈/✘) |
+| 1 | chercheur | reprise | porte1/reprise-*.md | partiel (2/10 ≈) |
+| 1 | verificateur | 20 preuves | porte1/verification.md | fini |
 
 ## Journal
 
@@ -39,6 +42,8 @@ Une piste neuve qui recoupe l'une de ces idées est signalée et mise de côté,
   `ideas/_archives/_recherche-v3/tri-sans-recherche.md`.
 - 2026-10-14 (après-midi) : remise à zéro des idées (voir en-tête et « À éviter »).
 - 2026-10-15 : 50 skills ajoutés (`.claude/skills/SOURCES.md`) ; branche réconciliée avec les commits du matin du 14.
+
+- 2026-11-02 : l'équipe choisit la recherche seule, sans entretiens réseau (porte 0 non faite). Porte 1 lancée (forfait à 34 %).
 
 ## Reprise
 
