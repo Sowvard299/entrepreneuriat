@@ -27,6 +27,16 @@ Lecture : aucune piste ne se détache de plus de 10 points ; aucune ne passe enc
 (3 prix publics N2 manquent partout sauf, peut-être, l'aide à domicile, dont les prix ne sont pas vérifiés).
 La meilleure combinaison de signaux N1 est la maintenance du froid commercial.
 
+## Mise à jour après audit (2026-11-03, `ideas/froid-commercial/`)
+Maintenance du froid commercial : 30/80/30 → **25/80/25** (porte 2 / en vie à 3 ans / 500 k€ à 3 ans).
+Prix publics N2 : 680 € HT/an (sans garantie de délai) et 970 € par site, sous l'hypothèse de 1 200 € ; droit
+cité (R543-78, R543-79, R543-99, arrêté 2016 art. 4) ; interdiction 2030 des fluides régénérés ≥ 2500 PRG.
+Vérification : ✔ 6, ≈ 2 ; F-6 nuancé (Quietalis, 83,5 M€, montre qu'un acteur peut grossir, d'où 25 % et non 20 %
+sur le CA) ; F-13 = annonces de procédures collectives de restaurants, pas des faillites (3 309 → 5 682).
+Variante proposée : abonnement avec registre légal pour cuisines collectives et commerces de bouche.
+Test de porte 2 proposé : dépôt remboursable de 150 €, 500 établissements d'une zone + 1 500 € de trafic ;
+seuil : ≥ 10 dépôts, STOP sous 5.
+
 ## Avant la porte 2 (précommande légale)
 - Froid commercial : 3 prix N2 de contrats d'entretien ; texte sur l'attestation de capacité (fluides frigorigènes).
 - Linge courte durée : comptes de Laundryheap UK (Companies House) ; densité de tournée nécessaire.

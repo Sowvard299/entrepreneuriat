@@ -17,7 +17,7 @@ Un chiffre utilisé dans un score est N1 ou N2. Détails et preuves : `methode/a
 | Échecs du secteur | `echecs "mots"` | BODACC, procédures collectives | plusieurs annonces par entreprise ; plein texte |
 | Repérer les marchés en croissance | `ecran --min 50` | Eurostat, 472 secteurs à 4 chiffres en une requête | rebond post-Covid signalé ; taille ≠ marché adressable |
 | Page bloquée (403) | `archive <url>` | Internet Archive, API Wayback | citer la copie et sa date |
-| Qualité d'un fichier de preuves | `controle <fichier>` puis `python -I outils/verifier-citations.py <fichier>` | — | présence de la citation, pas soutien de l'énoncé |
+| Qualité d'un fichier de preuves | `controle <fichier>` puis `python -I outils/verifier-citations.py <fichier>` | — | présence de la citation, pas soutien ; faux ABSENT sur PDF compressés sans pdftotext |
 
 ## Autres sources N1-N2 (accès manuel)
 - **Survie des entreprises** : INSEE, enquête SINE (taux à 5 ans par secteur, génération 2018 : commerce 63,9 %, finance 77,3 %, ensemble 69,0 % ; sociétés 70,6 %, entreprises individuelles 63,3 % ; micro-entrepreneurs 28 %). insee.fr/fr/statistiques/2015357 et 8634190.

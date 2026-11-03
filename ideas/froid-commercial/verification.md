@@ -1,0 +1,27 @@
+# Vérification des preuves de `audit-travail.md` (froid commercial)
+
+Date : 2026-11-03. Vérificateur : agent `verificateur`. Fichier contrôlé : `ideas/froid-commercial/audit-travail.md` (non modifié).
+Contrôle automatique : `python -I outils/verifier-citations.py` donne ABSENT pour F-1 et F-2 (PDF de mairies compressés). Les deux PDF ont été téléchargés et lus avec `pdftotext` : les citations existent, le script ne sait pas lire ce format.
+
+| ID | URL | verdict | écart constaté | niveau réel |
+|---|---|---|---|---|
+| F-1 | royat.fr, PDF DM2024-178 (Allier Froid Clim) | ✔ | Lu avec pdftotext : « pour un montant de 680 HT soit 816 TTC par an », durée 3 ans ; « interviendra dans les meilleurs délais » ; « planning ... donné qu'à titre indicatif et sans aucune garantie » ; « ne peut donner lieu à des dommages et intérêts » ; main d'œuvre 60,00 € HT/h et déplacement 60,00 € HT (tarif 2024). Le script l'a classé ABSENT à tort (encodage). Horaires 8 h-17 h non contrôlés. | N2 (PDF mairie) |
+| F-2 | ville-ormes.fr, PDF décision 2025-013 (Mollière) | ✔ | Le PDF (copie WebFetch enregistrée, le téléchargement direct renvoie une page anti-bot) : « contrat d'entretien et de maintenance de type P2, dépannages inclus » ; « Redevance annuelle : 3 892,00 hors taxes, soit 4 670,40 toutes taxes comprises » (le € manque dans l'extraction, d'où l'ABSENT du script) ; 4 sites (2 restaurants scolaires, salle Rabelais, centre de loisirs) ; 1 an à partir du 1er janvier 2025, renouvelable 2 fois par tacite reconduction. | N2 (décision de mairie) |
+| F-6 | recherche-entreprises.api.gouv.fr (q=froid, 33.12Z, CA ≥ 1,5 M€) | ≈ | Chiffres exacts : Dalkia Froid Solutions CA 226,55 M€, résultat -5,04 M€ (2025) ; Azur Trucks Froid CA 11,53 M€, résultat -1,21 M€ (2025) ; Paris Froid Services 20,38 M€, +0,51 M€ ; Froid & Services Méditerranée 13,24 M€, +1,06 M€ (2024). Mais : (a) la liste de l'audit est incomplète : Quietalis (33.12Z, CA 83,5 M€, résultat -2,38 M€, 2023) n'y figure pas ; (b) « une trentaine d'acteurs régionaux de 1,5 à 20 M€ » est faux : la plage va jusqu'à 226 M€ ; (c) « les deux plus gros sur le froid pur perdent de l'argent » ne tient que si l'on ajoute Quietalis (2023) : Paris Froid Services, 2e de la liste de l'audit, est bénéficiaire ; (d) « marges nettes de 1 à 12 % » : Applic Froid ressort à environ 15 %. Azur Trucks Froid est 4e, pas un des deux plus gros. | N1 (API INSEE/RNE) |
+| F-8 | legifrance.gouv.fr, section R543-78 à R543-83 | ✔ | R543-78 : « un opérateur disposant de l'attestation de capacité prévue à l'article R. 543-99 » (confirmé). R543-79 : seuils « charge en HCFC supérieure à deux kilogrammes » et « HFC ou PFC supérieure à cinq tonnes équivalent CO2 » (confirmés). Écart mineur : le seuil de 500 t éq. CO2 de R543-79-1 est aussi assorti de 300 kg de HCFC dans le texte ; R543-80 et R543-82 non lus. Le texte n'est pas cité mot pour mot dans l'audit (à recopier avant la porte 2). | N1 |
+| F-9 | legifrance.gouv.fr, article R543-99 (LEGIARTI000006839333) | ✔ | « doivent obtenir une attestation de capacité délivrée par un organisme agréé » ; durée « au maximum de cinq ans » ; une attestation par établissement ; vérification des conditions de R543-106 et de l'outillage ; types d'équipements et d'activités précisés. Confirmé. L'arrêté du 21 novembre 2025 cité en note n'a pas été vérifié (N5 dans l'audit, non ouvert). | N1 |
+| F-10 | legifrance.gouv.fr, article 4 arrêté du 29 février 2016 (LEGIARTI000038980393) | ✔ | Tableau identique à l'audit : HFC/PFC 5 à < 50 t : 12 mois, 24 mois avec détection ; 50 à < 500 t : 6 mois, 12 avec détection ; 500 t et plus : 3 mois (mobile) / 6 mois (fixe). HCFC : 2 à < 30 kg 12 mois, 30 à < 300 kg 6 mois, 300 kg et plus 3 mois. Le lien avec le règlement UE 2024/573 (non lu) reste non vérifié. | N1 |
+| F-11 | capeb.fr/actualites/fluides-frigorigenes-attestation-de-capacite | ✔ | Citation exacte : « Àpartir du 1er janvier 2030 les fluides régénérés ou recyclés avec PRP/GWP ≥ 2500 pour la réfrigération seront interdits » ; publié le 30 mars 2026. Recoupé par une recherche : un document belge donne aussi 2030 pour la réfrigération ; 2032 pour la climatisation et les pompes à chaleur. Le texte du règlement (EUR-Lex, annexe IV) reste non lu : la source est secondaire. | N2 |
+| F-13 | bodacc-datadila.opendatasoft.com (familleavis=collective, « restauration traditionnelle ») | ≈ | Chiffres exacts : 3 309 (2022), 4 523 (2023), 5 221 (2024), 5 682 (2025), 4 991 (2026, à date). Mais ce sont des annonces de procédure collective (toutes familles, plein texte « restauration traditionnelle », non NAF) et non des « faillites » : une entreprise peut avoir plusieurs annonces. La hausse est réelle, le mot « faillites » et l'équivalence « restaurants » sont à corriger. | N1 (données) ; interprétation N3 |
+
+## Comptes
+
+- ✔ : 6 (F-1, F-2, F-8, F-9, F-10, F-11)
+- ≈ : 2 (F-6, F-13)
+- ✘ : 0
+- ? : 0
+
+Points à corriger dans l'audit avant de s'en servir :
+- F-6 : ajouter Quietalis (83,5 M€, perte 2,4 M€, 2023) ; remplacer « une trentaine d'acteurs de 1,5 à 20 M€ » ; remplacer « les deux plus gros sur le froid pur perdent de l'argent » par une formulation datée et complète ; corriger « marges de 1 à 12 % ».
+- F-13 : écrire « annonces de procédure collective mentionnant restauration traditionnelle » au lieu de « faillites de restaurants ».
+- Le script produit des faux ABSENT sur les PDF compressés (F-1, F-2) : le contrôle est à compléter par pdftotext.
