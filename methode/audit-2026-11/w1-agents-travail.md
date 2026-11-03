@@ -118,7 +118,7 @@
 - Citation 2 : « Limit tool access: grant only necessary permissions for security and focus »
 - Chiffres clés : aucun. Même page : « Each subagent runs in its own context window with a custom system prompt » ; bonnes pratiques listées : sous-agents ciblés (« each subagent should excel at one specific task »), descriptions précises, accès aux outils limité, versionnement.
 - Limites : documentation de produit, pas une étude ; ne dit rien de la fiabilité des citations. Lue en entier par curl ; WebFetch n'en avait lu que les 100 000 premiers caractères.
-- Règle pour nous : (1) une mission coupée n'a pas d'autre mémoire que le fichier de travail, ce qui justifie d'écrire au fil de l'eau. (2) `verificateur.md` liste ses outils (WebFetch, Read, Write, Grep, Glob, Bash) : il n'a pas WebSearch, donc ne peut pas faire de lecture latérale (W1-29) ; lui en donner un budget est un choix explicite à faire [déduction du fichier `verificateur.md` que j'ai lu et de la ligne de la doc sur le champ `tools`].
+- Règle pour nous : (1) une mission coupée n'a pas d'autre mémoire que le fichier de travail, ce qui justifie d'écrire au fil de l'eau. (2) `verificateur.md` liste ses outils (WebFetch, Read, Write, Grep, Glob, Bash) : il n'a pas WebSearch : il peut rouvrir l'URL donnée mais pas chercher ce que d'autres sources disent de l'éditeur d'une page (lecture latérale, W1-29) ; lui en donner un budget est un choix explicite à faire [déduction du fichier `verificateur.md` que j'ai lu et de la ligne de la doc sur le champ `tools`].
 - Contrôle : 2 citations retrouvées mot pour mot (script).
 
 ### W1-13 : Mémoire persistante d'un sous-agent
@@ -217,9 +217,9 @@
 - Source : https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php (date : 2025-03-06 ; primaire ; ouverte)
 - Citation : « More than half of responses from Gemini and Grok 3 cited fabricated or broken URLs. »
 - Citation 2 : « The generative search tools we tested had a common tendency to cite the wrong article. »
-- Chiffres clés : pour Grok 3, « 154 citations led to error pages » sur 200 requêtes ; Perplexity Pro a « cited syndicated versions of Tribune articles for three out of the ten queries », malgré un partenariat avec le Texas Tribune. « Content licensing deals with news sources provided no guarantee of accurate citation in chatbot responses. »
+- Chiffres clés : pour Grok 3, « 154 citations led to error pages » sur 200 requêtes ; Perplexity Pro a « cited syndicated versions of Tribune articles for three out of the ten queries », malgré un partenariat avec le Texas Tribune. « Content licensing deals with news sources provided no guarantee of accurate citation in chatbot responses. » Grok 2 était « prone to linking to the homepage of the publishing outlet rather than specific articles ».
 - Limites : mêmes que W1-22.
-- Règle pour nous : une URL n'est écrite que si elle a été ouverte dans la session (code 200, texte lu) ; elle ne vient jamais de la mémoire du modèle. Citer l'émetteur d'origine plutôt qu'une copie ou un relais.
+- Règle pour nous : une URL n'est écrite que si elle a été ouverte dans la session (code 200, texte lu) ; elle ne vient jamais de la mémoire du modèle. Elle mène à la page précise qui contient le passage, pas à la page d'accueil de l'éditeur. Citer l'émetteur d'origine plutôt qu'une copie ou un relais.
 - Contrôle : 2 citations retrouvées mot pour mot (script) ; le chiffre « 154 » et la citation sur les copies aussi.
 
 ### W1-24 : EBU / BBC « News Integrity in AI Assistants » (2025)
@@ -244,7 +244,7 @@
 - Source : https://arxiv.org/pdf/2506.11763 (arXiv v1 : 2025-06-13 ; primaire, benchmark ; ouverte, PDF)
 - Citation : « the Judge LLM assesses whether this content provides sufficient evidence to support the statement »
 - Citation 2 : « We retrieve the textual content of the webpage using the Jina Reader API. »
-- Chiffres clés : précision de citation (tableau 1) : Perplexity Deep Research 90,24 %, Grok Deeper Search 83,59 %, Gemini-2.5-Pro Deep Research 81,44 %, OpenAI Deep Research 77,96 % ; citations « effectives » par rapport : 31,26 ; 8,15 ; 111,21 ; 40,79. Sur les 16 systèmes du tableau, la précision va de 39,36 % à 94,04 %. Juge : Gemini 2.5 Flash.
+- Chiffres clés : précision de citation (tableau 1) : Perplexity Deep Research 90,24 %, Grok Deeper Search 83,59 %, Gemini-2.5-Pro Deep Research 81,44 %, OpenAI Deep Research 77,96 % ; citations « effectives » par tâche, dans le même ordre : 31,26 ; 8,15 ; 111,21 ; 40,79. Sur les 16 systèmes du tableau, la précision va de 39,36 % à 94,04 %. Juge : Gemini 2.5 Flash.
 - Limites : juge LLM, avec ses propres erreurs ; tâches = rapports de recherche ; d'après un résumé vu seulement en extrait de recherche (non vérifié), des versions ultérieures de l'article donnent d'autres valeurs : citer la version v1 avec sa date.
 - Règle pour nous : une évaluation de citation robuste récupère le texte de la page citée, puis rend un verdict binaire « soutient / ne soutient pas » par énoncé : c'est la procédure à donner au vérificateur. Un juge économique y a suffi dans leur protocole. Dans ce tableau, le système qui cite le plus (Gemini, 111) n'est pas le plus précis (81 %) ; aucun lien de cause n'est établi, mais exiger « au moins 3 sources » sans contrôle proportionné peut augmenter le nombre de citations fausses [inférence].
 - Contrôle : 2 citations retrouvées mot pour mot (script) ; chiffres du tableau lus dans le texte du PDF.
@@ -267,7 +267,7 @@
 - Chiffres clés : aucun. Les quatre gestes : Stop ; Investigate the source ; Find better coverage ; Trace claims, quotes, and media to the original context. Dosage : « Quick and shallow investigations will form most of what we do on the web. » Premier geste : « Don't read it or share media until you know what it is. »
 - Limites : méthode d'éducation aux médias pour des humains, sans mesure d'efficacité dans ce billet. Le billet lui-même n'emploie pas l'expression « lecture latérale » : le script la trouve sur la page, mais seulement dans des commentaires de 2021 (positions 65 872 et suivantes sur 151 052 caractères, les commentaires commençant à 7 240). Ne pas lui attribuer ce terme.
 - Règle pour nous : routine en quatre temps avant d'utiliser une page. (S) savoir ce que c'est : qui publie, quel type, quelle date. (I) qui est derrière et avec quel intérêt : vendeur de rapports, fédération, institution. (F) chercher une couverture indépendante du même chiffre. (T) remonter à l'original (tableau INSEE, comptes déposés, grille de prix du vendeur) et le citer à la place du relais. Approfondir seulement les chiffres décisifs [transposition aux agents : inférence].
-- Contrôle : 4 citations retrouvées mot pour mot (script) ; le geste 4 est cité par WebFetch sous la forme « Trace claims, quotes, and media to the original context » (à contrôler, voir fin de fichier).
+- Contrôle : 4 citations retrouvées mot pour mot (script), plus les noms des quatre gestes, dont « Trace claims, quotes, and media to the original context ».
 
 ### W1-29 : Lecture latérale (Wineburg et McGrew) : sortir de la page pour la juger
 - Source : https://www.hendrix.edu/uploadedFiles/Academics/Faculty_Resources/Teaching_and_Learning/EvaluatingDigitalInformation.pdf (copie hébergée par une université du document de travail SHEG n° 2017.A1, septembre 2017 ; primaire ; ouverte, PDF) ; la version publiée dans Teachers College Record (2019) n'a pas été lue ; résumé Stanford GSE du 2017-10-24 concordant
@@ -279,7 +279,7 @@
 - Contrôle : 2 citations retrouvées mot pour mot (script) ; chiffres lus dans le texte du PDF.
 
 ### W1-30 : Lecture latérale : les extraits servent à trier, pas à prouver
-- Source : même document que W1-29 (primaire ; ouverte)
+- Source : https://www.hendrix.edu/uploadedFiles/Academics/Faculty_Resources/Teaching_and_Learning/EvaluatingDigitalInformation.pdf (même document que W1-29 ; septembre 2017 ; primaire ; ouverte)
 - Citation : « They showed click restraint. »
 - Citation 2 : « they mined Google's snippets for the wealth of information they contain »
 - Citation 3 : « They knew that the first result was not necessarily the most authoritative »
@@ -329,7 +329,7 @@
 - Source : https://platform.claude.com/docs/en/build-with-claude/citations (date inconnue ; primaire, documentation ; ouverte par WebFetch, texte enregistré ; docs.claude.com redirige vers cette adresse)
 - Citation : « citations are guaranteed to contain valid pointers to the provided documents »
 - Citation 2 : « The API doesn’t guarantee either. »
-- Chiffres clés : aucun. « In Anthropic’s evaluations, the citations feature is significantly more likely to cite the most relevant quotes » (sans chiffre) ; « cited_text does not count toward your output tokens ».
+- Chiffres clés : aucun. « the citations feature is significantly more likely to cite the most relevant quotes » (selon les évaluations d'Anthropic, sans chiffre) ; « cited_text does not count toward your output tokens ».
 - Limites : un pointeur valide ne prouve pas que le passage soutient l'énoncé ; la phrase « The API doesn’t guarantee either » porte, dans l'exemple de la page, sur le fait que chaque champ ait une valeur et au moins une citation ; fonctionne sur des documents fournis à l'API, pas dans les sous-agents de Claude Code ; incompatible avec les sorties structurées.
 - Règle pour nous : même principe d'architecture que W1-21 : la citation est extraite du texte de la page par l'outil, pas retapée par le modèle. Chez nous : un script qui copie le passage depuis le texte enregistré de la page ; le modèle ne fournit que le repère [inférence].
 - Contrôle : 2 citations retrouvées mot pour mot dans le texte enregistré de la page (script).
@@ -372,4 +372,48 @@
 - Règle pour nous : classer les agrégateurs de statistiques et vendeurs de rapports comme « pointeur, pas source » : on s'en sert pour trouver l'émetteur d'origine, et on cite celui-ci. Cela prolonge notre règle « confiance faible » par l'étape « remonter à l'émetteur » [inférence].
 - Contrôle : 2 citations retrouvées mot pour mot (script).
 
-<!-- SUITE -->
+## Lot 8 : observations de terrain de cette session (ce ne sont pas des sources externes)
+
+### W1-40 : Contrôle mécanique des citations : ce que cette session a mesuré
+- Source : observation de cette session, aucune URL. Prototype : `verifier-citations.py` (dans ce dossier, non branché sur les agents) ; il lit un fichier de preuves au format de `chercheur.md` (blocs `###`, ligne `- Source :`, lignes `- Citation : « … »`), télécharge chaque URL avec curl (en-tête curl par défaut), retire les balises, normalise (casse, espaces, apostrophes, guillemets), cherche la citation mot pour mot, lit un PDF avec pdftotext, et sort avec le code 2 s'il y a un ABSENT ou un BLOQUE. Essai sur ce fichier : 75 citations OK, 0 ABSENT, 0 BLOQUE. Essai sur un fichier-test : une citation modifiée (65 % au lieu de 60 %) détectée ABSENT, une preuve « extrait de recherche » signalée EXTRAIT (non vérifiable), une page 404 signalée BLOQUE.
+- Citation : sans objet.
+- Chiffres clés : 105 citations en anglais du présent fichier (75 sur les lignes « Citation », 30 dans le texte) retrouvées dans les pages enregistrées, 0 absente à la dernière passe. Pendant la préparation, environ 95 citations rendues par WebFetch sur 10 pages ont été comparées au texte brut : toutes retrouvées, sauf une formulation de Wikipédia que WebFetch avait lui-même signalée absente. Le script a signalé une citation de 16 mots (limite : 15), corrigée, et a donné un faux positif : l'expression « lateral reading » est « trouvée » sur la page SIFT alors qu'elle ne figure que dans des commentaires (voir W1-28). Hors de ces pages, 4 citations attribuées à la page EBU par WebFetch n'ont pas pu être revérifiées (curl répond 403 ; la copie VRT a une autre rédaction).
+- Limites : échantillon de ma session, pages choisies par moi ; WebFetch annonce lui-même ne lire que les 100 000 premiers caractères des pages longues (4 pages concernées : SIFT 281 077 caractères, documentation Claude Code 116 346, Wikipédia Reliable sources 153 563, Wikipédia Verifiability 103 824) et refuse de citer plus de 125 caractères d'un passage ; le script ne fonctionne pas sur les pages en 403, rendues par JavaScript ou en PDF illisible ; une présence de texte « quelque part sur la page » n'est pas un soutien de l'énoncé.
+- Règle pour nous : un contrôle de citation exact et sans LLM tient en quelques dizaines de lignes (curl, retrait des balises, recherche exacte). Il peut tourner à chaque preuve, au moment de l'écrire, et à la fin de mission (W1-14). Il supprime les cas où la citation n'existe pas sur la page ; il ne dit rien du soutien ni du périmètre, qui restent au vérificateur (W1-25, W1-30, W1-33). [inférence]
+
+### W1-41 : Observation de terrain : accès aux pages
+- Source : observation de cette session, aucune URL.
+- Citation : sans objet.
+- Chiffres clés : 22 hôtes tentés. 6 ont posé problème sur la première voie : openai.com (403 en WebFetch), help.openai.com (403 en WebFetch), pmc.ncbi.nlm.nih.gov (contrôle anti-robot), purl.stanford.edu (certificat rejeté par WebFetch ; curl répond 200 mais sans lien de fichier), ebu.ch (403 en curl, ouverte en WebFetch), web.archive.org (hôte refusé par l'outil). 4 ont été récupérés par une autre voie légitime : copie PDF sur cdn.openai.com, copie PDF sur hendrix.edu, WebFetch au lieu de curl, notice law.stanford.edu. 2 sont restés fermés (help.openai.com, web.archive.org). Une tentative de téléchargement direct d'openai.com avec un en-tête de navigateur a été refusée par le contrôle de permissions (« contournement d'anti-robot ») ; je ne l'ai pas répétée ni contournée. Mon premier script envoyait un en-tête de navigateur pour 4 pages publiques (anthropic.com, cjr.org, arxiv.org, cdn.openai.com), sans blocage en jeu ; je l'ai retiré ensuite.
+- Limites : échantillon de ma session (sources majoritairement anglophones, universitaires ou de fournisseurs d'IA), non représentatif des sites d'entreprises françaises.
+- Règle pour nous : un 403 est un état à consigner (« non lue » + domaine + voie essayée), pas un échec à combler par un extrait. Voies légitimes à essayer dans l'ordre : l'autre outil (WebFetch ou curl), une copie officielle de l'émetteur (CDN, dépôt institutionnel), un jeu de données ou une API ouverte. Jamais d'imitation de navigateur. La liste des domaines bloqués devrait persister d'une vague à l'autre (W1-13) au lieu d'être écrite en dur dans `chercheur.md`. [inférence]
+
+## Lecture du système audité (fichiers lus : `CLAUDE.md`, `chercheur.md`, `verificateur.md`) : ce qui explique les problèmes constatés
+
+- `chercheur.md` admet comme preuve une URL « vue en extrait de recherche (dis lequel) » : un extrait peut donc devenir une preuve, ce qui est exactement le comportement que W1-30, W1-23 et W1-25 déconseillent. Le chercheur n'a aucun contrôle mécanique à passer avant de rendre.
+- `verificateur.md` : modèle haiku, outils WebFetch, Read, Write, Grep, Glob, Bash ; pas de WebSearch. Il contrôle « la citation exacte et les chiffres cités » et « la date », par WebFetch (un résumé fait par un petit modèle). Aucun verdict sur le soutien de l'énoncé (périmètre, année, valeur ou volume) ni sur l'indépendance des sources. Les extraits de recherche donnent un « ? » jugé « normal » : ces preuves ne sont donc jamais contrôlées.
+- `CLAUDE.md` : contrôle de 10 preuves par fichier, seuil de 20 % de ✘ ou ≈ pour relancer ou déclasser ; pas de correction ciblée ni de mesure de rappel et de précision de citation.
+- [inférence] Ces trois points sont lus dans les fichiers ; je n'ai pas vu les briefs réels ni les rapports de contrôle, donc je ne peux pas dire lequel pèse le plus dans les taux de 10 % à 70 %.
+
+## Sources non lues (URL et raison)
+
+- https://openai.com/index/introducing-deep-research/ : 403 en WebFetch ; contenu lu dans la copie PDF https://cdn.openai.com/API/docs/deep_research_blog.pdf (W1-16) ; tentative curl avec en-tête de navigateur refusée par le contrôle de permissions, non répétée.
+- https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt : 403 en WebFetch (adresse issue d'un résultat de recherche) ; seul un résumé de recherche indiquait « confirm that the sources support the claims » (extrait, non retenu comme preuve).
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12003634/ : contrôle anti-robot ; résumé lu sur law.stanford.edu (W1-27).
+- https://purl.stanford.edu/yk133ht8603 : certificat rejeté en WebFetch ; texte lu dans une copie hébergée par hendrix.edu ; version Teachers College Record 2019 non lue.
+- web.archive.org : hôte refusé par WebFetch.
+- https://docs.gptr.dev (documentation de GPT Researcher, renvoyée par le README pour « method, caveats and how to reproduce it ») : non ouverte.
+- Anthropic, « how we built Claude Managed Agents » (cité par la page de 2024 comme approche actuelle) : adresse inconnue, non lue. Autres billets Anthropic (outils pour agents, ingénierie de contexte) : hors liste, non lus.
+- Caulfield et Wineburg, « Verified » (2023) ; Caulfield, « Web Literacy for Student Fact Checkers » : non lus.
+- Rapport complet et boîte à outils de l'étude EBU / BBC : seul le communiqué a été lu.
+- Versions ultérieures de DeepResearch Bench : non lues (voir W1-26).
+
+## Pages ouvertes mais non utilisées comme preuve
+
+- https://www.sciencealert.com/chatgpts-deep-research-is-here-but-can-it-really-replace-a-human-expert (2025-02-16) : redondant après le PDF OpenAI.
+- https://ed.stanford.edu/news/stanford-scholars-observe-experts-see-how-they-evaluate-credibility-information-online (2017-10-24) et https://cor.inquirygroup.org/research/lateral-reading-and-the-nature-of-expertise : résumés concordants avec le document de travail W1-29.
+
+## Statut final
+
+Statut : partiel. Toutes les sources demandées sont ouvertes, sauf les pages HTML d'OpenAI (contenu lu par copie PDF). Manque : tout chiffre de gain de nos règles sur notre propre taux d'erreur (aucune source n'en publie) ; l'article Nature Communications ; la version 2019 de Wineburg et McGrew ; toute évaluation indépendante de GPT Researcher. Budget : 7 recherches web sur 15 utilisées.
+

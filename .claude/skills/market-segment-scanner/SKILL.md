@@ -23,7 +23,9 @@ segmentation apporte ensuite la précision et l'avantage.
 1. Lis `CLAUDE.md` : la section « Point de départ neutre », la section « Critères de viabilité », la grille
    de score et la section « Sous-agents et coordination ». Ses valeurs priment sur celles de ce skill.
    Si une information manque, prends une hypothèse raisonnable et note-la dans `hypotheses.md`.
-2. Crée ou reprends `ideas/_recherche-v3/etat.md` : une ligne par étape (1 à 6) avec ✔ et la date
+2. Lance `python outils/donnees.py ecran --min 50 --top 80` : c'est la liste d'entrée chiffrée (taille,
+   croissance, fragmentation, source Eurostat) ; chaque marché retenu reçoit ensuite `fiche <NAF>`.
+3. Crée ou reprends `ideas/_recherche-v4/etat.md` : une ligne par étape (1 à 6) avec ✔ et la date
    quand elle est terminée, plus une ligne par sous-agent lancé (mission, fichier, statut). Si le
    fichier existe, relis les **fichiers de synthèse** déjà écrits et continue sans refaire ce qui est fait.
 3. Écris au fil de l'eau (un marché ou un segment à la fois). Une coupure de session ne doit

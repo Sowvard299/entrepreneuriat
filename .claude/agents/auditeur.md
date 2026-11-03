@@ -11,7 +11,9 @@ chemin de TON fichier d'audit et de TON fichier de synthèse. Aucune question : 
 
 ## Avant de commencer
 1. Lis `CLAUDE.md` : « Critères de viabilité », « Grille de score », « Règles de preuve ».
-2. Lis la fiche de chaque idée dans `ideas/_recherche-v3/idees-classees.md`.
+2. Lis la fiche de chaque idée dans le fichier donné par le coordinateur (`ideas/_recherche-v4/...`).
+   Lance `python outils/donnees.py fiche <NAF>`, `echecs "<mots>"` et `marches-publics "<mots>"` : taille,
+   concentration, échecs et argent public viennent de là (`methode/sources-fiables.md`).
 3. Si ton fichier d'audit existe déjà, relis-le et continue sans doublon.
 4. Applique les mêmes règles de preuve, de diversité, de budget et les mêmes recettes que l'agent
    `chercheur` (`.claude/agents/chercheur.md`) : lis ce fichier, sections « Règles de preuve »,
@@ -31,15 +33,16 @@ chemin de TON fichier d'audit et de TON fichier de synthèse. Aucune question : 
    compte comme risque.
 5. **Économie unitaire** : prix constaté, coût direct, heures de travail par vente ou par client et par
    mois, revenu par heure de travail, coût d'acquisition d'un client estimé (et comment), nombre de
-   clients nécessaires pour atteindre l'ambition chiffrée de CLAUDE.md.
-6. **Seuils de CLAUDE.md** : tableau critère | valeur trouvée | source | réussi / raté.
-7. **Score recalculé** avec la grille de CLAUDE.md : chaque note modifiée a une phrase d'explication
-   et l'ID de la preuve. Donne l'ancien et le nouveau score.
+   clients nécessaires pour atteindre le SOM de 500 k€ de CLAUDE.md.
+6. **Seuils de CLAUDE.md** : tableau critère | valeur trouvée | source | niveau N1-N5 | réussi / raté.
+7. **Notation** selon la section « Notation » de CLAUDE.md : taux de base de la classe, puis les trois
+   probabilités datées, chacune avec les ID des preuves N1-N2 qui l'écartent du taux de base. Donne les
+   anciennes et les nouvelles valeurs.
 8. **Verdict** en 3 lignes : ce qui tient, ce qui casse, la meilleure variante révélée par l'audit.
 
 ## Écriture
 Au fil de l'eau, au moins après chaque concurrent. Fichier de synthèse séparé (30 lignes maximum) :
-pour chaque idée, ancien score, nouveau score, seuils ratés, 3 faits décisifs avec ID de preuve.
+pour chaque idée, anciennes et nouvelles probabilités, seuils ratés, 3 faits décisifs avec ID de preuve.
 
 ## Ce que tu rends
-100 mots maximum : ancien et nouveau score par idée, seuil(s) raté(s), la raison principale du changement.
+100 mots maximum : anciennes et nouvelles probabilités par idée, seuil(s) raté(s), la raison principale du changement.

@@ -12,7 +12,7 @@ en local ou dans une session cloud.
 | Cartographier | `market-segment-scanner` | Marchés en croissance → segments précis → angles « pareil mais mieux » | « Cartographie les marchés français en croissance et découpe-les en segments » |
 | Creuser | `jobs-to-be-done` | Trouver les « jobs » mal servis d'un segment | « Quels jobs sont mal servis chez les restaurateurs pour leurs achats ? » |
 | Creuser | `ai-startup-opportunity-generator` | Méthode d'idées ancrées dans le travail réel, scorées, vérifiées contre 10 échecs types (orientée logiciel : on saute son étape de stack) | « Donne 10 idées pour un segment de départ » |
-| Décider | `llm-council` | 5 conseillers + relecture anonyme + verdict | « Council : laquelle de ces 3 idées donne des clients en 3 mois, laquelle fait vivre l'équipe à 3 ans ? » |
+| Décider | `llm-council` | 5 conseillers + relecture anonyme + verdict | « Council : laquelle de ces 3 idées donne des clients en 3 mois, laquelle atteint 500 k€ de CA à 3 ans ? » |
 | Valider | `startup-design` | Recherche → stratégie → validation, ou Fast Track go/no-go | « Fast track : <idée> » |
 | Valider | `market-sizing` | TAM / SAM / SOM, bottom-up puis top-down | `/market-sizing <idée> en France` |
 | Valider | `beachhead-segment` | Choisir le premier marché gagnable | `/beachhead-segment <idée>` |
@@ -58,7 +58,7 @@ leurs fichiers de synthèse (règles dans `CLAUDE.md`, section « Sous-agents et
 
 ## Outils externes (optionnels)
 
-Voir l'étape 0.3 de `relancer-la-recherche-v3.md`. Lire le `SKILL.md` ou le README de chacun avant
+Voir l'étape 0.3 de `methode/historique/relancer-la-recherche-v3.md`. Lire le `SKILL.md` ou le README de chacun avant
 installation. L'API `recherche-entreprises.api.gouv.fr` est sans clé et appelée directement.
 
 ## Recherches d'idées
@@ -66,14 +66,14 @@ installation. L'API `recherche-entreprises.api.gouv.fr` est sans clé et appelé
 - Première itération (octobre 2026) : recherche dans `ideas/_archives/_recherche/`, idée retenue dans `ideas/_archives/recrutement-garages/`.
 - Deuxième itération (v2, octobre 2026) : `ideas/_archives/_recherche-v2/`, arrêtée en phase 4, idées jugées non
   viables. Leçons dans `ideas/_archives/_recherche-v2/BILAN.md`.
-- Version 3 (marché → segment → angle) : suivre `relancer-la-recherche-v3.md` (guide pas à pas et prompt à
+- Version 3 (marché → segment → angle) : suivre `methode/historique/relancer-la-recherche-v3.md` (guide pas à pas et prompt à
   coller, en français). Elle écrit dans `ideas/_archives/_recherche-v3/`.
-- **Seul guide actif : `relancer-la-recherche-v4.md`.** Les autres guides et audits sont de l'historique.
+- **Seul guide actif : `relancer-la-recherche-v4.md`.** Sources et outils : `methode/sources-fiables.md`, `outils/donnees.py`. Les autres guides et audits sont de l'historique.
 - **Version 4, en cours (portes : accès → argent visible → engagement client → taille → pilote)** : suivre
   `relancer-la-recherche-v4.md`. Elle reprend les segments de la v3 et écrit dans `ideas/_recherche-v4/`.
   Pourquoi ce changement : `methode/audit-systeme-v3.md`.
 - Remise à zéro des idées (2026-10-14) : méthode v4 gardée, recherches précédentes rangées dans
   `ideas/_archives/`, méthode dans `methode/`. État et prompt de reprise : `ideas/_recherche-v4/etat.md`.
-- Ancienne méthode : `relancer-la-recherche.md` (v2), à garder pour comparer.
+- Ancienne méthode : `methode/historique/relancer-la-recherche.md` (v2), à garder pour comparer.
 
 Les sources, commits et licences des skills tiers sont dans `.claude/skills/SOURCES.md`.

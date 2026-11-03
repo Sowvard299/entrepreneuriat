@@ -56,6 +56,20 @@ signal des recherches précédentes n'est une entrée. Elles sont rangées dans 
   encaissent sur un segment mal servi), fichiers `porte1/une-idee-*`, puis vérification et choix unique.
 - 2026-11-02 : recherche neutre, classement dans `pistes-neutres.md` (1er : bornes de recharge en copropriété).
 
+- 2026-11-02 (soir) : vague U1 finie (2 chercheurs partiels, vérification : 0 ✘, 40 % / 29 % ≈). Aucune piste ne passe
+  la porte 1. Idée unique retenue : design illimité par abonnement pour PME (`ideas/design-par-abonnement/`).
+  Réserve écartée : DUERP (un seul vendeur avec prix).
+
+- 2026-11-03 : design par abonnement rejeté (non viable). Vague U2 : 4 chercheurs tous secteurs, fichiers
+  `porte1/u2-*`, règle des pages ouvertes. Forfait à 50 %.
+  - u2-particuliers : partiel (9/15) ; meilleur : téléassistance seniors (4 prix, 4 CA, leader bien noté).
+  - u2-produits : partiel (9/15) ; croquettes premium déjà servies (UPD 67 M€), compléments +4,7 % seulement.
+  - u2-saas : partiel (11/15) ; aucun CA SaaS vertical vérifiable, comparateurs bloqués ; kinés déjà équipés.
+  - u2-obligations : partiel (9/15) ; HACCP (391 k unités, 1 prix), Qualiopi (vague passée), EAA/NIS2 sans prix.
+  - Vérification : 10 ✔ / 1 ≈ / 0 ✘ (9 %). Idée retenue : téléassistance seniors (`ideas/teleassistance-seniors/`).
+  - Audit : score provisoire 4,5/10, SAM 112-250 M€, croissance ~5 %, angle « enfants » copiable ; variante mutuelles.
+- 2026-11-03 : audit complet du système (`methode/audit-2026-11/audit.md`) : outil `outils/donnees.py`, registre `methode/sources-fiables.md`, notation par probabilités, porte 2 = précommande légale.
+
 ## Reprise
 
 Le 2026-10-14, le forfait hebdomadaire était à 99 % (remise à zéro le 2026-10-15 à 11 h 59, heure de Paris).
@@ -113,3 +127,24 @@ Tiens etat.md à jour. Commite et pousse sur la branche claude/recherche-idee-v1
   facture en main (porte 2) ; vérifier la non-concurrence EDF.
 - 2026-11-02 (soir) : l'équipe rejette le courtage en énergie (« aucun intérêt »), pour les artisans comme pour les PME.
   Agro : aucune piste vivante après A1 et A2.
+
+- 2026-11-03 : vague A3, agro sur des modèles à actif propre et ticket élevé (départ neutre, sans reprise). Forfait à 44 %.
+
+| Vague | Agent | Mission | Fichier | Statut |
+|-------|-------|---------|---------|--------|
+| A3 | chercheur | façonnage pour marques alimentaires, ingrédients issus de coproduits (B2B) | porte1/agro-actif-b2b-* | partiel (12/12 ; 3 pages en 403) |
+| A3 | chercheur | modèles étrangers rentables : commande grossiste-restaurant, marques de produits, segments en rayon | porte1/agro-modeles-* | partiel (12/12 ; LSA 403, PDF Nutrisens illisible) |
+| A3 | verificateur | 17 preuves agro A3 | porte1/agro-a3-verification.md | fini (8 ✔, 6 ≈, 1 ✘ ; agro-modèles déclassé à 62 %) |
+
+- 2026-11-03 : vague A3 classée dans `pistes-agro.md` (pistes 6 à 9). Aucune piste agro ne passe la porte 1 après
+  3 vagues. Signal le plus fort : laitier protéiné (skyr bloqué par la concentration, cottage cheese non mesuré
+  en France).
+
+| Vague | Agent | Mission | Fichier | Statut |
+|-------|-------|---------|---------|--------|
+| A4 | chercheur | cottage cheese premium en France : rayon, ventes, concurrents, façonniers, économie unitaire | porte1/agro-cottage-* | partiel (12/12 ; Circana, NielsenIQ, Statista payants) |
+| A4 | verificateur | 10 preuves cottage | porte1/agro-cottage-verification.md | fini (4 ✔, 1 ≈, 4 ✘ ; prix au kilo déclassés) |
+
+- 2026-11-03 : cottage cheese premium (piste 7) : porte 1 non passée. Un seul prix exact (Danone chez Leclerc),
+  aucune donnée de marché France publique. La recherche web agro est épuisée sur 4 vagues ; la suite demande un
+  relevé en rayon ou des données payantes.
