@@ -12,7 +12,7 @@ Un chiffre utilisé dans un score est N1 ou N2. Détails et preuves : `methode/a
 | Croissance | `croissance 43.21Z` | INSEE Melodi `DS_ICA`, indices mensuels de CA issus de la TVA | indice en valeur (inflation comprise) ; comparer à la médiane des secteurs (`ecran`) |
 | 2 sources dont 1 institutionnelle | `taille` + `croissance` | Ésane/Eurostat et TVA/INSEE : deux sources statistiques distinctes | Eurostat et Ésane ne comptent que pour une |
 | Nombre de clients B2B | `compter 43.21Z` | API Recherche d'entreprises (Sirene, RNE) | unités légales au répertoire (micro sans activité incluses) : lire « employeuses » et « 10 salariés ou plus » |
-| Plus gros acteurs, concentration | `acteurs 43.21Z` | même API, filtre `ca_min`, champ `finances` | ≈ 45 % des dépôts de comptes confidentiels (INPI, 13/05/2025) : part des 3 premiers = borne basse ; entités, pas groupes |
+| Plus gros acteurs, concentration | `acteurs 43.21Z` | même API, filtre `ca_min`, champ `finances` | ≈ 45 % des dépôts de comptes confidentiels (INPI, 13/05/2025) : part des 3 premiers = borne basse ; entités, pas groupes ; un seul exercice par entité (pas de croissance par acteur) |
 | Argent public dépensé | `marches-publics "mots"` | DECP, data.economie.gouv.fr | plancher : déclaration due dès 40 000 € HT, sans sanction ; accords-cadres en montant maximal |
 | Échecs du secteur | `echecs "mots"` | BODACC, procédures collectives | plusieurs annonces par entreprise ; plein texte |
 | Repérer les marchés en croissance | `ecran --min 50` | Eurostat, 472 secteurs à 4 chiffres en une requête | rebond post-Covid signalé ; taille ≠ marché adressable |

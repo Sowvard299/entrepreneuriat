@@ -46,13 +46,15 @@ TRANCHES = {"NN": "non employeur ou inconnu", "00": "0 salarié", "01": "1-2", "
             "51": "2000-4999", "52": "5000-9999", "53": "10000 et plus"}
 
 
-def lire(url, tentatives=3):
+def lire(url, tentatives=3, absent_si_400=False):
     for essai in range(tentatives):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
+            if e.code == 400 and absent_si_400:
+                return {}
             if e.code == 429 and essai < tentatives - 1:
                 time.sleep(2 * (essai + 1))
                 continue
@@ -185,7 +187,8 @@ def codes_complets(code):
     trouves = []
     for l in "ZABCDEFGH":
         params = {"activite_principale": point + l, "per_page": 1}
-        if lire(API_ENT + urllib.parse.urlencode(params)).get("total_results"):
+        # L'API répond 400 pour un code NAF qui n'existe pas.
+        if lire(API_ENT + urllib.parse.urlencode(params), absent_si_400=True).get("total_results"):
             trouves.append(point + l)
         time.sleep(0.15)
     return trouves or [point + "Z"]

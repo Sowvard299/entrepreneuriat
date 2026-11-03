@@ -68,7 +68,14 @@ signal des recherches précédentes n'est une entrée. Elles sont rangées dans 
   - u2-obligations : partiel (9/15) ; HACCP (391 k unités, 1 prix), Qualiopi (vague passée), EAA/NIS2 sans prix.
   - Vérification : 10 ✔ / 1 ≈ / 0 ✘ (9 %). Idée retenue : téléassistance seniors (`ideas/teleassistance-seniors/`).
   - Audit : score provisoire 4,5/10, SAM 112-250 M€, croissance ~5 %, angle « enfants » copiable ; variante mutuelles.
+  - Canal mutuelles/caisses/départements : chercheur lancé, `porte1/teleassistance-canal/`. DECP : ~30 marchés/an 2024-2026 ; BODACC : 24 annonces en 2025.
+  - Canal : partiel (6/15, 1 extrait). Seul le public est prouvé, à marge quasi nulle (Vitaris 26,6 M€ / 0,03 M€).
 - 2026-11-03 : audit complet du système (`methode/audit-2026-11/audit.md`) : outil `outils/donnees.py`, registre `methode/sources-fiables.md`, notation par probabilités, porte 2 = précommande légale.
+
+- 2026-11-03 (après-midi) : téléassistance arrêtée. Écran `donnees.py ecran` (472 secteurs, médiane +3 %). Vague E2
+  (forfait 63 %) : N8211 services de bureau, S9601 blanchisserie, R9319 sport, E3811 collecte de déchets ;
+  dossiers `porte1/ecran-*/`. Statut : lancés.
+- 2026-11-03 : premier passage du système audité (`porte1/v5/`, classement `pistes-v5.md`) : 7 secteurs de l'écran, 3 écartés sur chiffres N1, 5 pistes notées en probabilités ; en tête la maintenance du froid commercial (P porte 2 = 30 %).
 
 ## Reprise
 
