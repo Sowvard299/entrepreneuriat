@@ -1,0 +1,7 @@
+- generic [ref=e2]:
+  - generic [ref=e3]: Contrat Juste
+  - heading "Votre contrat d'électricité, ajusté chaque mois." [level=1] [ref=e4]
+  - paragraph [ref=e5]:
+    - text: Vous payez
+    - strong [ref=e6]: 30 % de l'économie
+    - text: . Rien si vous n'économisez pas.

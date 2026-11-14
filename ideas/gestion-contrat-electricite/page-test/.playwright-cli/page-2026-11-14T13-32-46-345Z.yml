@@ -1,0 +1,118 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "Contrat Juste" [ref=f4e4] [cursor=pointer]:
+        - /url: ./
+      - link "Réserver pour 19 €" [ref=f4e5] [cursor=pointer]:
+        - /url: "#commande"
+  - main [ref=f4e6]:
+    - generic [ref=f4e8]:
+      - generic [ref=f4e9]:
+        - paragraph [ref=f4e10]: Service en préparation. Lancement le [DATE À COMPLÉTER].
+        - heading "Votre contrat d'électricité, ajusté chaque mois." [level=1] [ref=f4e11]
+        - paragraph [ref=f4e12]: Pour les logements chauffés à l'électricité. Vous payez 30 % de l'économie réalisée, rien si vous n'économisez pas.
+        - link "Réserver pour 19 €" [ref=f4e13] [cursor=pointer]:
+          - /url: "#commande"
+      - generic [ref=f4e14]:
+        - heading "Combien pouvez-vous économiser ?" [level=2] [ref=f4e15]
+        - generic [ref=f4e16]:
+          - generic [ref=f4e17]: Votre consommation annuelle (kWh)
+          - spinbutton "Votre consommation annuelle (kWh)" [ref=f4e18]: "10000"
+          - paragraph [ref=f4e19]: Elle figure sur votre facture. Un logement chauffé à l'électricité consomme souvent 8 000 à 15 000 kWh.
+        - group "Votre contrat actuel" [ref=f4e20]:
+          - generic [ref=f4e22]:
+            - generic [ref=f4e23] [cursor=pointer]:
+              - radio "Tarif Bleu d'EDF" [checked] [ref=f4e24]
+              - text: Tarif Bleu d'EDF
+            - generic [ref=f4e25] [cursor=pointer]:
+              - radio "Une autre offre" [ref=f4e26]
+              - text: Une autre offre
+        - generic [ref=f4e27]:
+          - generic [ref=f4e28]:
+            - generic [ref=f4e29]: Économie estimée, première année
+            - strong [ref=f4e30]: 200 à 300 €
+          - generic [ref=f4e31]:
+            - generic [ref=f4e32]: Notre part (30 %)
+            - generic [ref=f4e33]: 60 à 90 €
+          - generic [ref=f4e34]:
+            - generic [ref=f4e35]: Ce que vous gardez
+            - generic [ref=f4e36]: 140 à 210 €
+        - paragraph [ref=f4e37]: Estimation à partir des offres relevées entre juillet et octobre 2026 (2 à 3 centimes de moins par kWh que le Tarif Bleu ; 0,5 à 1 centime depuis une autre offre). Votre économie réelle est mesurée sur votre consommation Linky.
+    - generic [ref=f4e39]:
+      - heading "Comment ça marche" [level=2] [ref=f4e40]
+      - list [ref=f4e41]:
+        - listitem [ref=f4e42]:
+          - generic [ref=f4e43]:
+            - heading "Vous nous autorisez à lire votre compteur Linky" [level=3] [ref=f4e44]
+            - paragraph [ref=f4e45]: Accord donné sur le site d'Enedis, retirable à tout moment. Nous voyons votre consommation réelle, heure par heure.
+        - listitem [ref=f4e46]:
+          - generic [ref=f4e47]:
+            - heading "Nous comparons les offres chaque mois" [level=3] [ref=f4e48]
+            - paragraph [ref=f4e49]: Fournisseur, option (base, heures creuses, Tempo) et puissance du compteur, calculés sur votre consommation et non sur une moyenne.
+        - listitem [ref=f4e50]:
+          - generic [ref=f4e51]:
+            - heading "Nous changeons de contrat avec votre accord" [level=3] [ref=f4e52]
+            - paragraph [ref=f4e53]: Chaque changement vous est proposé par e-mail avec le gain attendu. Il n'est fait que si vous l'acceptez. Le changement de fournisseur est gratuit et sans coupure.
+    - generic [ref=f4e55]:
+      - generic [ref=f4e56]:
+        - heading "Le prix" [level=2] [ref=f4e57]
+        - paragraph [ref=f4e58]: 30 % de l'économie
+        - paragraph [ref=f4e59]: "L'économie est calculée chaque mois : ce que vous auriez payé avec votre contrat de départ, moins ce que vous payez. Si elle est nulle, vous ne payez rien."
+      - generic [ref=f4e60]:
+        - heading "L'acompte de 19 €" [level=3] [ref=f4e61]
+        - paragraph [ref=f4e62]: Il réserve votre place avant le lancement. Il est déduit de notre part.
+        - paragraph [ref=f4e63]: Il vous est remboursé en entier si vous changez d'avis dans les 14 jours, si le service n'est pas lancé à la date annoncée, ou sur simple demande avant le lancement.
+        - paragraph [ref=f4e64]: Si notre part de la première année est inférieure à 19 €, nous vous remboursons la différence.
+    - generic [ref=f4e66]:
+      - heading "Pour qui" [level=2] [ref=f4e67]
+      - generic [ref=f4e68]:
+        - generic [ref=f4e69]:
+          - heading "Utile si" [level=3] [ref=f4e70]
+          - paragraph [ref=f4e71]: Vous vous chauffez à l'électricité, ou vous consommez plus de 8 000 kWh par an (pompe à chaleur, voiture électrique). C'est là que les écarts entre offres sont les plus grands.
+        - generic [ref=f4e72]:
+          - heading "Inutile si" [level=3] [ref=f4e73]
+          - paragraph [ref=f4e74]:
+            - text: Vous consommez peu, en appartement par exemple. Le
+            - link "comparateur gratuit du médiateur de l'énergie" [ref=f4e75] [cursor=pointer]:
+              - /url: https://comparateur-offres.energie-info.fr/
+            - text: vous suffit.
+    - generic [ref=f4e77]:
+      - heading "Questions" [level=2] [ref=f4e78]
+      - group [ref=f4e79]:
+        - generic "Risque-t-on une coupure en changeant de fournisseur ?" [ref=f4e80] [cursor=pointer]
+      - group [ref=f4e81]:
+        - generic "Que faites-vous de mes données de consommation ?" [ref=f4e82] [cursor=pointer]
+      - group [ref=f4e83]:
+        - generic "Êtes-vous payés par les fournisseurs ?" [ref=f4e84] [cursor=pointer]
+      - group [ref=f4e85]:
+        - generic "Et si je veux arrêter ?" [ref=f4e86] [cursor=pointer]
+    - generic [ref=f4e88]:
+      - heading "Réserver votre place" [level=2] [ref=f4e89]
+      - generic [ref=f4e90]:
+        - list [ref=f4e91]:
+          - listitem [ref=f4e92]:
+            - text: Acompte de
+            - strong [ref=f4e93]: 19 € TTC
+            - text: ", déduit de notre part, remboursable (voir ci-dessus)."
+          - listitem [ref=f4e94]: Service pas encore lancé. Début prévu le [DATE À COMPLÉTER].
+          - listitem [ref=f4e95]: Droit de rétractation de 14 jours.
+        - generic [ref=f4e96]:
+          - checkbox "J'ai lu et j'accepte les conditions générales de vente." [ref=f4e97]
+          - generic [ref=f4e98]:
+            - text: J'ai lu et j'accepte les
+            - link "conditions générales de vente" [ref=f4e99] [cursor=pointer]:
+              - /url: cgv.html
+            - text: .
+        - link "Commande avec obligation de paiement" [disabled] [ref=f4e100]:
+          - /url: "#commande"
+        - paragraph [ref=f4e101]: Le paiement se fait sur Stripe. Cochez la case pour continuer.
+  - contentinfo [ref=f4e102]:
+    - generic [ref=f4e103]:
+      - navigation "Informations légales" [ref=f4e104]:
+        - link "Mentions légales" [ref=f4e105] [cursor=pointer]:
+          - /url: mentions-legales.html
+        - link "Conditions générales de vente" [ref=f4e106] [cursor=pointer]:
+          - /url: cgv.html
+        - link "Confidentialité" [ref=f4e107] [cursor=pointer]:
+          - /url: confidentialite.html
+      - paragraph [ref=f4e108]: "Contrat Juste, [NOM ET PRÉNOM], entrepreneur individuel. Contact : [E-MAIL]."

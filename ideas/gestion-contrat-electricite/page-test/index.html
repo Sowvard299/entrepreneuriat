@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contrat Juste : votre contrat d'électricité ajusté chaque mois</title>
+  <meta name="description" content="Pour les logements chauffés à l'électricité. Nous comparons les offres chaque mois et changeons votre contrat avec votre accord. Vous payez 30 % de l'économie, rien sinon.">
+  <link rel="canonical" href="https://contratjuste.fr/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://contratjuste.fr/">
+  <meta property="og:title" content="Contrat Juste : votre contrat d'électricité ajusté chaque mois">
+  <meta property="og:description" content="Vous payez 30 % de l'économie mesurée sur votre consommation réelle. Rien si vous n'économisez pas.">
+  <meta property="og:image" content="https://contratjuste.fr/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#0f6b47">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./">Contrat Juste</a>
+      <a class="btn btn-sm" href="#commande">Réserver pour 19 €</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <p class="notice">Service en préparation. Lancement le <span class="todo">[DATE À COMPLÉTER]</span>.</p>
+          <h1>Votre contrat d'électricité, ajusté chaque mois.</h1>
+          <p class="lead">Pour les logements chauffés à l'électricité. Vous payez 30 % de l'économie réalisée, rien si vous n'économisez pas.</p>
+          <a class="btn" href="#commande">Réserver pour 19 €</a>
+        </div>
+
+        <form class="calc" id="calc" novalidate>
+          <h2>Combien pouvez-vous économiser ?</h2>
+          <div class="field">
+            <label for="kwh">Votre consommation annuelle (kWh)</label>
+            <input id="kwh" name="kwh" type="number" inputmode="numeric" min="500" max="40000" step="100" value="10000" aria-describedby="kwh-help kwh-err">
+            <p class="help" id="kwh-help">Elle figure sur votre facture. Un logement chauffé à l'électricité consomme souvent 8 000 à 15 000 kWh.</p>
+            <p class="error" id="kwh-err" role="alert" hidden>Indiquez un nombre entre 500 et 40 000.</p>
+          </div>
+          <fieldset class="field">
+            <legend>Votre contrat actuel</legend>
+            <div class="choice">
+              <label><input type="radio" name="contrat" value="trv" checked> Tarif Bleu d'EDF</label>
+              <label><input type="radio" name="contrat" value="marche"> Une autre offre</label>
+            </div>
+          </fieldset>
+          <div class="result" aria-live="polite">
+            <div class="row"><span>Économie estimée, première année</span><strong class="num" id="r-eco">200 à 300 €</strong></div>
+            <div class="row"><span>Notre part (30 %)</span><span class="num" id="r-fee">60 à 90 €</span></div>
+            <div class="row"><span>Ce que vous gardez</span><span class="num" id="r-keep">140 à 210 €</span></div>
+          </div>
+          <p class="fine">Estimation à partir des offres relevées entre juillet et octobre 2026 (2 à 3 centimes de moins par kWh que le Tarif Bleu ; 0,5 à 1 centime depuis une autre offre). Votre économie réelle est mesurée sur votre consommation Linky.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <h2 class="title">Comment ça marche</h2>
+        <ol class="steps">
+          <li><div><h3>Vous nous autorisez à lire votre compteur Linky</h3><p>Accord donné sur le site d'Enedis, retirable à tout moment. Nous voyons votre consommation réelle, heure par heure.</p></div></li>
+          <li><div><h3>Nous comparons les offres chaque mois</h3><p>Fournisseur, option (base, heures creuses, Tempo) et puissance du compteur, calculés sur votre consommation et non sur une moyenne.</p></div></li>
+          <li><div><h3>Nous changeons de contrat avec votre accord</h3><p>Chaque changement vous est proposé par e-mail avec le gain attendu. Il n'est fait que si vous l'acceptez. Le changement de fournisseur est gratuit et sans coupure.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap price">
+        <div>
+          <h2 class="title">Le prix</h2>
+          <p class="big">30 % de l'économie</p>
+          <p class="prose">L'économie est calculée chaque mois : ce que vous auriez payé avec votre contrat de départ, moins ce que vous payez. Si elle est nulle, vous ne payez rien.</p>
+        </div>
+        <div class="prose">
+          <h3>L'acompte de 19 €</h3>
+          <p>Il réserve votre place avant le lancement. Il est déduit de notre part.</p>
+          <p>Il vous est remboursé en entier si vous changez d'avis dans les 14 jours, si le service n'est pas lancé à la date annoncée, ou sur simple demande avant le lancement.</p>
+          <p>Si notre part de la première année est inférieure à 19 €, nous vous remboursons la différence.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <h2 class="title">Pour qui</h2>
+        <div class="split">
+          <div>
+            <h3>Utile si</h3>
+            <p>Vous vous chauffez à l'électricité, ou vous consommez plus de 8 000 kWh par an (pompe à chaleur, voiture électrique). C'est là que les écarts entre offres sont les plus grands.</p>
+          </div>
+          <div>
+            <h3>Inutile si</h3>
+            <p>Vous consommez peu, en appartement par exemple. Le <a href="https://comparateur-offres.energie-info.fr/" rel="noopener">comparateur gratuit du médiateur de l'énergie</a> vous suffit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <h2 class="title">Questions</h2>
+        <details>
+          <summary>Risque-t-on une coupure en changeant de fournisseur ?</summary>
+          <p>Non. Le changement de fournisseur se fait sans coupure, sans frais et sans intervention chez vous. C'est le nouveau fournisseur qui résilie l'ancien contrat.</p>
+        </details>
+        <details>
+          <summary>Que faites-vous de mes données de consommation ?</summary>
+          <p>Elles servent uniquement à comparer les offres pour vous. Elles ne sont ni vendues, ni transmises à un fournisseur sans votre accord. Le détail est dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+        </details>
+        <details>
+          <summary>Êtes-vous payés par les fournisseurs ?</summary>
+          <p>Non. Nous ne touchons aucune commission. Vous seul nous payez, en fonction de ce que vous économisez.</p>
+        </details>
+        <details>
+          <summary>Et si je veux arrêter ?</summary>
+          <p>Vous arrêtez quand vous voulez, par e-mail. Vous gardez le contrat en cours et ne payez que la part de l'économie déjà réalisée.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="block" id="commande">
+      <div class="wrap">
+        <h2 class="title">Réserver votre place</h2>
+        <div class="order">
+          <ul>
+            <li>Acompte de <strong>19 € TTC</strong>, déduit de notre part, remboursable (voir ci-dessus).</li>
+            <li>Service pas encore lancé. Début prévu le <span class="todo">[DATE À COMPLÉTER]</span>.</li>
+            <li>Droit de rétractation de 14 jours.</li>
+          </ul>
+          <label class="consent"><input type="checkbox" id="cgv"> <span>J'ai lu et j'accepte les <a href="cgv.html">conditions générales de vente</a>.</span></label>
+          <a class="btn" id="pay" href="#commande" aria-disabled="true">Commande avec obligation de paiement</a>
+          <p class="fine" id="pay-msg">Le paiement se fait sur Stripe. Cochez la case pour continuer.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <nav aria-label="Informations légales">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">Conditions générales de vente</a>
+        <a href="confidentialite.html">Confidentialité</a>
+      </nav>
+      <p>Contrat Juste, <span class="todo">[NOM ET PRÉNOM]</span>, entrepreneur individuel. Contact : <span class="todo">[E-MAIL]</span>.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Lien Stripe Payment Link à coller ici une fois le compte ouvert.
+    const STRIPE_URL = "";
+
+    const kwh = document.getElementById("kwh");
+    const err = document.getElementById("kwh-err");
+    const fmt = (n) => Math.round(n).toLocaleString("fr-FR") + " €";
+    const range = (a, b) => fmt(a).replace(" €", "") + " à " + fmt(b);
+
+    function update() {
+      const v = Number(kwh.value);
+      const ok = Number.isFinite(v) && v >= 500 && v <= 40000;
+      err.hidden = ok;
+      kwh.setAttribute("aria-invalid", String(!ok));
+      if (!ok) return;
+      const trv = document.querySelector('input[name="contrat"]:checked').value === "trv";
+      const lo = v * (trv ? 0.02 : 0.005), hi = v * (trv ? 0.03 : 0.01);
+      document.getElementById("r-eco").textContent = range(lo, hi);
+      document.getElementById("r-fee").textContent = range(lo * 0.3, hi * 0.3);
+      document.getElementById("r-keep").textContent = range(lo * 0.7, hi * 0.7);
+    }
+    document.getElementById("calc").addEventListener("input", update);
+    document.getElementById("calc").addEventListener("submit", (e) => e.preventDefault());
+    update();
+
+    const cgv = document.getElementById("cgv");
+    const pay = document.getElementById("pay");
+    const msg = document.getElementById("pay-msg");
+    function syncPay() {
+      const ready = cgv.checked && STRIPE_URL;
+      pay.setAttribute("aria-disabled", String(!ready));
+      pay.href = ready ? STRIPE_URL : "#commande";
+      msg.textContent = !cgv.checked
+        ? "Le paiement se fait sur Stripe. Cochez la case pour continuer."
+        : STRIPE_URL ? "Vous allez être redirigé vers Stripe." : "Le paiement n'est pas encore ouvert.";
+    }
+    cgv.addEventListener("change", syncPay);
+    pay.addEventListener("click", (e) => { if (pay.getAttribute("aria-disabled") === "true") e.preventDefault(); });
+    syncPay();
+  </script>
+</body>
+</html>
