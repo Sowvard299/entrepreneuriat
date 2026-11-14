@@ -75,7 +75,16 @@ signal des recherches précédentes n'est une entrée. Elles sont rangées dans 
 - 2026-11-03 (après-midi) : téléassistance arrêtée. Écran `donnees.py ecran` (472 secteurs, médiane +3 %). Vague E2
   (forfait 63 %) : N8211 services de bureau, S9601 blanchisserie, R9319 sport, E3811 collecte de déchets ;
   dossiers `porte1/ecran-*/`. Statut : lancés.
+  - R9319 sport : partiel, STOP (top 3 = 47 %, croissance INSEE +5 %, rebond post-Covid). P(porte 2) 25 %, P(vie 3 ans) 55 %, P(≥500 k€) 10 %.
+  - N8211 bureau : STOP (croissance = artefact de holdings, top 3 = 87 % ; domiciliation 130-230 €/client/an).
+  - S9601 blanchisserie : partiel, porte 1 non franchie (croissance réelle INSEE +8,3 %, top 3 = 16 % ; linge des locations saisonnières à creuser). P 20 / 60 / 10 %.
+  - E3811 déchets : partiel ; bennes de chantier pour artisans (P 30 / 60 / 25 %), retenue : `ideas/bennes-chantier-artisans/`.
+  - Limite outil : verifier-citations marque ABSENT les citations de sorties de donnees.py (non relisibles).
+  - Audit bennes : 3 prix N2, marge/rotation −100 à +115 €, REP PMCB = menace ; P 25 / 60 / 20 %. Test : ≥ 10 dépôts sur ~1 000 clics.
 - 2026-11-03 : premier passage du système audité (`porte1/v5/`, classement `pistes-v5.md`) : 7 secteurs de l'écran, 3 écartés sur chiffres N1, 5 pistes notées en probabilités ; en tête la maintenance du froid commercial (P porte 2 = 30 %).
+- 2026-11-14 : piste apportée par l'équipe (CompareWatt) : contrat d'électricité géré en continu, payé au résultat,
+  foyers chauffés à l'électricité. Web seul, sans agent. P 15 / 50 / 5 % ; test porte 2 écrit, pas lancé :
+  `ideas/gestion-contrat-electricite/`.
 
 ## Reprise
 
@@ -155,3 +164,59 @@ Tiens etat.md à jour. Commite et pousse sur la branche claude/recherche-idee-v1
 - 2026-11-03 : cottage cheese premium (piste 7) : porte 1 non passée. Un seul prix exact (Danone chez Leclerc),
   aucune donnée de marché France publique. La recherche web agro est épuisée sur 4 vagues ; la suite demande un
   relevé en rayon ou des données payantes.
+
+- 2026-11-06 : demande de l'équipe « idée agro très niche qui existe en Chine et pourrait être importée en
+  Europe ; si elle existe déjà en Europe, on l'écarte ». Sous-dossier `porte1/chine-agro/`. Forfait à 4 %.
+
+| Vague | Agent | Mission | Fichier | Statut |
+|-------|-------|---------|---------|--------|
+| C1 | chercheur | produits et formats alimentaires chinois de niche (B2C) | porte1/chine-agro/b2c-* | partiel (13/15 ; 2 survivants fragiles, absence en Europe non prouvée) |
+| C1 | chercheur | services et équipements chinois pour restaurants, magasins, industrie (B2B) | porte1/chine-agro/b2b-* | partiel (9/15 ; 0 survivant ; chinois mal lu par le moteur) |
+| C1 | chercheur | distribution, vente et circuits chinois de niche (B2B2C, distributeurs, plateformes) | porte1/chine-agro/circuits-* | partiel (15/15 ; 0 survivant solide) |
+- 2026-11-06 : vague C1 classée dans `porte1/chine-agro/bilan.md`. 2 survivantes fragiles, absentes du commerce
+  régulier de l'UE après contre-vérification : eau « santé » haricot rouge et larmes de Job, boisson d'aubépine.
+  Chiffres chinois N3-N4, verificateur non passé.
+
+| Vague | Agent | Mission | Fichier | Statut |
+|-------|-------|---------|---------|--------|
+| C2 | chercheur | eau haricot rouge et larmes de Job : CA en Chine, présence en Europe, équivalents coréens et japonais, économie d'import | porte1/chine-agro/coix-marche-* | partiel (11/15 ; épiciers UE bloqués, porte 1 non passée) |
+| C2 | auditeur | même piste : novel food, étiquetage, allégations, douane, fabrication | porte1/chine-agro/coix-droit-* | partiel (catalogue novel food et EUR-Lex illisibles par l agent) |
+- 2026-11-06 : vague C2 (coix). Porte 1 non passée. Catalogue novel food lu par le coordinateur : Coix non nouveau
+  seulement en compléments (boisson = probable nouvel aliment) ; Crataegus pinnatifida autorisé (liste de l'Union).
+  Détail : `porte1/chine-agro/bilan.md`. Verificateur non passé.
+- 2026-11-06 : l'équipe arrête la piste Chine → Europe (aubépine non creusée).
+
+- 2026-11-06 : demande de l'équipe « idée IA très niche qui existe en Chine et pourrait être importée en Europe ;
+  si elle existe déjà en Europe, on l'écarte ». Sous-dossier `porte1/chine-ia/`. Forfait : 5 h à 46 %, semaine à 7 %.
+  Déjà vérifiées dans la conversation (ne pas refaire) : écartées = caisse IA de cantine, coach de conduite IA,
+  caméra d'hygiène en cuisine, tablette éducative IA, truffe de chien, lampe posture, sous-titrage de guichet,
+  billard autonome, robot masseur, appli de dictée, voiture thermique sur borne ; vivantes = anti-noyade plans
+  d'eau naturels, vélo électrique dans l'ascenseur, signature électrique des appareils en chambre, enfant à la fenêtre.
+
+| Vague | Agent | Mission | Fichier | Statut |
+|-------|-------|---------|---------|--------|
+| I1 | chercheur | 30 produits IA de niche chinois (presse tech, App Store chinois, marchés publics), présence en Europe vérifiée par nom | porte1/chine-ia/scan-* | partiel (25/25 ; 15 candidats sur 30 ; 3 survivants faibles ; ccgp.gov.cn inaccessible) |
+
+- 2026-11-06 : demande de l'équipe « idée très niche des États-Unis, de Chine ou du Canada, absente d'Europe ». Vérifiées
+  dans la conversation et écartées (existent en Europe) : cabines d'allaitement (MumPod, Bubble Milk), pose de guirlandes
+  de Noël (Royaume-Uni), cabines de karaoké (Mall of Scandinavia, SingPods), machine à glaçons en abonnement (Ziegra,
+  Lowe Rental), casiers à baskets (Clean Sneaks), location de poules (Ma Poule, Belgique), ramassage de crottes
+  (Royaume-Uni). Retenue : envoi du lait maternel des salariées en déplacement, payé par l'employeur (Milk Stork).
+  Porte 1 lancée, sous-dossier `porte1/lait-maternel/`. Forfait : 5 h à 48 %, semaine à 7 %.
+  DECP (N1) : CHU d'Orléans, transport de lait maternel, lot 3, 520 k€, 2025-04-16 (segment voisin : lactariums).
+
+| Vague | Agent | Mission | Fichier | Statut |
+|-------|-------|---------|---------|--------|
+| L1 | chercheur | modèle étranger : acteurs, prix, CA, avis, échecs, absence en Europe | porte1/lait-maternel/modele-* | partiel (15/15 ; argent déclaré seulement, prix N3 2015-2019, Europe vide) |
+| L1 | chercheur | demande en France et en UE : allaitement au retour au travail, déplacements, employeurs, segment lactariums | porte1/lait-maternel/demande-* | partiel (14/15 ; SAM France 0,2-1,8 M€, UE 1-10 M€) |
+| L1 | auditeur | droit du transport du lait, chaîne du froid, coûts d'envoi, économie unitaire | porte1/lait-maternel/droit-eco-* | partiel (aucune barrière éliminatoire ; Chronofresh exclut le biologique ; URSSAF, UN1845 non établis ; contrôles 0 preuve détectée, format) |
+- 2026-11-06 : vague I1 classée dans `porte1/chine-ia/scan-synthese.md`. Survivants faibles, sans preuve d'argent N1-N2
+  en Chine : drone IA contre le nématode du pin et les scolytes (meilleur), diagnostic IA de la langue (MDR), notation
+  IA des tests de sport scolaires (mineurs, AI Act). Verificateur non passé.
+- 2026-11-06 : contre-vérification de I1-01 par le coordinateur : écartée. Services commerciaux déjà en Europe (Arboair et
+  GLOBHE en Suède, Sogeti pour Sveaskog, Agrarpiloten), cartes publiques INRAE (FORDEAD, Sentinel-2) en France, et méta-analyse
+  Kautz 2024 : 5 études sur 26 seulement détectent avant l'envol du scolyte. Le « non trouvé » du chercheur était faux.
+| L1 | verificateur | 30 preuves (10 par fichier) | porte1/lait-maternel/verification.md | fini : 0 ✘ ; ≈ 10 % / 20 % / 30 % (détails, pas les chiffres utilisés) |
+- 2026-11-06 : piste lait maternel ÉLIMINÉE à la porte 1 (`porte1/lait-maternel/bilan.md`) : argent déclaré seulement aux
+  États-Unis, aucun payeur en Europe, SAM France 0,2-1,8 M€. P 10 / 45 / 5 %. Leçon : vérifier que la cause du succès
+  étranger existe en France (ici, l'absence de congé maternité payé).
